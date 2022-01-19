@@ -69,28 +69,28 @@ include CMakeFiles/rpc_options_client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/rpc_options_client.dir/flags.make
 
-CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.o: CMakeFiles/rpc_options_client.dir/flags.make
-CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.o: ../../rpc_options_client.cc
-CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.o: CMakeFiles/rpc_options_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.o -MF CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.o.d -o CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.o -c /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/rpc_options_client.cc
+CMakeFiles/rpc_options_client.dir/rpc_options_client.cpp.o: CMakeFiles/rpc_options_client.dir/flags.make
+CMakeFiles/rpc_options_client.dir/rpc_options_client.cpp.o: ../../rpc_options_client.cpp
+CMakeFiles/rpc_options_client.dir/rpc_options_client.cpp.o: CMakeFiles/rpc_options_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rpc_options_client.dir/rpc_options_client.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rpc_options_client.dir/rpc_options_client.cpp.o -MF CMakeFiles/rpc_options_client.dir/rpc_options_client.cpp.o.d -o CMakeFiles/rpc_options_client.dir/rpc_options_client.cpp.o -c /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/rpc_options_client.cpp
 
-CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/rpc_options_client.cc > CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.i
+CMakeFiles/rpc_options_client.dir/rpc_options_client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpc_options_client.dir/rpc_options_client.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/rpc_options_client.cpp > CMakeFiles/rpc_options_client.dir/rpc_options_client.cpp.i
 
-CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/rpc_options_client.cc -o CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.s
+CMakeFiles/rpc_options_client.dir/rpc_options_client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpc_options_client.dir/rpc_options_client.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/rpc_options_client.cpp -o CMakeFiles/rpc_options_client.dir/rpc_options_client.cpp.s
 
 # Object files for target rpc_options_client
 rpc_options_client_OBJECTS = \
-"CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.o"
+"CMakeFiles/rpc_options_client.dir/rpc_options_client.cpp.o"
 
 # External object files for target rpc_options_client
 rpc_options_client_EXTERNAL_OBJECTS =
 
-rpc_options_client: CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.o
+rpc_options_client: CMakeFiles/rpc_options_client.dir/rpc_options_client.cpp.o
 rpc_options_client: CMakeFiles/rpc_options_client.dir/build.make
 rpc_options_client: librg_grpc_proto.a
 rpc_options_client: /Users/brianzhang/.local/lib/libgrpc++_reflection.a

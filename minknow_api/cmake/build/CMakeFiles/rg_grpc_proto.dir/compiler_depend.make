@@ -2184,7 +2184,7 @@ CMakeFiles/rg_grpc_proto.dir/minknow_api/basecaller.pb.cc.o: minknow_api/basecal
   /Users/brianzhang/.local/include/google/protobuf/wire_format.h
 
 CMakeFiles/rg_grpc_proto.dir/minknow_api/data.grpc.pb.cc.o: minknow_api/data.grpc.pb.cc \
-  minknow_api/data.pb.h \
+  minknow_api/minknow_api/data.pb.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/limits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/pthread.h \
@@ -2482,13 +2482,14 @@ CMakeFiles/rg_grpc_proto.dir/minknow_api/data.grpc.pb.cc.o: minknow_api/data.grp
   /Users/brianzhang/.local/include/google/protobuf/reflection_ops.h \
   /Users/brianzhang/.local/include/google/protobuf/map_field_inl.h \
   /Users/brianzhang/.local/include/google/protobuf/map_field.h \
-  minknow_api/minknow_api/rpc_options.pb.h \
-  /Users/brianzhang/.local/include/google/protobuf/descriptor.pb.h \
-  minknow_api/minknow_api/device.pb.h \
   minknow_api/rpc_options.pb.h \
+  /Users/brianzhang/.local/include/google/protobuf/descriptor.pb.h \
+  minknow_api/device.pb.h \
+  minknow_api/minknow_api/rpc_options.pb.h \
   /Users/brianzhang/.local/include/google/protobuf/wrappers.pb.h \
   /Users/brianzhang/.local/include/google/protobuf/duration.pb.h \
-  minknow_api/data.grpc.pb.h \
+  minknow_api/minknow_api/data.grpc.pb.h \
+  minknow_api/data.pb.h \
   /Users/brianzhang/.local/include/grpcpp/impl/codegen/async_generic_service.h \
   /Users/brianzhang/.local/include/grpc/impl/codegen/port_platform.h \
   /Users/brianzhang/.local/include/grpcpp/impl/codegen/async_stream.h \
@@ -2609,7 +2610,7 @@ CMakeFiles/rg_grpc_proto.dir/minknow_api/data.grpc.pb.cc.o: minknow_api/data.grp
   /Users/brianzhang/.local/include/grpcpp/impl/codegen/client_unary_call.h
 
 CMakeFiles/rg_grpc_proto.dir/minknow_api/data.pb.cc.o: minknow_api/data.pb.cc \
-  minknow_api/data.pb.h \
+  minknow_api/minknow_api/data.pb.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/limits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/pthread.h \
@@ -2907,10 +2908,10 @@ CMakeFiles/rg_grpc_proto.dir/minknow_api/data.pb.cc.o: minknow_api/data.pb.cc \
   /Users/brianzhang/.local/include/google/protobuf/reflection_ops.h \
   /Users/brianzhang/.local/include/google/protobuf/map_field_inl.h \
   /Users/brianzhang/.local/include/google/protobuf/map_field.h \
-  minknow_api/minknow_api/rpc_options.pb.h \
-  /Users/brianzhang/.local/include/google/protobuf/descriptor.pb.h \
-  minknow_api/minknow_api/device.pb.h \
   minknow_api/rpc_options.pb.h \
+  /Users/brianzhang/.local/include/google/protobuf/descriptor.pb.h \
+  minknow_api/device.pb.h \
+  minknow_api/minknow_api/rpc_options.pb.h \
   /Users/brianzhang/.local/include/google/protobuf/wrappers.pb.h \
   /Users/brianzhang/.local/include/google/protobuf/duration.pb.h \
   /Users/brianzhang/.local/include/google/protobuf/wire_format.h
@@ -7355,19 +7356,19 @@ minknow_api/minknow_api/instance.pb.h:
 
 minknow_api/instance.grpc.pb.cc:
 
-minknow_api/device.pb.h:
-
 minknow_api/minknow_api/device.grpc.pb.h:
+
+minknow_api/minknow_api/device.pb.h:
 
 minknow_api/device.grpc.pb.cc:
 
 minknow_api/data.pb.cc:
 
+minknow_api/data.pb.h:
+
 /Users/brianzhang/.local/include/google/protobuf/duration.pb.h:
 
-minknow_api/minknow_api/device.pb.h:
-
-minknow_api/data.pb.h:
+minknow_api/device.pb.h:
 
 minknow_api/basecaller.pb.h:
 
@@ -7911,6 +7912,8 @@ minknow_api/minknow_api/manager.grpc.pb.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/cstring:
 
+minknow_api/minknow_api/data.pb.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/libkern/i386/_OSByteOrder.h:
 
 /Users/brianzhang/.local/include/google/protobuf/port_undef.inc:
@@ -8071,9 +8074,9 @@ minknow_api/analysis_configuration.grpc.pb.cc:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_stdio.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_mbstate_t.h:
+minknow_api/minknow_api/data.grpc.pb.h:
 
-minknow_api/data.grpc.pb.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_mbstate_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/pthread/qos.h:
 

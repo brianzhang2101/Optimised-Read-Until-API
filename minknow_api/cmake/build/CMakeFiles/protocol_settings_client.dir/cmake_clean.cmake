@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/protocol_settings_client.dir/protocol_settings_client.cc.o"
-  "CMakeFiles/protocol_settings_client.dir/protocol_settings_client.cc.o.d"
+  "CMakeFiles/protocol_settings_client.dir/protocol_settings_client.cpp.o"
+  "CMakeFiles/protocol_settings_client.dir/protocol_settings_client.cpp.o.d"
   "protocol_settings_client"
   "protocol_settings_client.pdb"
 )

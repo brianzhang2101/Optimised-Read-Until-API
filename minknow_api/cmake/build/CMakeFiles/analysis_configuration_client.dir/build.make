@@ -69,28 +69,28 @@ include CMakeFiles/analysis_configuration_client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/analysis_configuration_client.dir/flags.make
 
-CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.o: CMakeFiles/analysis_configuration_client.dir/flags.make
-CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.o: ../../analysis_configuration_client.cc
-CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.o: CMakeFiles/analysis_configuration_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.o -MF CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.o.d -o CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.o -c /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/analysis_configuration_client.cc
+CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.o: CMakeFiles/analysis_configuration_client.dir/flags.make
+CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.o: ../../analysis_configuration_client.cpp
+CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.o: CMakeFiles/analysis_configuration_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.o -MF CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.o.d -o CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.o -c /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/analysis_configuration_client.cpp
 
-CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/analysis_configuration_client.cc > CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.i
+CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/analysis_configuration_client.cpp > CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.i
 
-CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/analysis_configuration_client.cc -o CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.s
+CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/analysis_configuration_client.cpp -o CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.s
 
 # Object files for target analysis_configuration_client
 analysis_configuration_client_OBJECTS = \
-"CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.o"
+"CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.o"
 
 # External object files for target analysis_configuration_client
 analysis_configuration_client_EXTERNAL_OBJECTS =
 
-analysis_configuration_client: CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.o
+analysis_configuration_client: CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.o
 analysis_configuration_client: CMakeFiles/analysis_configuration_client.dir/build.make
 analysis_configuration_client: librg_grpc_proto.a
 analysis_configuration_client: /Users/brianzhang/.local/lib/libgrpc++_reflection.a

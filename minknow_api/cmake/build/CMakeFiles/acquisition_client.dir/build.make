@@ -69,28 +69,28 @@ include CMakeFiles/acquisition_client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/acquisition_client.dir/flags.make
 
-CMakeFiles/acquisition_client.dir/acquisition_client.cc.o: CMakeFiles/acquisition_client.dir/flags.make
-CMakeFiles/acquisition_client.dir/acquisition_client.cc.o: ../../acquisition_client.cc
-CMakeFiles/acquisition_client.dir/acquisition_client.cc.o: CMakeFiles/acquisition_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/acquisition_client.dir/acquisition_client.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/acquisition_client.dir/acquisition_client.cc.o -MF CMakeFiles/acquisition_client.dir/acquisition_client.cc.o.d -o CMakeFiles/acquisition_client.dir/acquisition_client.cc.o -c /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/acquisition_client.cc
+CMakeFiles/acquisition_client.dir/acquisition_client.cpp.o: CMakeFiles/acquisition_client.dir/flags.make
+CMakeFiles/acquisition_client.dir/acquisition_client.cpp.o: ../../acquisition_client.cpp
+CMakeFiles/acquisition_client.dir/acquisition_client.cpp.o: CMakeFiles/acquisition_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/acquisition_client.dir/acquisition_client.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/acquisition_client.dir/acquisition_client.cpp.o -MF CMakeFiles/acquisition_client.dir/acquisition_client.cpp.o.d -o CMakeFiles/acquisition_client.dir/acquisition_client.cpp.o -c /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/acquisition_client.cpp
 
-CMakeFiles/acquisition_client.dir/acquisition_client.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acquisition_client.dir/acquisition_client.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/acquisition_client.cc > CMakeFiles/acquisition_client.dir/acquisition_client.cc.i
+CMakeFiles/acquisition_client.dir/acquisition_client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/acquisition_client.dir/acquisition_client.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/acquisition_client.cpp > CMakeFiles/acquisition_client.dir/acquisition_client.cpp.i
 
-CMakeFiles/acquisition_client.dir/acquisition_client.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acquisition_client.dir/acquisition_client.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/acquisition_client.cc -o CMakeFiles/acquisition_client.dir/acquisition_client.cc.s
+CMakeFiles/acquisition_client.dir/acquisition_client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/acquisition_client.dir/acquisition_client.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/acquisition_client.cpp -o CMakeFiles/acquisition_client.dir/acquisition_client.cpp.s
 
 # Object files for target acquisition_client
 acquisition_client_OBJECTS = \
-"CMakeFiles/acquisition_client.dir/acquisition_client.cc.o"
+"CMakeFiles/acquisition_client.dir/acquisition_client.cpp.o"
 
 # External object files for target acquisition_client
 acquisition_client_EXTERNAL_OBJECTS =
 
-acquisition_client: CMakeFiles/acquisition_client.dir/acquisition_client.cc.o
+acquisition_client: CMakeFiles/acquisition_client.dir/acquisition_client.cpp.o
 acquisition_client: CMakeFiles/acquisition_client.dir/build.make
 acquisition_client: librg_grpc_proto.a
 acquisition_client: /Users/brianzhang/.local/lib/libgrpc++_reflection.a

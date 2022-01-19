@@ -69,28 +69,28 @@ include CMakeFiles/device_client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/device_client.dir/flags.make
 
-CMakeFiles/device_client.dir/device_client.cc.o: CMakeFiles/device_client.dir/flags.make
-CMakeFiles/device_client.dir/device_client.cc.o: ../../device_client.cc
-CMakeFiles/device_client.dir/device_client.cc.o: CMakeFiles/device_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/device_client.dir/device_client.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/device_client.dir/device_client.cc.o -MF CMakeFiles/device_client.dir/device_client.cc.o.d -o CMakeFiles/device_client.dir/device_client.cc.o -c /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/device_client.cc
+CMakeFiles/device_client.dir/device_client.cpp.o: CMakeFiles/device_client.dir/flags.make
+CMakeFiles/device_client.dir/device_client.cpp.o: ../../device_client.cpp
+CMakeFiles/device_client.dir/device_client.cpp.o: CMakeFiles/device_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/device_client.dir/device_client.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/device_client.dir/device_client.cpp.o -MF CMakeFiles/device_client.dir/device_client.cpp.o.d -o CMakeFiles/device_client.dir/device_client.cpp.o -c /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/device_client.cpp
 
-CMakeFiles/device_client.dir/device_client.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/device_client.dir/device_client.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/device_client.cc > CMakeFiles/device_client.dir/device_client.cc.i
+CMakeFiles/device_client.dir/device_client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/device_client.dir/device_client.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/device_client.cpp > CMakeFiles/device_client.dir/device_client.cpp.i
 
-CMakeFiles/device_client.dir/device_client.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/device_client.dir/device_client.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/device_client.cc -o CMakeFiles/device_client.dir/device_client.cc.s
+CMakeFiles/device_client.dir/device_client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/device_client.dir/device_client.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/device_client.cpp -o CMakeFiles/device_client.dir/device_client.cpp.s
 
 # Object files for target device_client
 device_client_OBJECTS = \
-"CMakeFiles/device_client.dir/device_client.cc.o"
+"CMakeFiles/device_client.dir/device_client.cpp.o"
 
 # External object files for target device_client
 device_client_EXTERNAL_OBJECTS =
 
-device_client: CMakeFiles/device_client.dir/device_client.cc.o
+device_client: CMakeFiles/device_client.dir/device_client.cpp.o
 device_client: CMakeFiles/device_client.dir/build.make
 device_client: librg_grpc_proto.a
 device_client: /Users/brianzhang/.local/lib/libgrpc++_reflection.a

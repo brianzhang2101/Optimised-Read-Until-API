@@ -252,6 +252,9 @@ gRPC_DIR:PATH=/Users/brianzhang/.local/lib/cmake/grpc
 //No help, variable specified on the command line.
 gRPC_INSTALL:UNINITIALIZED=ON
 
+//Dependencies for the target
+minknow_headers_LIB_DEPENDS:STATIC=general;rg_grpc_proto;general;gRPC::grpc++_reflection;general;gRPC::grpc++;general;protobuf::libprotobuf;
+
 //CMake built-in FindProtobuf.cmake module compatible
 protobuf_MODULE_COMPATIBLE:BOOL=OFF
 

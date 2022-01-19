@@ -69,28 +69,28 @@ include CMakeFiles/instance_client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/instance_client.dir/flags.make
 
-CMakeFiles/instance_client.dir/instance_client.cc.o: CMakeFiles/instance_client.dir/flags.make
-CMakeFiles/instance_client.dir/instance_client.cc.o: ../../instance_client.cc
-CMakeFiles/instance_client.dir/instance_client.cc.o: CMakeFiles/instance_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/instance_client.dir/instance_client.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/instance_client.dir/instance_client.cc.o -MF CMakeFiles/instance_client.dir/instance_client.cc.o.d -o CMakeFiles/instance_client.dir/instance_client.cc.o -c /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/instance_client.cc
+CMakeFiles/instance_client.dir/instance_client.cpp.o: CMakeFiles/instance_client.dir/flags.make
+CMakeFiles/instance_client.dir/instance_client.cpp.o: ../../instance_client.cpp
+CMakeFiles/instance_client.dir/instance_client.cpp.o: CMakeFiles/instance_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/instance_client.dir/instance_client.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/instance_client.dir/instance_client.cpp.o -MF CMakeFiles/instance_client.dir/instance_client.cpp.o.d -o CMakeFiles/instance_client.dir/instance_client.cpp.o -c /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/instance_client.cpp
 
-CMakeFiles/instance_client.dir/instance_client.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/instance_client.dir/instance_client.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/instance_client.cc > CMakeFiles/instance_client.dir/instance_client.cc.i
+CMakeFiles/instance_client.dir/instance_client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/instance_client.dir/instance_client.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/instance_client.cpp > CMakeFiles/instance_client.dir/instance_client.cpp.i
 
-CMakeFiles/instance_client.dir/instance_client.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/instance_client.dir/instance_client.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/instance_client.cc -o CMakeFiles/instance_client.dir/instance_client.cc.s
+CMakeFiles/instance_client.dir/instance_client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/instance_client.dir/instance_client.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/instance_client.cpp -o CMakeFiles/instance_client.dir/instance_client.cpp.s
 
 # Object files for target instance_client
 instance_client_OBJECTS = \
-"CMakeFiles/instance_client.dir/instance_client.cc.o"
+"CMakeFiles/instance_client.dir/instance_client.cpp.o"
 
 # External object files for target instance_client
 instance_client_EXTERNAL_OBJECTS =
 
-instance_client: CMakeFiles/instance_client.dir/instance_client.cc.o
+instance_client: CMakeFiles/instance_client.dir/instance_client.cpp.o
 instance_client: CMakeFiles/instance_client.dir/build.make
 instance_client: librg_grpc_proto.a
 instance_client: /Users/brianzhang/.local/lib/libgrpc++_reflection.a

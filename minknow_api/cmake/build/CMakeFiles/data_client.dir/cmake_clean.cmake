@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/data_client.dir/data_client.cc.o"
-  "CMakeFiles/data_client.dir/data_client.cc.o.d"
+  "CMakeFiles/data_client.dir/data_client.cpp.o"
+  "CMakeFiles/data_client.dir/data_client.cpp.o.d"
   "data_client"
   "data_client.pdb"
 )

@@ -19,9 +19,11 @@
 
 cmake_minimum_required(VERSION 3.5.1)
 
-project(MinknowAPI C CXX)
+project(MinknowAPI CXX)
 
 include(../cmake/common.cmake)
+
+set(CMAKE_CXX_STANDARD 20)
 
 # Protos file
 get_filename_component(man_proto "../../proto/minknow_api/manager.proto" ABSOLUTE)
@@ -79,7 +81,7 @@ set(data_proto_srcs "${CMAKE_CURRENT_BINARY_DIR}/minknow_api/data.pb.cc")
 set(data_proto_hdrs "${CMAKE_CURRENT_BINARY_DIR}/minknow_api/data.pb.h")
 set(data_grpc_srcs "${CMAKE_CURRENT_BINARY_DIR}/minknow_api/data.grpc.pb.cc")
 set(data_grpc_hdrs "${CMAKE_CURRENT_BINARY_DIR}/minknow_api/data.grpc.pb.h")
-
+set(manager_client_hdrs "${CMAKE_CURRENT_BINARY_DIR}/minknow_api/manager_client.h")
 # ORDER TO COMPILE BASED ON DEPENDENCY:
 # rpc_options
 # analysis_configuration
@@ -243,7 +245,8 @@ add_library(rg_grpc_proto
   ${man_grpc_srcs}
   ${man_grpc_hdrs}
   ${man_proto_srcs}
-  ${man_proto_hdrs})
+  ${man_proto_hdrs}
+  ${manager_client_hdrs})
 target_link_libraries(rg_grpc_proto
   ${_REFLECTION}
   ${_GRPC_GRPCPP}
@@ -251,22 +254,30 @@ target_link_libraries(rg_grpc_proto
 
 # Targets - concrete file for to use generated cpp code. Meant to have written these before compiling, so use stub code if not compiled yet.
 # Also make sure you use a main() or else compiler complains
-foreach(_target
-  rpc_options_client rpc_options_server 
-  analysis_configuration_client analysis_configuration_server 
-  protocol_settings_client protocol_settings_server 
-  basecaller_client basecaller_server 
-  acquisition_client acquisition_server
-  device_client device_server
-  data_client data_server
-  protocol_client protocol_server  
-  instance_client instance_server 
-  manager_client manager_server)
-  add_executable(${_target}
-    "${_target}.cc")
-  target_link_libraries(${_target}
-    rg_grpc_proto
-    ${_REFLECTION}
-    ${_GRPC_GRPCPP}
-    ${_PROTOBUF_LIBPROTOBUF})
-endforeach()
+# foreach(_target
+#   rpc_options_client 
+#   analysis_configuration_client 
+#   protocol_settings_client 
+#   basecaller_client 
+#   acquisition_client
+#   device_client
+#   data_client
+#   protocol_client 
+#   instance_client
+#   manager_client
+#   base)
+#   add_executable(${_target}
+#     "${_target}.cpp")
+#   target_link_libraries(${_target}
+#     rg_grpc_proto
+#     ${_REFLECTION}
+#     ${_GRPC_GRPCPP}
+#     ${_PROTOBUF_LIBPROTOBUF})
+# endforeach()
+
+add_executable(read_until base.cpp manager_client.cpp data_client.cpp)
+target_link_libraries(read_until
+rg_grpc_proto
+${_REFLECTION}
+${_GRPC_GRPCPP}
+${_PROTOBUF_LIBPROTOBUF})

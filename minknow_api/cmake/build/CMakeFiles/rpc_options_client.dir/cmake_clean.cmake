@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.o"
-  "CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.o.d"
+  "CMakeFiles/rpc_options_client.dir/rpc_options_client.cpp.o"
+  "CMakeFiles/rpc_options_client.dir/rpc_options_client.cpp.o.d"
   "rpc_options_client"
   "rpc_options_client.pdb"
 )

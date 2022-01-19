@@ -2191,7 +2191,7 @@ CMakeFiles/rg_grpc_proto.dir/minknow_api/basecaller.pb.cc.o
 
 CMakeFiles/rg_grpc_proto.dir/minknow_api/data.grpc.pb.cc.o
  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/data.grpc.pb.cc
- /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/data.pb.h
+ /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/data.pb.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/limits
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__config
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/pthread.h
@@ -2489,13 +2489,14 @@ CMakeFiles/rg_grpc_proto.dir/minknow_api/data.grpc.pb.cc.o
  /Users/brianzhang/.local/include/google/protobuf/reflection_ops.h
  /Users/brianzhang/.local/include/google/protobuf/map_field_inl.h
  /Users/brianzhang/.local/include/google/protobuf/map_field.h
- /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/rpc_options.pb.h
- /Users/brianzhang/.local/include/google/protobuf/descriptor.pb.h
- /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/device.pb.h
  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/rpc_options.pb.h
+ /Users/brianzhang/.local/include/google/protobuf/descriptor.pb.h
+ /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/device.pb.h
+ /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/rpc_options.pb.h
  /Users/brianzhang/.local/include/google/protobuf/wrappers.pb.h
  /Users/brianzhang/.local/include/google/protobuf/duration.pb.h
- /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/data.grpc.pb.h
+ /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/data.grpc.pb.h
+ /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/data.pb.h
  /Users/brianzhang/.local/include/grpcpp/impl/codegen/async_generic_service.h
  /Users/brianzhang/.local/include/grpc/impl/codegen/port_platform.h
  /Users/brianzhang/.local/include/grpcpp/impl/codegen/async_stream.h
@@ -2617,7 +2618,7 @@ CMakeFiles/rg_grpc_proto.dir/minknow_api/data.grpc.pb.cc.o
 
 CMakeFiles/rg_grpc_proto.dir/minknow_api/data.pb.cc.o
  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/data.pb.cc
- /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/data.pb.h
+ /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/data.pb.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/limits
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__config
  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/pthread.h
@@ -2915,10 +2916,10 @@ CMakeFiles/rg_grpc_proto.dir/minknow_api/data.pb.cc.o
  /Users/brianzhang/.local/include/google/protobuf/reflection_ops.h
  /Users/brianzhang/.local/include/google/protobuf/map_field_inl.h
  /Users/brianzhang/.local/include/google/protobuf/map_field.h
- /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/rpc_options.pb.h
- /Users/brianzhang/.local/include/google/protobuf/descriptor.pb.h
- /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/device.pb.h
  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/rpc_options.pb.h
+ /Users/brianzhang/.local/include/google/protobuf/descriptor.pb.h
+ /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/device.pb.h
+ /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/rpc_options.pb.h
  /Users/brianzhang/.local/include/google/protobuf/wrappers.pb.h
  /Users/brianzhang/.local/include/google/protobuf/duration.pb.h
  /Users/brianzhang/.local/include/google/protobuf/wire_format.h

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/data_client.cc" "CMakeFiles/data_client.dir/data_client.cc.o" "gcc" "CMakeFiles/data_client.dir/data_client.cc.o.d"
+  "/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/data_client.cpp" "CMakeFiles/data_client.dir/data_client.cpp.o" "gcc" "CMakeFiles/data_client.dir/data_client.cpp.o.d"
   )
 
 # Targets to which this target links.

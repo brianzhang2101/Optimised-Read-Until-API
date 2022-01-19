@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/analysis_configuration_client.cc" "CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.o" "gcc" "CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.o.d"
+  "/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/analysis_configuration_client.cpp" "CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.o" "gcc" "CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.o.d"
   )
 
 # Targets to which this target links.

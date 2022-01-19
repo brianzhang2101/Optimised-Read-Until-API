@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.o"
-  "CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.o.d"
+  "CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.o"
+  "CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cpp.o.d"
   "analysis_configuration_client"
   "analysis_configuration_client.pdb"
 )

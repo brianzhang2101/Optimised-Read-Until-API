@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/basecaller_client.dir/basecaller_client.cc.o"
-  "CMakeFiles/basecaller_client.dir/basecaller_client.cc.o.d"
+  "CMakeFiles/basecaller_client.dir/basecaller_client.cpp.o"
+  "CMakeFiles/basecaller_client.dir/basecaller_client.cpp.o.d"
   "basecaller_client"
   "basecaller_client.pdb"
 )

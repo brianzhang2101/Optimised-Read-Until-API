@@ -69,28 +69,28 @@ include CMakeFiles/data_client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/data_client.dir/flags.make
 
-CMakeFiles/data_client.dir/data_client.cc.o: CMakeFiles/data_client.dir/flags.make
-CMakeFiles/data_client.dir/data_client.cc.o: ../../data_client.cc
-CMakeFiles/data_client.dir/data_client.cc.o: CMakeFiles/data_client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data_client.dir/data_client.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/data_client.dir/data_client.cc.o -MF CMakeFiles/data_client.dir/data_client.cc.o.d -o CMakeFiles/data_client.dir/data_client.cc.o -c /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/data_client.cc
+CMakeFiles/data_client.dir/data_client.cpp.o: CMakeFiles/data_client.dir/flags.make
+CMakeFiles/data_client.dir/data_client.cpp.o: ../../data_client.cpp
+CMakeFiles/data_client.dir/data_client.cpp.o: CMakeFiles/data_client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data_client.dir/data_client.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/data_client.dir/data_client.cpp.o -MF CMakeFiles/data_client.dir/data_client.cpp.o.d -o CMakeFiles/data_client.dir/data_client.cpp.o -c /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/data_client.cpp
 
-CMakeFiles/data_client.dir/data_client.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_client.dir/data_client.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/data_client.cc > CMakeFiles/data_client.dir/data_client.cc.i
+CMakeFiles/data_client.dir/data_client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_client.dir/data_client.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/data_client.cpp > CMakeFiles/data_client.dir/data_client.cpp.i
 
-CMakeFiles/data_client.dir/data_client.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_client.dir/data_client.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/data_client.cc -o CMakeFiles/data_client.dir/data_client.cc.s
+CMakeFiles/data_client.dir/data_client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_client.dir/data_client.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/data_client.cpp -o CMakeFiles/data_client.dir/data_client.cpp.s
 
 # Object files for target data_client
 data_client_OBJECTS = \
-"CMakeFiles/data_client.dir/data_client.cc.o"
+"CMakeFiles/data_client.dir/data_client.cpp.o"
 
 # External object files for target data_client
 data_client_EXTERNAL_OBJECTS =
 
-data_client: CMakeFiles/data_client.dir/data_client.cc.o
+data_client: CMakeFiles/data_client.dir/data_client.cpp.o
 data_client: CMakeFiles/data_client.dir/build.make
 data_client: librg_grpc_proto.a
 data_client: /Users/brianzhang/.local/lib/libgrpc++_reflection.a

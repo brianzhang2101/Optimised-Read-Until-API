@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/protocol_client.cc" "CMakeFiles/protocol_client.dir/protocol_client.cc.o" "gcc" "CMakeFiles/protocol_client.dir/protocol_client.cc.o.d"
+  "/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/protocol_client.cpp" "CMakeFiles/protocol_client.dir/protocol_client.cpp.o" "gcc" "CMakeFiles/protocol_client.dir/protocol_client.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -130,600 +130,89 @@ rg_grpc_proto/fast:
 .PHONY : rg_grpc_proto/fast
 
 #=============================================================================
-# Target rules for targets named rpc_options_client
+# Target rules for targets named read_until
 
 # Build rule for target.
-rpc_options_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpc_options_client
-.PHONY : rpc_options_client
+read_until: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 read_until
+.PHONY : read_until
 
 # fast build rule for target.
-rpc_options_client/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpc_options_client.dir/build.make CMakeFiles/rpc_options_client.dir/build
-.PHONY : rpc_options_client/fast
+read_until/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_until.dir/build.make CMakeFiles/read_until.dir/build
+.PHONY : read_until/fast
 
-#=============================================================================
-# Target rules for targets named rpc_options_server
-
-# Build rule for target.
-rpc_options_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpc_options_server
-.PHONY : rpc_options_server
-
-# fast build rule for target.
-rpc_options_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpc_options_server.dir/build.make CMakeFiles/rpc_options_server.dir/build
-.PHONY : rpc_options_server/fast
-
-#=============================================================================
-# Target rules for targets named analysis_configuration_client
-
-# Build rule for target.
-analysis_configuration_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 analysis_configuration_client
-.PHONY : analysis_configuration_client
-
-# fast build rule for target.
-analysis_configuration_client/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/analysis_configuration_client.dir/build.make CMakeFiles/analysis_configuration_client.dir/build
-.PHONY : analysis_configuration_client/fast
-
-#=============================================================================
-# Target rules for targets named analysis_configuration_server
-
-# Build rule for target.
-analysis_configuration_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 analysis_configuration_server
-.PHONY : analysis_configuration_server
-
-# fast build rule for target.
-analysis_configuration_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/analysis_configuration_server.dir/build.make CMakeFiles/analysis_configuration_server.dir/build
-.PHONY : analysis_configuration_server/fast
-
-#=============================================================================
-# Target rules for targets named protocol_settings_client
-
-# Build rule for target.
-protocol_settings_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 protocol_settings_client
-.PHONY : protocol_settings_client
-
-# fast build rule for target.
-protocol_settings_client/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/protocol_settings_client.dir/build.make CMakeFiles/protocol_settings_client.dir/build
-.PHONY : protocol_settings_client/fast
-
-#=============================================================================
-# Target rules for targets named protocol_settings_server
-
-# Build rule for target.
-protocol_settings_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 protocol_settings_server
-.PHONY : protocol_settings_server
-
-# fast build rule for target.
-protocol_settings_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/protocol_settings_server.dir/build.make CMakeFiles/protocol_settings_server.dir/build
-.PHONY : protocol_settings_server/fast
-
-#=============================================================================
-# Target rules for targets named basecaller_client
-
-# Build rule for target.
-basecaller_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 basecaller_client
-.PHONY : basecaller_client
-
-# fast build rule for target.
-basecaller_client/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basecaller_client.dir/build.make CMakeFiles/basecaller_client.dir/build
-.PHONY : basecaller_client/fast
-
-#=============================================================================
-# Target rules for targets named basecaller_server
-
-# Build rule for target.
-basecaller_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 basecaller_server
-.PHONY : basecaller_server
-
-# fast build rule for target.
-basecaller_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basecaller_server.dir/build.make CMakeFiles/basecaller_server.dir/build
-.PHONY : basecaller_server/fast
-
-#=============================================================================
-# Target rules for targets named acquisition_client
-
-# Build rule for target.
-acquisition_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 acquisition_client
-.PHONY : acquisition_client
-
-# fast build rule for target.
-acquisition_client/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/acquisition_client.dir/build.make CMakeFiles/acquisition_client.dir/build
-.PHONY : acquisition_client/fast
-
-#=============================================================================
-# Target rules for targets named acquisition_server
-
-# Build rule for target.
-acquisition_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 acquisition_server
-.PHONY : acquisition_server
-
-# fast build rule for target.
-acquisition_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/acquisition_server.dir/build.make CMakeFiles/acquisition_server.dir/build
-.PHONY : acquisition_server/fast
-
-#=============================================================================
-# Target rules for targets named device_client
-
-# Build rule for target.
-device_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 device_client
-.PHONY : device_client
-
-# fast build rule for target.
-device_client/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_client.dir/build.make CMakeFiles/device_client.dir/build
-.PHONY : device_client/fast
-
-#=============================================================================
-# Target rules for targets named device_server
-
-# Build rule for target.
-device_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 device_server
-.PHONY : device_server
-
-# fast build rule for target.
-device_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_server.dir/build.make CMakeFiles/device_server.dir/build
-.PHONY : device_server/fast
-
-#=============================================================================
-# Target rules for targets named data_client
-
-# Build rule for target.
-data_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data_client
-.PHONY : data_client
-
-# fast build rule for target.
-data_client/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_client.dir/build.make CMakeFiles/data_client.dir/build
-.PHONY : data_client/fast
-
-#=============================================================================
-# Target rules for targets named data_server
-
-# Build rule for target.
-data_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data_server
-.PHONY : data_server
-
-# fast build rule for target.
-data_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_server.dir/build.make CMakeFiles/data_server.dir/build
-.PHONY : data_server/fast
-
-#=============================================================================
-# Target rules for targets named protocol_client
-
-# Build rule for target.
-protocol_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 protocol_client
-.PHONY : protocol_client
-
-# fast build rule for target.
-protocol_client/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/protocol_client.dir/build.make CMakeFiles/protocol_client.dir/build
-.PHONY : protocol_client/fast
-
-#=============================================================================
-# Target rules for targets named protocol_server
-
-# Build rule for target.
-protocol_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 protocol_server
-.PHONY : protocol_server
-
-# fast build rule for target.
-protocol_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/protocol_server.dir/build.make CMakeFiles/protocol_server.dir/build
-.PHONY : protocol_server/fast
-
-#=============================================================================
-# Target rules for targets named instance_client
-
-# Build rule for target.
-instance_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 instance_client
-.PHONY : instance_client
-
-# fast build rule for target.
-instance_client/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/instance_client.dir/build.make CMakeFiles/instance_client.dir/build
-.PHONY : instance_client/fast
-
-#=============================================================================
-# Target rules for targets named instance_server
-
-# Build rule for target.
-instance_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 instance_server
-.PHONY : instance_server
-
-# fast build rule for target.
-instance_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/instance_server.dir/build.make CMakeFiles/instance_server.dir/build
-.PHONY : instance_server/fast
-
-#=============================================================================
-# Target rules for targets named manager_client
-
-# Build rule for target.
-manager_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 manager_client
-.PHONY : manager_client
-
-# fast build rule for target.
-manager_client/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/manager_client.dir/build.make CMakeFiles/manager_client.dir/build
-.PHONY : manager_client/fast
-
-#=============================================================================
-# Target rules for targets named manager_server
-
-# Build rule for target.
-manager_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 manager_server
-.PHONY : manager_server
-
-# fast build rule for target.
-manager_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/manager_server.dir/build.make CMakeFiles/manager_server.dir/build
-.PHONY : manager_server/fast
-
-acquisition_client.o: acquisition_client.cc.o
-.PHONY : acquisition_client.o
+base.o: base.cpp.o
+.PHONY : base.o
 
 # target to build an object file
-acquisition_client.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/acquisition_client.dir/build.make CMakeFiles/acquisition_client.dir/acquisition_client.cc.o
-.PHONY : acquisition_client.cc.o
+base.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_until.dir/build.make CMakeFiles/read_until.dir/base.cpp.o
+.PHONY : base.cpp.o
 
-acquisition_client.i: acquisition_client.cc.i
-.PHONY : acquisition_client.i
-
-# target to preprocess a source file
-acquisition_client.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/acquisition_client.dir/build.make CMakeFiles/acquisition_client.dir/acquisition_client.cc.i
-.PHONY : acquisition_client.cc.i
-
-acquisition_client.s: acquisition_client.cc.s
-.PHONY : acquisition_client.s
-
-# target to generate assembly for a file
-acquisition_client.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/acquisition_client.dir/build.make CMakeFiles/acquisition_client.dir/acquisition_client.cc.s
-.PHONY : acquisition_client.cc.s
-
-acquisition_server.o: acquisition_server.cc.o
-.PHONY : acquisition_server.o
-
-# target to build an object file
-acquisition_server.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/acquisition_server.dir/build.make CMakeFiles/acquisition_server.dir/acquisition_server.cc.o
-.PHONY : acquisition_server.cc.o
-
-acquisition_server.i: acquisition_server.cc.i
-.PHONY : acquisition_server.i
+base.i: base.cpp.i
+.PHONY : base.i
 
 # target to preprocess a source file
-acquisition_server.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/acquisition_server.dir/build.make CMakeFiles/acquisition_server.dir/acquisition_server.cc.i
-.PHONY : acquisition_server.cc.i
+base.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_until.dir/build.make CMakeFiles/read_until.dir/base.cpp.i
+.PHONY : base.cpp.i
 
-acquisition_server.s: acquisition_server.cc.s
-.PHONY : acquisition_server.s
-
-# target to generate assembly for a file
-acquisition_server.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/acquisition_server.dir/build.make CMakeFiles/acquisition_server.dir/acquisition_server.cc.s
-.PHONY : acquisition_server.cc.s
-
-analysis_configuration_client.o: analysis_configuration_client.cc.o
-.PHONY : analysis_configuration_client.o
-
-# target to build an object file
-analysis_configuration_client.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/analysis_configuration_client.dir/build.make CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.o
-.PHONY : analysis_configuration_client.cc.o
-
-analysis_configuration_client.i: analysis_configuration_client.cc.i
-.PHONY : analysis_configuration_client.i
-
-# target to preprocess a source file
-analysis_configuration_client.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/analysis_configuration_client.dir/build.make CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.i
-.PHONY : analysis_configuration_client.cc.i
-
-analysis_configuration_client.s: analysis_configuration_client.cc.s
-.PHONY : analysis_configuration_client.s
+base.s: base.cpp.s
+.PHONY : base.s
 
 # target to generate assembly for a file
-analysis_configuration_client.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/analysis_configuration_client.dir/build.make CMakeFiles/analysis_configuration_client.dir/analysis_configuration_client.cc.s
-.PHONY : analysis_configuration_client.cc.s
+base.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_until.dir/build.make CMakeFiles/read_until.dir/base.cpp.s
+.PHONY : base.cpp.s
 
-analysis_configuration_server.o: analysis_configuration_server.cc.o
-.PHONY : analysis_configuration_server.o
-
-# target to build an object file
-analysis_configuration_server.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/analysis_configuration_server.dir/build.make CMakeFiles/analysis_configuration_server.dir/analysis_configuration_server.cc.o
-.PHONY : analysis_configuration_server.cc.o
-
-analysis_configuration_server.i: analysis_configuration_server.cc.i
-.PHONY : analysis_configuration_server.i
-
-# target to preprocess a source file
-analysis_configuration_server.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/analysis_configuration_server.dir/build.make CMakeFiles/analysis_configuration_server.dir/analysis_configuration_server.cc.i
-.PHONY : analysis_configuration_server.cc.i
-
-analysis_configuration_server.s: analysis_configuration_server.cc.s
-.PHONY : analysis_configuration_server.s
-
-# target to generate assembly for a file
-analysis_configuration_server.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/analysis_configuration_server.dir/build.make CMakeFiles/analysis_configuration_server.dir/analysis_configuration_server.cc.s
-.PHONY : analysis_configuration_server.cc.s
-
-basecaller_client.o: basecaller_client.cc.o
-.PHONY : basecaller_client.o
-
-# target to build an object file
-basecaller_client.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basecaller_client.dir/build.make CMakeFiles/basecaller_client.dir/basecaller_client.cc.o
-.PHONY : basecaller_client.cc.o
-
-basecaller_client.i: basecaller_client.cc.i
-.PHONY : basecaller_client.i
-
-# target to preprocess a source file
-basecaller_client.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basecaller_client.dir/build.make CMakeFiles/basecaller_client.dir/basecaller_client.cc.i
-.PHONY : basecaller_client.cc.i
-
-basecaller_client.s: basecaller_client.cc.s
-.PHONY : basecaller_client.s
-
-# target to generate assembly for a file
-basecaller_client.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basecaller_client.dir/build.make CMakeFiles/basecaller_client.dir/basecaller_client.cc.s
-.PHONY : basecaller_client.cc.s
-
-basecaller_server.o: basecaller_server.cc.o
-.PHONY : basecaller_server.o
-
-# target to build an object file
-basecaller_server.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basecaller_server.dir/build.make CMakeFiles/basecaller_server.dir/basecaller_server.cc.o
-.PHONY : basecaller_server.cc.o
-
-basecaller_server.i: basecaller_server.cc.i
-.PHONY : basecaller_server.i
-
-# target to preprocess a source file
-basecaller_server.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basecaller_server.dir/build.make CMakeFiles/basecaller_server.dir/basecaller_server.cc.i
-.PHONY : basecaller_server.cc.i
-
-basecaller_server.s: basecaller_server.cc.s
-.PHONY : basecaller_server.s
-
-# target to generate assembly for a file
-basecaller_server.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basecaller_server.dir/build.make CMakeFiles/basecaller_server.dir/basecaller_server.cc.s
-.PHONY : basecaller_server.cc.s
-
-data_client.o: data_client.cc.o
+data_client.o: data_client.cpp.o
 .PHONY : data_client.o
 
 # target to build an object file
-data_client.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_client.dir/build.make CMakeFiles/data_client.dir/data_client.cc.o
-.PHONY : data_client.cc.o
+data_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_until.dir/build.make CMakeFiles/read_until.dir/data_client.cpp.o
+.PHONY : data_client.cpp.o
 
-data_client.i: data_client.cc.i
+data_client.i: data_client.cpp.i
 .PHONY : data_client.i
 
 # target to preprocess a source file
-data_client.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_client.dir/build.make CMakeFiles/data_client.dir/data_client.cc.i
-.PHONY : data_client.cc.i
+data_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_until.dir/build.make CMakeFiles/read_until.dir/data_client.cpp.i
+.PHONY : data_client.cpp.i
 
-data_client.s: data_client.cc.s
+data_client.s: data_client.cpp.s
 .PHONY : data_client.s
 
 # target to generate assembly for a file
-data_client.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_client.dir/build.make CMakeFiles/data_client.dir/data_client.cc.s
-.PHONY : data_client.cc.s
+data_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_until.dir/build.make CMakeFiles/read_until.dir/data_client.cpp.s
+.PHONY : data_client.cpp.s
 
-data_server.o: data_server.cc.o
-.PHONY : data_server.o
-
-# target to build an object file
-data_server.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_server.dir/build.make CMakeFiles/data_server.dir/data_server.cc.o
-.PHONY : data_server.cc.o
-
-data_server.i: data_server.cc.i
-.PHONY : data_server.i
-
-# target to preprocess a source file
-data_server.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_server.dir/build.make CMakeFiles/data_server.dir/data_server.cc.i
-.PHONY : data_server.cc.i
-
-data_server.s: data_server.cc.s
-.PHONY : data_server.s
-
-# target to generate assembly for a file
-data_server.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_server.dir/build.make CMakeFiles/data_server.dir/data_server.cc.s
-.PHONY : data_server.cc.s
-
-device_client.o: device_client.cc.o
-.PHONY : device_client.o
-
-# target to build an object file
-device_client.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_client.dir/build.make CMakeFiles/device_client.dir/device_client.cc.o
-.PHONY : device_client.cc.o
-
-device_client.i: device_client.cc.i
-.PHONY : device_client.i
-
-# target to preprocess a source file
-device_client.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_client.dir/build.make CMakeFiles/device_client.dir/device_client.cc.i
-.PHONY : device_client.cc.i
-
-device_client.s: device_client.cc.s
-.PHONY : device_client.s
-
-# target to generate assembly for a file
-device_client.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_client.dir/build.make CMakeFiles/device_client.dir/device_client.cc.s
-.PHONY : device_client.cc.s
-
-device_server.o: device_server.cc.o
-.PHONY : device_server.o
-
-# target to build an object file
-device_server.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_server.dir/build.make CMakeFiles/device_server.dir/device_server.cc.o
-.PHONY : device_server.cc.o
-
-device_server.i: device_server.cc.i
-.PHONY : device_server.i
-
-# target to preprocess a source file
-device_server.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_server.dir/build.make CMakeFiles/device_server.dir/device_server.cc.i
-.PHONY : device_server.cc.i
-
-device_server.s: device_server.cc.s
-.PHONY : device_server.s
-
-# target to generate assembly for a file
-device_server.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_server.dir/build.make CMakeFiles/device_server.dir/device_server.cc.s
-.PHONY : device_server.cc.s
-
-instance_client.o: instance_client.cc.o
-.PHONY : instance_client.o
-
-# target to build an object file
-instance_client.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/instance_client.dir/build.make CMakeFiles/instance_client.dir/instance_client.cc.o
-.PHONY : instance_client.cc.o
-
-instance_client.i: instance_client.cc.i
-.PHONY : instance_client.i
-
-# target to preprocess a source file
-instance_client.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/instance_client.dir/build.make CMakeFiles/instance_client.dir/instance_client.cc.i
-.PHONY : instance_client.cc.i
-
-instance_client.s: instance_client.cc.s
-.PHONY : instance_client.s
-
-# target to generate assembly for a file
-instance_client.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/instance_client.dir/build.make CMakeFiles/instance_client.dir/instance_client.cc.s
-.PHONY : instance_client.cc.s
-
-instance_server.o: instance_server.cc.o
-.PHONY : instance_server.o
-
-# target to build an object file
-instance_server.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/instance_server.dir/build.make CMakeFiles/instance_server.dir/instance_server.cc.o
-.PHONY : instance_server.cc.o
-
-instance_server.i: instance_server.cc.i
-.PHONY : instance_server.i
-
-# target to preprocess a source file
-instance_server.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/instance_server.dir/build.make CMakeFiles/instance_server.dir/instance_server.cc.i
-.PHONY : instance_server.cc.i
-
-instance_server.s: instance_server.cc.s
-.PHONY : instance_server.s
-
-# target to generate assembly for a file
-instance_server.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/instance_server.dir/build.make CMakeFiles/instance_server.dir/instance_server.cc.s
-.PHONY : instance_server.cc.s
-
-manager_client.o: manager_client.cc.o
+manager_client.o: manager_client.cpp.o
 .PHONY : manager_client.o
 
 # target to build an object file
-manager_client.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/manager_client.dir/build.make CMakeFiles/manager_client.dir/manager_client.cc.o
-.PHONY : manager_client.cc.o
+manager_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_until.dir/build.make CMakeFiles/read_until.dir/manager_client.cpp.o
+.PHONY : manager_client.cpp.o
 
-manager_client.i: manager_client.cc.i
+manager_client.i: manager_client.cpp.i
 .PHONY : manager_client.i
 
 # target to preprocess a source file
-manager_client.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/manager_client.dir/build.make CMakeFiles/manager_client.dir/manager_client.cc.i
-.PHONY : manager_client.cc.i
+manager_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_until.dir/build.make CMakeFiles/read_until.dir/manager_client.cpp.i
+.PHONY : manager_client.cpp.i
 
-manager_client.s: manager_client.cc.s
+manager_client.s: manager_client.cpp.s
 .PHONY : manager_client.s
 
 # target to generate assembly for a file
-manager_client.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/manager_client.dir/build.make CMakeFiles/manager_client.dir/manager_client.cc.s
-.PHONY : manager_client.cc.s
-
-manager_server.o: manager_server.cc.o
-.PHONY : manager_server.o
-
-# target to build an object file
-manager_server.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/manager_server.dir/build.make CMakeFiles/manager_server.dir/manager_server.cc.o
-.PHONY : manager_server.cc.o
-
-manager_server.i: manager_server.cc.i
-.PHONY : manager_server.i
-
-# target to preprocess a source file
-manager_server.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/manager_server.dir/build.make CMakeFiles/manager_server.dir/manager_server.cc.i
-.PHONY : manager_server.cc.i
-
-manager_server.s: manager_server.cc.s
-.PHONY : manager_server.s
-
-# target to generate assembly for a file
-manager_server.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/manager_server.dir/build.make CMakeFiles/manager_server.dir/manager_server.cc.s
-.PHONY : manager_server.cc.s
+manager_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_until.dir/build.make CMakeFiles/read_until.dir/manager_client.cpp.s
+.PHONY : manager_client.cpp.s
 
 minknow_api/acquisition.grpc.pb.o: minknow_api/acquisition.grpc.pb.cc.o
 .PHONY : minknow_api/acquisition.grpc.pb.o
@@ -1205,150 +694,6 @@ minknow_api/rpc_options.pb.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rg_grpc_proto.dir/build.make CMakeFiles/rg_grpc_proto.dir/minknow_api/rpc_options.pb.cc.s
 .PHONY : minknow_api/rpc_options.pb.cc.s
 
-protocol_client.o: protocol_client.cc.o
-.PHONY : protocol_client.o
-
-# target to build an object file
-protocol_client.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/protocol_client.dir/build.make CMakeFiles/protocol_client.dir/protocol_client.cc.o
-.PHONY : protocol_client.cc.o
-
-protocol_client.i: protocol_client.cc.i
-.PHONY : protocol_client.i
-
-# target to preprocess a source file
-protocol_client.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/protocol_client.dir/build.make CMakeFiles/protocol_client.dir/protocol_client.cc.i
-.PHONY : protocol_client.cc.i
-
-protocol_client.s: protocol_client.cc.s
-.PHONY : protocol_client.s
-
-# target to generate assembly for a file
-protocol_client.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/protocol_client.dir/build.make CMakeFiles/protocol_client.dir/protocol_client.cc.s
-.PHONY : protocol_client.cc.s
-
-protocol_server.o: protocol_server.cc.o
-.PHONY : protocol_server.o
-
-# target to build an object file
-protocol_server.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/protocol_server.dir/build.make CMakeFiles/protocol_server.dir/protocol_server.cc.o
-.PHONY : protocol_server.cc.o
-
-protocol_server.i: protocol_server.cc.i
-.PHONY : protocol_server.i
-
-# target to preprocess a source file
-protocol_server.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/protocol_server.dir/build.make CMakeFiles/protocol_server.dir/protocol_server.cc.i
-.PHONY : protocol_server.cc.i
-
-protocol_server.s: protocol_server.cc.s
-.PHONY : protocol_server.s
-
-# target to generate assembly for a file
-protocol_server.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/protocol_server.dir/build.make CMakeFiles/protocol_server.dir/protocol_server.cc.s
-.PHONY : protocol_server.cc.s
-
-protocol_settings_client.o: protocol_settings_client.cc.o
-.PHONY : protocol_settings_client.o
-
-# target to build an object file
-protocol_settings_client.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/protocol_settings_client.dir/build.make CMakeFiles/protocol_settings_client.dir/protocol_settings_client.cc.o
-.PHONY : protocol_settings_client.cc.o
-
-protocol_settings_client.i: protocol_settings_client.cc.i
-.PHONY : protocol_settings_client.i
-
-# target to preprocess a source file
-protocol_settings_client.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/protocol_settings_client.dir/build.make CMakeFiles/protocol_settings_client.dir/protocol_settings_client.cc.i
-.PHONY : protocol_settings_client.cc.i
-
-protocol_settings_client.s: protocol_settings_client.cc.s
-.PHONY : protocol_settings_client.s
-
-# target to generate assembly for a file
-protocol_settings_client.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/protocol_settings_client.dir/build.make CMakeFiles/protocol_settings_client.dir/protocol_settings_client.cc.s
-.PHONY : protocol_settings_client.cc.s
-
-protocol_settings_server.o: protocol_settings_server.cc.o
-.PHONY : protocol_settings_server.o
-
-# target to build an object file
-protocol_settings_server.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/protocol_settings_server.dir/build.make CMakeFiles/protocol_settings_server.dir/protocol_settings_server.cc.o
-.PHONY : protocol_settings_server.cc.o
-
-protocol_settings_server.i: protocol_settings_server.cc.i
-.PHONY : protocol_settings_server.i
-
-# target to preprocess a source file
-protocol_settings_server.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/protocol_settings_server.dir/build.make CMakeFiles/protocol_settings_server.dir/protocol_settings_server.cc.i
-.PHONY : protocol_settings_server.cc.i
-
-protocol_settings_server.s: protocol_settings_server.cc.s
-.PHONY : protocol_settings_server.s
-
-# target to generate assembly for a file
-protocol_settings_server.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/protocol_settings_server.dir/build.make CMakeFiles/protocol_settings_server.dir/protocol_settings_server.cc.s
-.PHONY : protocol_settings_server.cc.s
-
-rpc_options_client.o: rpc_options_client.cc.o
-.PHONY : rpc_options_client.o
-
-# target to build an object file
-rpc_options_client.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpc_options_client.dir/build.make CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.o
-.PHONY : rpc_options_client.cc.o
-
-rpc_options_client.i: rpc_options_client.cc.i
-.PHONY : rpc_options_client.i
-
-# target to preprocess a source file
-rpc_options_client.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpc_options_client.dir/build.make CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.i
-.PHONY : rpc_options_client.cc.i
-
-rpc_options_client.s: rpc_options_client.cc.s
-.PHONY : rpc_options_client.s
-
-# target to generate assembly for a file
-rpc_options_client.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpc_options_client.dir/build.make CMakeFiles/rpc_options_client.dir/rpc_options_client.cc.s
-.PHONY : rpc_options_client.cc.s
-
-rpc_options_server.o: rpc_options_server.cc.o
-.PHONY : rpc_options_server.o
-
-# target to build an object file
-rpc_options_server.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpc_options_server.dir/build.make CMakeFiles/rpc_options_server.dir/rpc_options_server.cc.o
-.PHONY : rpc_options_server.cc.o
-
-rpc_options_server.i: rpc_options_server.cc.i
-.PHONY : rpc_options_server.i
-
-# target to preprocess a source file
-rpc_options_server.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpc_options_server.dir/build.make CMakeFiles/rpc_options_server.dir/rpc_options_server.cc.i
-.PHONY : rpc_options_server.cc.i
-
-rpc_options_server.s: rpc_options_server.cc.s
-.PHONY : rpc_options_server.s
-
-# target to generate assembly for a file
-rpc_options_server.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpc_options_server.dir/build.make CMakeFiles/rpc_options_server.dir/rpc_options_server.cc.s
-.PHONY : rpc_options_server.cc.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1357,69 +702,17 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... acquisition_client"
-	@echo "... acquisition_server"
-	@echo "... analysis_configuration_client"
-	@echo "... analysis_configuration_server"
-	@echo "... basecaller_client"
-	@echo "... basecaller_server"
-	@echo "... data_client"
-	@echo "... data_server"
-	@echo "... device_client"
-	@echo "... device_server"
-	@echo "... instance_client"
-	@echo "... instance_server"
-	@echo "... manager_client"
-	@echo "... manager_server"
-	@echo "... protocol_client"
-	@echo "... protocol_server"
-	@echo "... protocol_settings_client"
-	@echo "... protocol_settings_server"
+	@echo "... read_until"
 	@echo "... rg_grpc_proto"
-	@echo "... rpc_options_client"
-	@echo "... rpc_options_server"
-	@echo "... acquisition_client.o"
-	@echo "... acquisition_client.i"
-	@echo "... acquisition_client.s"
-	@echo "... acquisition_server.o"
-	@echo "... acquisition_server.i"
-	@echo "... acquisition_server.s"
-	@echo "... analysis_configuration_client.o"
-	@echo "... analysis_configuration_client.i"
-	@echo "... analysis_configuration_client.s"
-	@echo "... analysis_configuration_server.o"
-	@echo "... analysis_configuration_server.i"
-	@echo "... analysis_configuration_server.s"
-	@echo "... basecaller_client.o"
-	@echo "... basecaller_client.i"
-	@echo "... basecaller_client.s"
-	@echo "... basecaller_server.o"
-	@echo "... basecaller_server.i"
-	@echo "... basecaller_server.s"
+	@echo "... base.o"
+	@echo "... base.i"
+	@echo "... base.s"
 	@echo "... data_client.o"
 	@echo "... data_client.i"
 	@echo "... data_client.s"
-	@echo "... data_server.o"
-	@echo "... data_server.i"
-	@echo "... data_server.s"
-	@echo "... device_client.o"
-	@echo "... device_client.i"
-	@echo "... device_client.s"
-	@echo "... device_server.o"
-	@echo "... device_server.i"
-	@echo "... device_server.s"
-	@echo "... instance_client.o"
-	@echo "... instance_client.i"
-	@echo "... instance_client.s"
-	@echo "... instance_server.o"
-	@echo "... instance_server.i"
-	@echo "... instance_server.s"
 	@echo "... manager_client.o"
 	@echo "... manager_client.i"
 	@echo "... manager_client.s"
-	@echo "... manager_server.o"
-	@echo "... manager_server.i"
-	@echo "... manager_server.s"
 	@echo "... minknow_api/acquisition.grpc.pb.o"
 	@echo "... minknow_api/acquisition.grpc.pb.i"
 	@echo "... minknow_api/acquisition.grpc.pb.s"
@@ -1480,24 +773,6 @@ help:
 	@echo "... minknow_api/rpc_options.pb.o"
 	@echo "... minknow_api/rpc_options.pb.i"
 	@echo "... minknow_api/rpc_options.pb.s"
-	@echo "... protocol_client.o"
-	@echo "... protocol_client.i"
-	@echo "... protocol_client.s"
-	@echo "... protocol_server.o"
-	@echo "... protocol_server.i"
-	@echo "... protocol_server.s"
-	@echo "... protocol_settings_client.o"
-	@echo "... protocol_settings_client.i"
-	@echo "... protocol_settings_client.s"
-	@echo "... protocol_settings_server.o"
-	@echo "... protocol_settings_server.i"
-	@echo "... protocol_settings_server.s"
-	@echo "... rpc_options_client.o"
-	@echo "... rpc_options_client.i"
-	@echo "... rpc_options_client.s"
-	@echo "... rpc_options_server.o"
-	@echo "... rpc_options_server.i"
-	@echo "... rpc_options_server.s"
 .PHONY : help
 
 

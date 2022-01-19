@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/device_client.dir/device_client.cc.o"
-  "CMakeFiles/device_client.dir/device_client.cc.o.d"
+  "CMakeFiles/device_client.dir/device_client.cpp.o"
+  "CMakeFiles/device_client.dir/device_client.cpp.o.d"
   "device_client"
   "device_client.pdb"
 )

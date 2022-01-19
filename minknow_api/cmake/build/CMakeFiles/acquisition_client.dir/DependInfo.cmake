@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/acquisition_client.cc" "CMakeFiles/acquisition_client.dir/acquisition_client.cc.o" "gcc" "CMakeFiles/acquisition_client.dir/acquisition_client.cc.o.d"
+  "/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/acquisition_client.cpp" "CMakeFiles/acquisition_client.dir/acquisition_client.cpp.o" "gcc" "CMakeFiles/acquisition_client.dir/acquisition_client.cpp.o.d"
   )
 
 # Targets to which this target links.
