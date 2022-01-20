@@ -10,7 +10,6 @@
 #include <thread>
 
 #include "minknow_api/data.grpc.pb.h"
-#include "minknow_api/read_cache.h"
 
 #include <grpc/grpc.h>
 #include <grpcpp/channel.h>
@@ -28,6 +27,7 @@ using minknow_api::data::DataService;
 using minknow_api::data::GetDataTypesRequest;
 using minknow_api::data::GetDataTypesResponse;
 using minknow_api::data::GetLiveReadsRequest;
+using minknow_api::data::GetLiveReadsRequest_Action;
 using minknow_api::data::GetLiveReadsRequest_RawDataType;
 using minknow_api::data::GetLiveReadsRequest_StreamSetup;
 using minknow_api::data::GetLiveReadsResponse;
@@ -39,30 +39,36 @@ class ReadCache;
 
 class ReadCache {
  public:
-  ReadCache(int size) : size(size){};
+  ReadCache(int max_size) : max_size(max_size){};
   GetLiveReadsResponse_ReadData get_item(u_int32_t channel);
   void set_item(u_int32_t channel, GetLiveReadsResponse_ReadData data);
-  GetLiveReadsResponse_ReadData pop_item();
+  std::pair<u_int32_t, GetLiveReadsResponse_ReadData> pop_item();
+  int get_size();
 
  private:
   std::unordered_map<uint32_t, GetLiveReadsResponse_ReadData> dict;
   std::queue<u_int32_t> insertion_order;
-  int size;
+  int max_size;
   int missed;
   int replaced;
-  std::mutex mtx;
+  std::mutex cache_mtx;
 };
 
 class DataClient {
  public:
-  DataClient(std::shared_ptr<Channel> channel, int size);
+  DataClient(std::shared_ptr<Channel> channel, int size, int action_batch);
   void run();
   void get_live_reads(u_int32_t first_channel, u_int32_t last_channel,
                       u_int64_t sample_minimum_chunk_size);
   void send_live_reqs();
   void read_live_results();
   void make_setup();
+  void put_action(u_int32_t read_channel, u_int32_t read_number,
+                  std::string action);
+  GetLiveReadsRequest_Action pop_action();
+  int get_action_queue_size();
   ReadCache* get_read_cache();
+  std::queue<GetLiveReadsRequest_Action>* get_action_queue();
 
  private:
   std::thread spawn_read_thread();
@@ -75,6 +81,9 @@ class DataClient {
   u_int32_t last_channel;
   u_int64_t sample_minimum_chunk_size;
   ReadCache data_queue;
+  std::queue<GetLiveReadsRequest_Action> action_queue;
+  std::mutex action_mtx;
+  int action_batch;
 };
 }  // namespace Data
 #endif

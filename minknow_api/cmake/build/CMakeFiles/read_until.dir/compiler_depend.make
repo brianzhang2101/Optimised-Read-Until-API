@@ -231,12 +231,12 @@ CMakeFiles/read_until.dir/base.cpp.o: ../../base.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__bit_reference \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/thread \
-  minknow_api/data_client.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__split_buffer \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/thread \
+  minknow_api/data_client.h \
   minknow_api/minknow_api/data.grpc.pb.h \
   minknow_api/data.pb.h \
   /Users/brianzhang/.local/include/google/protobuf/port_def.inc \
@@ -428,7 +428,6 @@ CMakeFiles/read_until.dir/base.cpp.o: ../../base.cpp \
   /Users/brianzhang/.local/include/grpcpp/impl/codegen/proto_buffer_reader.h \
   /Users/brianzhang/.local/include/grpcpp/impl/codegen/proto_buffer_writer.h \
   /Users/brianzhang/.local/include/grpcpp/impl/codegen/stub_options.h \
-  minknow_api/read_cache.h \
   /Users/brianzhang/.local/include/grpc/grpc.h \
   /Users/brianzhang/.local/include/grpc/support/port_platform.h \
   /Users/brianzhang/.local/include/grpc/byte_buffer.h \
@@ -914,7 +913,6 @@ CMakeFiles/read_until.dir/data_client.cpp.o: ../../data_client.cpp \
   /Users/brianzhang/.local/include/grpcpp/impl/codegen/proto_buffer_reader.h \
   /Users/brianzhang/.local/include/grpcpp/impl/codegen/proto_buffer_writer.h \
   /Users/brianzhang/.local/include/grpcpp/impl/codegen/stub_options.h \
-  minknow_api/read_cache.h \
   /Users/brianzhang/.local/include/grpc/grpc.h \
   /Users/brianzhang/.local/include/grpc/support/port_platform.h \
   /Users/brianzhang/.local/include/grpc/byte_buffer.h \
@@ -1442,8 +1440,7 @@ CMakeFiles/read_until.dir/manager_client.cpp.o: ../../manager_client.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/thread \
   minknow_api/minknow_api/data.grpc.pb.h \
   minknow_api/data.pb.h \
-  /Users/brianzhang/.local/include/google/protobuf/duration.pb.h \
-  minknow_api/read_cache.h
+  /Users/brianzhang/.local/include/google/protobuf/duration.pb.h
 
 
 ../../data_client.cpp:
@@ -1509,8 +1506,6 @@ minknow_api/manager.grpc.pb.h:
 /Users/brianzhang/.local/include/grpc/support/port_platform.h:
 
 /Users/brianzhang/.local/include/grpc/grpc.h:
-
-minknow_api/read_cache.h:
 
 /Users/brianzhang/.local/include/grpcpp/impl/codegen/stub_options.h:
 
@@ -1838,6 +1833,8 @@ minknow_api/data.pb.h:
 
 minknow_api/minknow_api/data.grpc.pb.h:
 
+minknow_api/data_client.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
 /Users/brianzhang/.local/include/google/protobuf/generated_enum_util.h:
@@ -1847,8 +1844,6 @@ minknow_api/minknow_api/data.grpc.pb.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/queue:
-
-minknow_api/data_client.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/thread:
 

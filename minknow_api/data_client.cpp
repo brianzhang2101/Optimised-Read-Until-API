@@ -7,7 +7,6 @@
 #include <thread>
 
 #include "minknow_api/data.grpc.pb.h"
-#include "minknow_api/read_cache.h"
 
 #include <grpc/grpc.h>
 #include <grpcpp/channel.h>
@@ -25,11 +24,18 @@ using minknow_api::data::DataService;
 using minknow_api::data::GetDataTypesRequest;
 using minknow_api::data::GetDataTypesResponse;
 using minknow_api::data::GetLiveReadsRequest;
+using minknow_api::data::GetLiveReadsRequest_Action;
+using minknow_api::data::GetLiveReadsRequest_Actions;
 using minknow_api::data::GetLiveReadsRequest_RawDataType;
+using minknow_api::data::GetLiveReadsRequest_StopFurtherData;
 using minknow_api::data::GetLiveReadsRequest_StreamSetup;
+using minknow_api::data::GetLiveReadsRequest_UnblockAction;
 using minknow_api::data::GetLiveReadsResponse;
 
 using namespace Data;
+
+// TODO: Create a centralised and thread safe boolean to dictate if the client
+// is running
 
 /*
   ReadCache is an ordered and keyed data structure made up of:
@@ -38,40 +44,46 @@ using namespace Data;
 */
 
 // Append a new entry to data_queue by channel_id as key and data as value
-void Data::ReadCache::set_item(u_int32_t channel,
-                               GetLiveReadsResponse_ReadData data) {
-  mtx.lock();
+void ReadCache::set_item(u_int32_t channel,
+                         GetLiveReadsResponse_ReadData data) {
+  cache_mtx.lock();
   dict[channel] = data;
   insertion_order.push(channel);
-  mtx.unlock();
+  cache_mtx.unlock();
 }
 
 // Thread safe method to retrieve data by channel_id key
-GetLiveReadsResponse_ReadData Data::ReadCache::get_item(u_int32_t channel) {
-  mtx.lock();
+GetLiveReadsResponse_ReadData ReadCache::get_item(u_int32_t channel) {
+  cache_mtx.lock();
   GetLiveReadsResponse_ReadData data = dict[channel];
-  mtx.unlock();
+  cache_mtx.unlock();
   return data;
 }
 
 // Thread safe method to pop the oldest entry in the data_queue
-GetLiveReadsResponse_ReadData Data::ReadCache::pop_item() {
-  mtx.lock();
-  if (insertion_order.size() == 0) {
-    GetLiveReadsResponse_ReadData basic;
-    mtx.unlock();
-    return basic;
-  }
+std::pair<u_int32_t, GetLiveReadsResponse_ReadData> ReadCache::pop_item() {
+  cache_mtx.lock();
   u_int32_t channel = insertion_order.front();
   insertion_order.pop();
   GetLiveReadsResponse_ReadData data = dict[channel];
   dict.erase(channel);
-  mtx.unlock();
-  return data;
+  cache_mtx.unlock();
+  return std::make_pair(channel, data);
 }
 
-DataClient::DataClient(std::shared_ptr<Channel> channel, int size)
-    : stub_(DataService::NewStub(channel)), data_queue(size) {
+// Return size of ReadCache, both dict and insertion_order are same size
+int ReadCache::get_size() {
+  cache_mtx.lock();
+  int result = insertion_order.size();
+  cache_mtx.unlock();
+  return result;
+}
+
+DataClient::DataClient(std::shared_ptr<Channel> channel, int size,
+                       int action_batch)
+    : stub_(DataService::NewStub(channel)),
+      data_queue(size),
+      action_batch(action_batch) {
   std::cout << "Connected to DataService" << std::endl;
 }
 
@@ -84,8 +96,8 @@ void DataClient::get_live_reads(u_int32_t first_channel, u_int32_t last_channel,
   ClientContext context;
   stream = stub_->get_live_reads(&context);
   std::thread writer = spawn_send_thread();
-  writer.join();
   std::thread reader = spawn_read_thread();
+  writer.join();
   reader.join();
 }
 
@@ -100,7 +112,6 @@ void DataClient::read_live_results() {
   }
 }
 
-// TODO: Complete the action_queue so that this can start listening
 // Listens for incoming actions and sends them to be processed
 void DataClient::send_live_reqs() {
   // Create setup request and send it
@@ -108,6 +119,25 @@ void DataClient::send_live_reqs() {
   GetLiveReadsRequest request;
   request.mutable_setup()->CopyFrom(setup);
   stream->Write(request);
+  request.clear_setup();
+
+  while (true) {
+    int length = get_action_queue_size();
+    if (length > 0) {
+      // Get maximum number of actions to process
+      int max_actions = action_batch;
+      if (length < action_batch) {
+        max_actions = length;
+      }
+      GetLiveReadsRequest_Actions actions;
+      for (int i = 0; i < max_actions; i++) {
+        actions.add_actions()->CopyFrom(pop_action());
+      }
+      std::cout << "Sending " << max_actions << " actions." << std::endl;
+      request.mutable_actions()->CopyFrom(actions);
+      stream->Write(request);
+    }
+  }
 }
 
 // Create an empty GetLiveReadsRequest for the purpose to setup the connection
@@ -121,8 +151,54 @@ void DataClient::make_setup() {
   setup.set_sample_minimum_chunk_size(sample_minimum_chunk_size);
 }
 
+// TODO: Figure out what action_id is meant to do and also unblock duration
+// parameter?
+// Create an action and place into action_queue (thread safe)
+void DataClient::put_action(u_int32_t read_channel, u_int32_t read_number,
+                            std::string action) {
+  GetLiveReadsRequest_Action action_request;
+  action_request.set_channel(read_channel);
+  action_request.set_number(read_number);
+
+  if (action.compare("unblock") == 0) {
+    GetLiveReadsRequest_UnblockAction unblock;
+    // unblock.set_duration()
+    action_request.mutable_unblock()->CopyFrom(unblock);
+  } else if (action.compare("stop_further_data") == 0) {
+    GetLiveReadsRequest_StopFurtherData stop_data;
+    action_request.mutable_stop_further_data()->CopyFrom(stop_data);
+  } else {
+    std::cout << "Action must be 'unblock' or 'stop_further_data'."
+              << std::endl;
+  }
+  action_mtx.lock();
+  action_queue.push(action_request);
+  action_mtx.unlock();
+}
+
+// Thread safe method to get the first value in the data_queue
+GetLiveReadsRequest_Action DataClient::pop_action() {
+  action_mtx.lock();
+  GetLiveReadsRequest_Action result = action_queue.front();
+  action_queue.pop();
+  action_mtx.unlock();
+  return result;
+}
+
+int DataClient::get_action_queue_size() {
+  action_mtx.lock();
+  int result = action_queue.size();
+  action_mtx.unlock();
+  return result;
+}
+
 // Return a pointer to the data queue
-Data::ReadCache* DataClient::get_read_cache() { return &data_queue; }
+ReadCache* DataClient::get_read_cache() { return &data_queue; }
+
+// Return a pointer to the action queue
+std::queue<GetLiveReadsRequest_Action>* DataClient::get_action_queue() {
+  return &action_queue;
+}
 
 // Spawn a new reading thread
 std::thread DataClient::spawn_read_thread() {
