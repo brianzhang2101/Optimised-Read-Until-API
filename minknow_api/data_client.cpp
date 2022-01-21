@@ -5,6 +5,7 @@
 #include <queue>
 #include <string>
 #include <thread>
+#include <vector>
 
 #include "minknow_api/data.grpc.pb.h"
 
@@ -14,6 +15,8 @@
 #include <grpcpp/create_channel.h>
 #include <grpcpp/grpcpp.h>
 #include <grpcpp/security/credentials.h>
+
+#define ALLOWED_MIN_CHUNK_SIZE 0
 
 using grpc::Channel;
 using grpc::ClientContext;
@@ -31,6 +34,8 @@ using minknow_api::data::GetLiveReadsRequest_StopFurtherData;
 using minknow_api::data::GetLiveReadsRequest_StreamSetup;
 using minknow_api::data::GetLiveReadsRequest_UnblockAction;
 using minknow_api::data::GetLiveReadsResponse;
+using minknow_api::data::GetLiveReadsResponse_ActionResponse;
+using minknow_api::data::GetLiveReadsResponse_ActionResponse_Response;
 
 using namespace Data;
 
@@ -47,8 +52,37 @@ using namespace Data;
 void ReadCache::set_item(u_int32_t channel,
                          GetLiveReadsResponse_ReadData data) {
   cache_mtx.lock();
+  bool counted = false;
+  // ReadCache exceeding limit
+  while (get_size(false) > max_size) {
+    counted = true;
+    // Mutex locked, so use the unsafe thread version
+    std::pair<u_int32_t, GetLiveReadsResponse_ReadData> read_batch =
+        pop_item(false);
+    u_int32_t read_channel = read_batch.first;
+    GetLiveReadsResponse_ReadData read_data = read_batch.second;
+    if (read_channel == channel && read_data.number() == data.number()) {
+      replaced++;
+    } else {
+      missed++;
+    }
+  }
+  // Channels must be unique in ReadCache
+  if (dict.contains(channel)) {
+    if (!counted) {
+      if (dict[channel].number() == data.number()) {
+        replaced++;
+      } else {
+        missed++;
+      }
+    }
+    // Similarly, mutex locked so delete without concern for thread safety
+    delete_item(channel);
+  }
+
+  // After filtering, we append the new entry
   dict[channel] = data;
-  insertion_order.push(channel);
+  insertion_order.push_back(channel);
   cache_mtx.unlock();
 }
 
@@ -61,21 +95,42 @@ GetLiveReadsResponse_ReadData ReadCache::get_item(u_int32_t channel) {
 }
 
 // Thread safe method to pop the oldest entry in the data_queue
-std::pair<u_int32_t, GetLiveReadsResponse_ReadData> ReadCache::pop_item() {
-  cache_mtx.lock();
-  u_int32_t channel = insertion_order.front();
-  insertion_order.pop();
+std::pair<u_int32_t, GetLiveReadsResponse_ReadData> ReadCache::pop_item(
+    bool safe) {
+  if (safe) {
+    cache_mtx.lock();
+  }
+  u_int32_t channel = insertion_order[0];
+  insertion_order.erase(insertion_order.begin());
   GetLiveReadsResponse_ReadData data = dict[channel];
   dict.erase(channel);
-  cache_mtx.unlock();
+  if (safe) {
+    cache_mtx.unlock();
+  }
   return std::make_pair(channel, data);
 }
 
+// Delete a channel and its data from ReadCache, not thread safe due to its
+// application
+void ReadCache::delete_item(u_int32_t channel) {
+  dict.erase(channel);
+  for (int i = 0; i < insertion_order.size(); i++) {
+    if (insertion_order[i] == channel) {
+      insertion_order.erase(insertion_order.begin() + i);
+      return;
+    }
+  }
+}
+
 // Return size of ReadCache, both dict and insertion_order are same size
-int ReadCache::get_size() {
-  cache_mtx.lock();
+int ReadCache::get_size(bool safe) {
+  if (safe) {
+    cache_mtx.lock();
+  }
   int result = insertion_order.size();
-  cache_mtx.unlock();
+  if (safe) {
+    cache_mtx.unlock();
+  }
   return result;
 }
 
@@ -92,6 +147,11 @@ void DataClient::get_live_reads(u_int32_t first_channel, u_int32_t last_channel,
                                 u_int64_t sample_minimum_chunk_size) {
   this->first_channel = first_channel;
   this->last_channel = last_channel;
+  if (sample_minimum_chunk_size > ALLOWED_MIN_CHUNK_SIZE) {
+    std::cout << "Reducing min_chunk_size to " << ALLOWED_MIN_CHUNK_SIZE
+              << std::endl;
+    sample_minimum_chunk_size = ALLOWED_MIN_CHUNK_SIZE;
+  }
   this->sample_minimum_chunk_size = sample_minimum_chunk_size;
   ClientContext context;
   stream = stub_->get_live_reads(&context);
@@ -103,9 +163,25 @@ void DataClient::get_live_reads(u_int32_t first_channel, u_int32_t last_channel,
 
 // Listens to incoming stream responses and appends to the data_queue
 void DataClient::read_live_results() {
+  std::unordered_map<
+      std::string,
+      std::unordered_map<GetLiveReadsResponse_ActionResponse_Response, int>>
+      response_counter;
   // Never close the stream
   GetLiveReadsResponse response;
   while (stream->Read(&response)) {
+    if (response.action_responses().size() > 0) {
+      for (GetLiveReadsResponse_ActionResponse action_response :
+           response.action_responses()) {
+        // Get the action via ID
+        std::string action_type = sent_actions[action_response.action_id()];
+        response_counter[action_type][action_response.response()]++;
+
+        std::cout << action_type << " " << action_response.response() << " "
+                  << response_counter[action_type][action_response.response()]
+                  << std::endl;
+      }
+    }
     for (auto entry : response.channels()) {  // .first refers to channel id
       data_queue.set_item(entry.first, entry.second);
     }
@@ -125,15 +201,11 @@ void DataClient::send_live_reqs() {
     int length = get_action_queue_size();
     if (length > 0) {
       // Get maximum number of actions to process
-      int max_actions = action_batch;
-      if (length < action_batch) {
-        max_actions = length;
-      }
+      int max_actions = std::min(action_batch, length);
       GetLiveReadsRequest_Actions actions;
       for (int i = 0; i < max_actions; i++) {
         actions.add_actions()->CopyFrom(pop_action());
       }
-      std::cout << "Sending " << max_actions << " actions." << std::endl;
       request.mutable_actions()->CopyFrom(actions);
       stream->Write(request);
     }
@@ -153,12 +225,16 @@ void DataClient::make_setup() {
 
 // TODO: Figure out what action_id is meant to do and also unblock duration
 // parameter?
+// TODO: Figure out how to throw an exception
 // Create an action and place into action_queue (thread safe)
 void DataClient::put_action(u_int32_t read_channel, u_int32_t read_number,
                             std::string action) {
   GetLiveReadsRequest_Action action_request;
+  std::string action_id = std::to_string(++curr_action_id);
+  action_request.set_action_id(action_id);
   action_request.set_channel(read_channel);
   action_request.set_number(read_number);
+  sent_actions[action_id] = action;
 
   if (action.compare("unblock") == 0) {
     GetLiveReadsRequest_UnblockAction unblock;

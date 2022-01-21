@@ -49,9 +49,9 @@ class ReadUntilClient {
     action_queue = data.get_action_queue();
     std::thread runner([this]() {
       while (client_running) {
-        if (data_queue->get_size() > 0) {
+        if (data_queue->get_size(true) > 0) {
           std::pair<u_int32_t, GetLiveReadsResponse_ReadData> read_batch =
-              data_queue->pop_item();
+              data_queue->pop_item(true);
           u_int32_t channel = read_batch.first;
           GetLiveReadsResponse_ReadData read = read_batch.second;
           if (read.median_before() > read.median() &&

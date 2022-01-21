@@ -5,9 +5,11 @@
 
 #include <memory>
 #include <mutex>
+#include <optional>
 #include <queue>
 #include <string>
 #include <thread>
+#include <vector>
 
 #include "minknow_api/data.grpc.pb.h"
 
@@ -42,12 +44,13 @@ class ReadCache {
   ReadCache(int max_size) : max_size(max_size){};
   GetLiveReadsResponse_ReadData get_item(u_int32_t channel);
   void set_item(u_int32_t channel, GetLiveReadsResponse_ReadData data);
-  std::pair<u_int32_t, GetLiveReadsResponse_ReadData> pop_item();
-  int get_size();
+  std::pair<u_int32_t, GetLiveReadsResponse_ReadData> pop_item(bool safe);
+  void delete_item(u_int32_t channel);
+  int get_size(bool safe);
 
  private:
   std::unordered_map<uint32_t, GetLiveReadsResponse_ReadData> dict;
-  std::queue<u_int32_t> insertion_order;
+  std::vector<u_int32_t> insertion_order;
   int max_size;
   int missed;
   int replaced;
@@ -84,6 +87,10 @@ class DataClient {
   std::queue<GetLiveReadsRequest_Action> action_queue;
   std::mutex action_mtx;
   int action_batch;
+  int curr_action_id;
+  std::unordered_map<std::string, std::string> sent_actions;
+  const std::unordered_map<int, std::string> read_classification_map = {
+      {83, "strand"}, {67, "strand1"}, {77, "multiple"}};
 };
 }  // namespace Data
 #endif
