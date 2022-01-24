@@ -1,5 +1,13 @@
 # Optimised-Read-Until-API
 
+TODO:
+
+- Add code documentation
+- Clean up CMakeLists.txt
+- Remove unused client files and executables
+- Remove cached files from directory
+- Write up installation guide
+
 ```
 export MY_INSTALL_DIR=$HOME/grpcinstall
 mkdir -p $MY_INSTALL_DIR
