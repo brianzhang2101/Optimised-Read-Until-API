@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/read_until.dir/acquisition_client.cpp.o"
+  "CMakeFiles/read_until.dir/acquisition_client.cpp.o.d"
   "CMakeFiles/read_until.dir/base.cpp.o"
   "CMakeFiles/read_until.dir/base.cpp.o.d"
   "CMakeFiles/read_until.dir/data_client.cpp.o"

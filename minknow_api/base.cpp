@@ -39,7 +39,8 @@ class ReadUntilClient {
                                     grpc::InsecureChannelCredentials())),
         data(grpc::CreateChannel("127.0.0.1:8000",
                                  grpc::InsecureChannelCredentials()),
-             100, 1000) {}
+             100, 1000, true, true,
+             std::unordered_set<std::string>{"strand", "adapter"}) {}
 
   // Creates a thread to listen to responses from data_queue, make decisions
   // here and add actions to action_queue

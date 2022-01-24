@@ -275,7 +275,7 @@ target_link_libraries(rg_grpc_proto
 #     ${_PROTOBUF_LIBPROTOBUF})
 # endforeach()
 
-add_executable(read_until base.cpp manager_client.cpp data_client.cpp)
+add_executable(read_until base.cpp manager_client.cpp data_client.cpp acquisition_client.cpp)
 target_link_libraries(read_until
 rg_grpc_proto
 ${_REFLECTION}

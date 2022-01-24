@@ -1,9 +1,39 @@
 CMakeFiles/read_until.dir/data_client.cpp.o: \
   /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/data_client.cpp \
   /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/data_client.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/ctime \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/pthread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/i386/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_clock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/i386/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_null.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_time_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_timespec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__availability \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/cstddef \
@@ -19,32 +49,7 @@ CMakeFiles/read_until.dir/data_client.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/cdefs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_posix_availability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/machine/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/i386/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/Availability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/AvailabilityVersions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/AvailabilityInternal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_null.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_size_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_mbstate_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/machine/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/i386/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_int8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_int16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_int32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_int64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_u_int8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_u_int16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_u_int32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_u_int64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_rune_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_wchar_t.h \
@@ -57,10 +62,6 @@ CMakeFiles/read_until.dir/data_client.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_off_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/time.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_clock_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_time_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_timespec.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/_wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/__wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/sys/_types/_wint_t.h \
@@ -131,7 +132,6 @@ CMakeFiles/read_until.dir/data_client.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__threading_support \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/ctime \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/ratio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/climits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/limits.h \
@@ -187,8 +187,9 @@ CMakeFiles/read_until.dir/data_client.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/__bit_reference \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/thread \
-  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/data.grpc.pb.h \
-  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/data.pb.h \
+  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/acquisition_client.h \
+  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/acquisition.grpc.pb.h \
+  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/acquisition.pb.h \
   /Users/brianzhang/.local/include/google/protobuf/port_def.inc \
   /Users/brianzhang/.local/include/google/protobuf/port_undef.inc \
   /Users/brianzhang/.local/include/google/protobuf/io/coded_stream.h \
@@ -299,16 +300,9 @@ CMakeFiles/read_until.dir/data_client.cpp.o: \
   /Users/brianzhang/.local/include/google/protobuf/map_entry_lite.h \
   /Users/brianzhang/.local/include/google/protobuf/map_field_lite.h \
   /Users/brianzhang/.local/include/google/protobuf/extension_set.h \
-  /Users/brianzhang/.local/include/google/protobuf/map_entry.h \
-  /Users/brianzhang/.local/include/google/protobuf/reflection_ops.h \
-  /Users/brianzhang/.local/include/google/protobuf/map_field_inl.h \
-  /Users/brianzhang/.local/include/google/protobuf/map_field.h \
   /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/rpc_options.pb.h \
   /Users/brianzhang/.local/include/google/protobuf/descriptor.pb.h \
-  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/device.pb.h \
-  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/rpc_options.pb.h \
-  /Users/brianzhang/.local/include/google/protobuf/wrappers.pb.h \
-  /Users/brianzhang/.local/include/google/protobuf/duration.pb.h \
+  /Users/brianzhang/.local/include/google/protobuf/timestamp.pb.h \
   /Users/brianzhang/.local/include/grpcpp/impl/codegen/async_generic_service.h \
   /Users/brianzhang/.local/include/grpc/impl/codegen/port_platform.h \
   /Users/brianzhang/.local/include/grpcpp/impl/codegen/async_stream.h \
@@ -468,4 +462,14 @@ CMakeFiles/read_until.dir/data_client.cpp.o: \
   /Users/brianzhang/.local/include/grpcpp/security/authorization_policy_provider.h \
   /Users/brianzhang/.local/include/grpcpp/server_context.h \
   /Users/brianzhang/.local/include/grpcpp/server_posix.h \
+  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/data.grpc.pb.h \
+  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/data.pb.h \
+  /Users/brianzhang/.local/include/google/protobuf/map_entry.h \
+  /Users/brianzhang/.local/include/google/protobuf/reflection_ops.h \
+  /Users/brianzhang/.local/include/google/protobuf/map_field_inl.h \
+  /Users/brianzhang/.local/include/google/protobuf/map_field.h \
+  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/device.pb.h \
+  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/rpc_options.pb.h \
+  /Users/brianzhang/.local/include/google/protobuf/wrappers.pb.h \
+  /Users/brianzhang/.local/include/google/protobuf/duration.pb.h \
   /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/data.grpc.pb.h

@@ -236,8 +236,9 @@ CMakeFiles/read_until.dir/base.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/thread \
   /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/data_client.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.0.sdk/usr/include/c++/v1/optional \
-  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/data.grpc.pb.h \
-  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/data.pb.h \
+  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/acquisition_client.h \
+  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/acquisition.grpc.pb.h \
+  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/acquisition.pb.h \
   /Users/brianzhang/.local/include/google/protobuf/port_def.inc \
   /Users/brianzhang/.local/include/google/protobuf/port_undef.inc \
   /Users/brianzhang/.local/include/google/protobuf/io/coded_stream.h \
@@ -299,16 +300,9 @@ CMakeFiles/read_until.dir/base.cpp.o: \
   /Users/brianzhang/.local/include/google/protobuf/map_entry_lite.h \
   /Users/brianzhang/.local/include/google/protobuf/map_field_lite.h \
   /Users/brianzhang/.local/include/google/protobuf/extension_set.h \
-  /Users/brianzhang/.local/include/google/protobuf/map_entry.h \
-  /Users/brianzhang/.local/include/google/protobuf/reflection_ops.h \
-  /Users/brianzhang/.local/include/google/protobuf/map_field_inl.h \
-  /Users/brianzhang/.local/include/google/protobuf/map_field.h \
   /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/rpc_options.pb.h \
   /Users/brianzhang/.local/include/google/protobuf/descriptor.pb.h \
-  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/device.pb.h \
-  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/rpc_options.pb.h \
-  /Users/brianzhang/.local/include/google/protobuf/wrappers.pb.h \
-  /Users/brianzhang/.local/include/google/protobuf/duration.pb.h \
+  /Users/brianzhang/.local/include/google/protobuf/timestamp.pb.h \
   /Users/brianzhang/.local/include/grpcpp/impl/codegen/async_generic_service.h \
   /Users/brianzhang/.local/include/grpc/impl/codegen/port_platform.h \
   /Users/brianzhang/.local/include/grpcpp/impl/codegen/async_stream.h \
@@ -468,14 +462,22 @@ CMakeFiles/read_until.dir/base.cpp.o: \
   /Users/brianzhang/.local/include/grpcpp/security/authorization_policy_provider.h \
   /Users/brianzhang/.local/include/grpcpp/server_context.h \
   /Users/brianzhang/.local/include/grpcpp/server_posix.h \
+  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/data.grpc.pb.h \
+  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/data.pb.h \
+  /Users/brianzhang/.local/include/google/protobuf/map_entry.h \
+  /Users/brianzhang/.local/include/google/protobuf/reflection_ops.h \
+  /Users/brianzhang/.local/include/google/protobuf/map_field_inl.h \
+  /Users/brianzhang/.local/include/google/protobuf/map_field.h \
+  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/device.pb.h \
+  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/rpc_options.pb.h \
+  /Users/brianzhang/.local/include/google/protobuf/wrappers.pb.h \
+  /Users/brianzhang/.local/include/google/protobuf/duration.pb.h \
   /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/manager.grpc.pb.h \
   /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/manager.pb.h \
   /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/device.pb.h \
   /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/instance.pb.h \
   /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/acquisition.pb.h \
-  /Users/brianzhang/.local/include/google/protobuf/timestamp.pb.h \
   /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/protocol.pb.h \
-  /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/acquisition.pb.h \
   /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/basecaller.pb.h \
   /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/analysis_configuration.pb.h \
   /Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/minknow_api/minknow_api/protocol_settings.pb.h \

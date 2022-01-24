@@ -142,6 +142,30 @@ read_until/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_until.dir/build.make CMakeFiles/read_until.dir/build
 .PHONY : read_until/fast
 
+acquisition_client.o: acquisition_client.cpp.o
+.PHONY : acquisition_client.o
+
+# target to build an object file
+acquisition_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_until.dir/build.make CMakeFiles/read_until.dir/acquisition_client.cpp.o
+.PHONY : acquisition_client.cpp.o
+
+acquisition_client.i: acquisition_client.cpp.i
+.PHONY : acquisition_client.i
+
+# target to preprocess a source file
+acquisition_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_until.dir/build.make CMakeFiles/read_until.dir/acquisition_client.cpp.i
+.PHONY : acquisition_client.cpp.i
+
+acquisition_client.s: acquisition_client.cpp.s
+.PHONY : acquisition_client.s
+
+# target to generate assembly for a file
+acquisition_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_until.dir/build.make CMakeFiles/read_until.dir/acquisition_client.cpp.s
+.PHONY : acquisition_client.cpp.s
+
 base.o: base.cpp.o
 .PHONY : base.o
 
@@ -704,6 +728,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... read_until"
 	@echo "... rg_grpc_proto"
+	@echo "... acquisition_client.o"
+	@echo "... acquisition_client.i"
+	@echo "... acquisition_client.s"
 	@echo "... base.o"
 	@echo "... base.i"
 	@echo "... base.s"

@@ -3,6 +3,7 @@
 #ifndef DATA_CLIENT_H
 #define DATA_CLIENT_H
 
+#include <ctime>
 #include <memory>
 #include <mutex>
 #include <optional>
@@ -11,6 +12,7 @@
 #include <thread>
 #include <vector>
 
+#include "acquisition_client.h"
 #include "minknow_api/data.grpc.pb.h"
 
 #include <grpc/grpc.h>
@@ -20,6 +22,7 @@
 #include <grpcpp/grpcpp.h>
 #include <grpcpp/security/credentials.h>
 
+using Acquisition::AcquisitionClient;
 using grpc::Channel;
 using grpc::ClientContext;
 using grpc::ClientReader;
@@ -41,12 +44,14 @@ class ReadCache;
 
 class ReadCache {
  public:
-  ReadCache(int max_size) : max_size(max_size){};
+  ReadCache(int max_size);
   GetLiveReadsResponse_ReadData get_item(u_int32_t channel);
   void set_item(u_int32_t channel, GetLiveReadsResponse_ReadData data);
   std::pair<u_int32_t, GetLiveReadsResponse_ReadData> pop_item(bool safe);
   void delete_item(u_int32_t channel);
   int get_size(bool safe);
+  int get_missed();
+  int get_replaced();
 
  private:
   std::unordered_map<uint32_t, GetLiveReadsResponse_ReadData> dict;
@@ -59,7 +64,9 @@ class ReadCache {
 
 class DataClient {
  public:
-  DataClient(std::shared_ptr<Channel> channel, int size, int action_batch);
+  DataClient(std::shared_ptr<Channel> channel, int cache_size, int action_batch,
+             bool filter_strands, bool one_chunk,
+             std::unordered_set<std::string> prefilter_classes);
   void run();
   void get_live_reads(u_int32_t first_channel, u_int32_t last_channel,
                       u_int64_t sample_minimum_chunk_size);
@@ -89,8 +96,16 @@ class DataClient {
   int action_batch;
   int curr_action_id;
   std::unordered_map<std::string, std::string> sent_actions;
-  const std::unordered_map<int, std::string> read_classification_map = {
-      {83, "strand"}, {67, "strand1"}, {77, "multiple"}};
+  const std::unordered_map<u_int32_t, std::string> read_classification_map = {
+      {83, "strand"},   {67, "strand1"},     {77, "multiple"},
+      {90, "zero"},     {65, "adapter"},     {66, "mux_uncertain"},
+      {70, "user2"},    {68, "user1"},       {69, "event"},
+      {80, "pore"},     {85, "unavailable"}, {84, "transition"},
+      {78, "unclassed"}};
+  bool filter_strands;
+  bool one_chunk;
+  std::unordered_set<std::string> prefilter_classes;
+  AcquisitionClient acq_client;
 };
 }  // namespace Data
 #endif

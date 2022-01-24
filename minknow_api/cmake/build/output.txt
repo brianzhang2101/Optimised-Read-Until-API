@@ -1,0 +1,2095 @@
+Connecting to MinKNOW API...
+Connected to ManagerClient on: MN36706
+Connected to DataService
+Reducing min_chunk_size to 0
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 10 unique reads (ever), average 2389 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 20 unique reads (ever), average 2149 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 30 unique reads (ever), average 2036 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 40 unique reads (ever), average 1910 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 50 unique reads (ever), average 2110 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 60 unique reads (ever), average 2443 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 70 unique reads (ever), average 2057 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 80 unique reads (ever), average 2455 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 90 unique reads (ever), average 2341 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 100 unique reads (ever), average 2512 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 110 unique reads (ever), average 2539 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 120 unique reads (ever), average 2618 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 130 unique reads (ever), average 2587 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 140 unique reads (ever), average 2693 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 150 unique reads (ever), average 2706 samples behind.0 MB raw data, 1 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 160 unique reads (ever), average 2166 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 170 unique reads (ever), average 1920 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 180 unique reads (ever), average 2443 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 190 unique reads (ever), average 2462 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 200 unique reads (ever), average 2336 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 210 unique reads (ever), average 2571 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 220 unique reads (ever), average 2510 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 230 unique reads (ever), average 2820 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 240 unique reads (ever), average 2879 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 250 unique reads (ever), average 2857 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 260 unique reads (ever), average 2653 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 270 unique reads (ever), average 2720 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 280 unique reads (ever), average 2488 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 290 unique reads (ever), average 2497 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 300 unique reads (ever), average 2626 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 310 unique reads (ever), average 2420 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 320 unique reads (ever), average 3114 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 330 unique reads (ever), average 3137 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 340 unique reads (ever), average 2516 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 350 unique reads (ever), average 2840 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 360 unique reads (ever), average 2878 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 370 unique reads (ever), average 2776 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 380 unique reads (ever), average 2374 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 390 unique reads (ever), average 2530 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 400 unique reads (ever), average 2981 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 410 unique reads (ever), average 3061 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 420 unique reads (ever), average 3220 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 430 unique reads (ever), average 2759 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 440 unique reads (ever), average 2889 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 9 read sections, 449 unique reads (ever), average 2905 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 459 unique reads (ever), average 3088 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 469 unique reads (ever), average 3464 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 479 unique reads (ever), average 3449 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 489 unique reads (ever), average 3464 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:34 2022
+: Interval update: 10 read sections, 499 unique reads (ever), average 3385 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:35 2022
+: Interval update: 9 read sections, 508 unique reads (ever), average 3258 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:35 2022
+: Interval update: 9 read sections, 517 unique reads (ever), average 3157 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:35 2022
+: Interval update: 9 read sections, 526 unique reads (ever), average 3053 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 505:39 after stop request.
+Mon Jan 24 16:08:35 2022
+: Interval update: 10 read sections, 535 unique reads (ever), average 2443 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:35 2022
+: Interval update: 2 read sections, 537 unique reads (ever), average 2379 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:36 2022
+: Interval update: 9 read sections, 546 unique reads (ever), average 2834 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:36 2022
+: Interval update: 10 read sections, 556 unique reads (ever), average 2886 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:36 2022
+: Interval update: 9 read sections, 565 unique reads (ever), average 2789 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:36 2022
+: Interval update: 9 read sections, 574 unique reads (ever), average 2837 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:36 2022
+: Interval update: 9 read sections, 583 unique reads (ever), average 2752 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:36 2022
+: Interval update: 9 read sections, 592 unique reads (ever), average 3178 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:36 2022
+: Interval update: 9 read sections, 601 unique reads (ever), average 3522 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:36 2022
+: Interval update: 10 read sections, 611 unique reads (ever), average 2612 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:36 2022
+: Interval update: 10 read sections, 621 unique reads (ever), average 2215 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:36 2022
+: Interval update: 10 read sections, 631 unique reads (ever), average 2628 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:36 2022
+: Interval update: 10 read sections, 641 unique reads (ever), average 2799 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:36 2022
+: Interval update: 10 read sections, 651 unique reads (ever), average 2545 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:37 2022
+: Interval update: 10 read sections, 661 unique reads (ever), average 2660 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:37 2022
+: Interval update: 10 read sections, 671 unique reads (ever), average 3099 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:37 2022
+: Interval update: 9 read sections, 680 unique reads (ever), average 3130 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 247:41 after stop request.
+Mon Jan 24 16:08:38 2022
+: Interval update: 10 read sections, 689 unique reads (ever), average 2470 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:38 2022
+: Interval update: 10 read sections, 699 unique reads (ever), average 2242 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:38 2022
+: Interval update: 10 read sections, 709 unique reads (ever), average 2237 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:38 2022
+: Interval update: 10 read sections, 719 unique reads (ever), average 2584 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:38 2022
+: Interval update: 10 read sections, 729 unique reads (ever), average 2687 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:38 2022
+: Interval update: 10 read sections, 739 unique reads (ever), average 2836 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:38 2022
+: Interval update: 9 read sections, 748 unique reads (ever), average 2809 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:38 2022
+: Interval update: 10 read sections, 758 unique reads (ever), average 2820 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 6 read sections, 764 unique reads (ever), average 5646 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 5 read sections, 769 unique reads (ever), average 4378 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 4 read sections, 773 unique reads (ever), average 4926 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 5 read sections, 778 unique reads (ever), average 4926 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 5 read sections, 783 unique reads (ever), average 4409 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 4 read sections, 787 unique reads (ever), average 4926 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 5 read sections, 792 unique reads (ever), average 4926 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 5 read sections, 797 unique reads (ever), average 4926 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 5 read sections, 802 unique reads (ever), average 4926 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 5 read sections, 807 unique reads (ever), average 4322 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 4 read sections, 811 unique reads (ever), average 4926 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 5 read sections, 816 unique reads (ever), average 4208 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 6 read sections, 822 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 6 read sections, 828 unique reads (ever), average 3700 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 7 read sections, 835 unique reads (ever), average 4019 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 6 read sections, 841 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 6 read sections, 847 unique reads (ever), average 3868 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 6 read sections, 853 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 7 read sections, 860 unique reads (ever), average 3939 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 6 read sections, 866 unique reads (ever), average 3584 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 7 read sections, 873 unique reads (ever), average 3409 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 7 read sections, 880 unique reads (ever), average 3584 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 6 read sections, 886 unique reads (ever), average 3584 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 6 read sections, 892 unique reads (ever), average 3584 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 7 read sections, 899 unique reads (ever), average 3584 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 6 read sections, 905 unique reads (ever), average 3584 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 7 read sections, 912 unique reads (ever), average 3581 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 7 read sections, 919 unique reads (ever), average 3583 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 8 read sections, 927 unique reads (ever), average 3583 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 8 read sections, 935 unique reads (ever), average 3583 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 7 read sections, 942 unique reads (ever), average 3583 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 6 read sections, 948 unique reads (ever), average 3583 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 7 read sections, 955 unique reads (ever), average 3582 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 7 read sections, 962 unique reads (ever), average 3582 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 8 read sections, 970 unique reads (ever), average 3582 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 7 read sections, 977 unique reads (ever), average 3582 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 7 read sections, 984 unique reads (ever), average 3582 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 6 read sections, 990 unique reads (ever), average 3582 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 8 read sections, 998 unique reads (ever), average 3582 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 7 read sections, 1005 unique reads (ever), average 3386 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 7 read sections, 1012 unique reads (ever), average 3581 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 7 read sections, 1019 unique reads (ever), average 3581 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 6 read sections, 1025 unique reads (ever), average 3581 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 6 read sections, 1031 unique reads (ever), average 3581 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 6 read sections, 1037 unique reads (ever), average 3581 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 7 read sections, 1044 unique reads (ever), average 3581 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 7 read sections, 1051 unique reads (ever), average 4007 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:39 2022
+: Interval update: 6 read sections, 1057 unique reads (ever), average 4225 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:40 2022
+: Interval update: 8 read sections, 1065 unique reads (ever), average 5691 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:40 2022
+: Interval update: 7 read sections, 1072 unique reads (ever), average 4252 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:40 2022
+: Interval update: 7 read sections, 1079 unique reads (ever), average 4885 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:40 2022
+: Interval update: 8 read sections, 1087 unique reads (ever), average 5281 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:40 2022
+: Interval update: 6 read sections, 1093 unique reads (ever), average 4928 samples behind.0 MB raw data, 1 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:40 2022
+: Interval update: 7 read sections, 1100 unique reads (ever), average 4752 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:40 2022
+: Interval update: 7 read sections, 1107 unique reads (ever), average 4928 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:40 2022
+: Interval update: 6 read sections, 1113 unique reads (ever), average 4893 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:40 2022
+: Interval update: 7 read sections, 1120 unique reads (ever), average 4928 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:40 2022
+: Interval update: 8 read sections, 1128 unique reads (ever), average 4928 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:40 2022
+: Interval update: 7 read sections, 1135 unique reads (ever), average 4928 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:40 2022
+: Interval update: 8 read sections, 1143 unique reads (ever), average 4256 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:40 2022
+: Interval update: 10 read sections, 1153 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:40 2022
+: Interval update: 10 read sections, 1163 unique reads (ever), average 3958 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:41 2022
+: Interval update: 10 read sections, 1173 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:41 2022
+: Interval update: 10 read sections, 1183 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:41 2022
+: Interval update: 10 read sections, 1193 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:41 2022
+: Interval update: 10 read sections, 1203 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:41 2022
+: Interval update: 10 read sections, 1213 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:41 2022
+: Interval update: 10 read sections, 1223 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:41 2022
+: Interval update: 10 read sections, 1233 unique reads (ever), average 4012 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:41 2022
+: Interval update: 10 read sections, 1243 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:41 2022
+: Interval update: 10 read sections, 1253 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:41 2022
+: Interval update: 10 read sections, 1263 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:41 2022
+: Interval update: 2 read sections, 1265 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 228:47 after stop request.
+Rereceived 200:69 after stop request.
+Rereceived 227:10 after stop request.
+Rereceived 175:17 after stop request.
+Mon Jan 24 16:08:41 2022
+: Interval update: 10 read sections, 1271 unique reads (ever), average 2078 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 232:21 after stop request.
+Rereceived 357:22 after stop request.
+Rereceived 354:21 after stop request.
+Rereceived 261:27 after stop request.
+Rereceived 332:46 after stop request.
+Rereceived 358:25 after stop request.
+Rereceived 326:53 after stop request.
+Rereceived 309:23 after stop request.
+Mon Jan 24 16:08:41 2022
+: Interval update: 10 read sections, 1273 unique reads (ever), average 806 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:41 2022
+: Interval update: 10 read sections, 1283 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:42 2022
+: Interval update: 10 read sections, 1293 unique reads (ever), average 6200 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:42 2022
+: Interval update: 5 read sections, 1298 unique reads (ever), average 5157 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 65:42 after stop request.
+Mon Jan 24 16:08:42 2022
+: Interval update: 6 read sections, 1303 unique reads (ever), average 3629 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 116:42 after stop request.
+Mon Jan 24 16:08:42 2022
+: Interval update: 7 read sections, 1309 unique reads (ever), average 3694 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 121:36 after stop request.
+Mon Jan 24 16:08:42 2022
+: Interval update: 7 read sections, 1315 unique reads (ever), average 3856 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:42 2022
+: Interval update: 5 read sections, 1320 unique reads (ever), average 4830 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:42 2022
+: Interval update: 6 read sections, 1326 unique reads (ever), average 4537 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:42 2022
+: Interval update: 7 read sections, 1333 unique reads (ever), average 4407 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:42 2022
+: Interval update: 8 read sections, 1341 unique reads (ever), average 3682 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 287:79 after stop request.
+Mon Jan 24 16:08:42 2022
+: Interval update: 8 read sections, 1348 unique reads (ever), average 3719 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:42 2022
+: Interval update: 6 read sections, 1354 unique reads (ever), average 4586 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:42 2022
+: Interval update: 7 read sections, 1361 unique reads (ever), average 3941 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:42 2022
+: Interval update: 6 read sections, 1367 unique reads (ever), average 4269 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:42 2022
+: Interval update: 6 read sections, 1373 unique reads (ever), average 4582 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:42 2022
+: Interval update: 7 read sections, 1380 unique reads (ever), average 3892 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:42 2022
+: Interval update: 6 read sections, 1386 unique reads (ever), average 4418 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:42 2022
+: Interval update: 8 read sections, 1394 unique reads (ever), average 3910 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:44 2022
+: Interval update: 7 read sections, 1401 unique reads (ever), average 5434 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:44 2022
+: Interval update: 5 read sections, 1406 unique reads (ever), average 4928 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:44 2022
+: Interval update: 5 read sections, 1411 unique reads (ever), average 4362 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:44 2022
+: Interval update: 7 read sections, 1418 unique reads (ever), average 3693 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:44 2022
+: Interval update: 5 read sections, 1423 unique reads (ever), average 5231 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:44 2022
+: Interval update: 6 read sections, 1429 unique reads (ever), average 4552 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:44 2022
+: Interval update: 6 read sections, 1435 unique reads (ever), average 3764 samples behind.0 MB raw data, 1 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:44 2022
+: Interval update: 5 read sections, 1440 unique reads (ever), average 5188 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:45 2022
+: Interval update: 7 read sections, 1447 unique reads (ever), average 5858 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:45 2022
+: Interval update: 8 read sections, 1455 unique reads (ever), average 4250 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:45 2022
+: Interval update: 7 read sections, 1462 unique reads (ever), average 4267 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:45 2022
+: Interval update: 6 read sections, 1468 unique reads (ever), average 5003 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:45 2022
+: Interval update: 9 read sections, 1477 unique reads (ever), average 3953 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 130:43 after stop request.
+Mon Jan 24 16:08:45 2022
+: Interval update: 7 read sections, 1483 unique reads (ever), average 3797 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 184:24 after stop request.
+Mon Jan 24 16:08:47 2022
+: Interval update: 8 read sections, 1490 unique reads (ever), average 4618 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:47 2022
+: Interval update: 7 read sections, 1497 unique reads (ever), average 3827 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:47 2022
+: Interval update: 6 read sections, 1503 unique reads (ever), average 3665 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 135:20 after stop request.
+Rereceived 148:56 after stop request.
+Mon Jan 24 16:08:47 2022
+: Interval update: 6 read sections, 1507 unique reads (ever), average 2616 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:47 2022
+: Interval update: 6 read sections, 1513 unique reads (ever), average 4250 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:47 2022
+: Interval update: 7 read sections, 1520 unique reads (ever), average 3878 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:47 2022
+: Interval update: 6 read sections, 1526 unique reads (ever), average 3865 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:47 2022
+: Interval update: 7 read sections, 1533 unique reads (ever), average 3982 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:47 2022
+: Interval update: 6 read sections, 1539 unique reads (ever), average 4376 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:47 2022
+: Interval update: 6 read sections, 1545 unique reads (ever), average 3725 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:47 2022
+: Interval update: 5 read sections, 1550 unique reads (ever), average 4209 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:47 2022
+: Interval update: 7 read sections, 1557 unique reads (ever), average 3762 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:47 2022
+: Interval update: 6 read sections, 1563 unique reads (ever), average 4081 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:47 2022
+: Interval update: 3 read sections, 1566 unique reads (ever), average 4850 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:48 2022
+: Interval update: 5 read sections, 1571 unique reads (ever), average 4295 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:48 2022
+: Interval update: 8 read sections, 1579 unique reads (ever), average 4172 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:48 2022
+: Interval update: 8 read sections, 1587 unique reads (ever), average 4092 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:48 2022
+: Interval update: 6 read sections, 1593 unique reads (ever), average 4466 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:48 2022
+: Interval update: 8 read sections, 1601 unique reads (ever), average 3932 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:48 2022
+: Interval update: 6 read sections, 1607 unique reads (ever), average 4262 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:48 2022
+: Interval update: 7 read sections, 1614 unique reads (ever), average 4040 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:48 2022
+: Interval update: 7 read sections, 1621 unique reads (ever), average 4337 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:48 2022
+: Interval update: 6 read sections, 1627 unique reads (ever), average 4363 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:48 2022
+: Interval update: 8 read sections, 1635 unique reads (ever), average 3935 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:48 2022
+: Interval update: 6 read sections, 1641 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:48 2022
+: Interval update: 7 read sections, 1648 unique reads (ever), average 2481 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:50 2022
+: Interval update: 6 read sections, 1654 unique reads (ever), average 4604 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:50 2022
+: Interval update: 7 read sections, 1661 unique reads (ever), average 4251 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:50 2022
+: Interval update: 8 read sections, 1669 unique reads (ever), average 4058 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:50 2022
+: Interval update: 7 read sections, 1676 unique reads (ever), average 3933 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:50 2022
+: Interval update: 8 read sections, 1684 unique reads (ever), average 4337 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:50 2022
+: Interval update: 7 read sections, 1691 unique reads (ever), average 3993 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:50 2022
+: Interval update: 7 read sections, 1698 unique reads (ever), average 3598 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:50 2022
+: Interval update: 7 read sections, 1705 unique reads (ever), average 4137 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:50 2022
+: Interval update: 6 read sections, 1711 unique reads (ever), average 4253 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:50 2022
+: Interval update: 6 read sections, 1717 unique reads (ever), average 3986 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:50 2022
+: Interval update: 7 read sections, 1724 unique reads (ever), average 3940 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:50 2022
+: Interval update: 6 read sections, 1730 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:50 2022
+: Interval update: 6 read sections, 1736 unique reads (ever), average 4623 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:50 2022
+: Interval update: 5 read sections, 1741 unique reads (ever), average 4210 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:50 2022
+: Interval update: 5 read sections, 1746 unique reads (ever), average 4343 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:50 2022
+: Interval update: 6 read sections, 1752 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:50 2022
+: Interval update: 2 read sections, 1754 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 240:36 after stop request.
+Rereceived 182:24 after stop request.
+Rereceived 168:20 after stop request.
+Rereceived 148:58 after stop request.
+Rereceived 108:21 after stop request.
+Rereceived 183:18 after stop request.
+Rereceived 233:26 after stop request.
+Rereceived 230:23 after stop request.
+Rereceived 143:66 after stop request.
+Mon Jan 24 16:08:50 2022
+: Interval update: 10 read sections, 1755 unique reads (ever), average 213 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 9 read sections, 1764 unique reads (ever), average 4190 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 9 read sections, 1773 unique reads (ever), average 4301 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 10 read sections, 1783 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 8 read sections, 1791 unique reads (ever), average 3893 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 6 read sections, 1797 unique reads (ever), average 3806 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 6 read sections, 1803 unique reads (ever), average 4442 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 6 read sections, 1809 unique reads (ever), average 4344 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 6 read sections, 1815 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 6 read sections, 1821 unique reads (ever), average 4021 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 7 read sections, 1828 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 6 read sections, 1834 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 7 read sections, 1841 unique reads (ever), average 4051 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 6 read sections, 1847 unique reads (ever), average 4074 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 6 read sections, 1853 unique reads (ever), average 4444 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 7 read sections, 1860 unique reads (ever), average 4277 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 7 read sections, 1867 unique reads (ever), average 4058 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 6 read sections, 1873 unique reads (ever), average 3725 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 8 read sections, 1881 unique reads (ever), average 4079 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:51 2022
+: Interval update: 6 read sections, 1887 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 103:18 after stop request.
+Rereceived 89:23 after stop request.
+Rereceived 101:35 after stop request.
+Rereceived 128:57 after stop request.
+Mon Jan 24 16:08:51 2022
+: Interval update: 10 read sections, 1893 unique reads (ever), average 1514 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:52 2022
+: Interval update: 10 read sections, 1903 unique reads (ever), average 2676 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:52 2022
+: Interval update: 9 read sections, 1912 unique reads (ever), average 3532 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:52 2022
+: Interval update: 10 read sections, 1922 unique reads (ever), average 2728 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:52 2022
+: Interval update: 10 read sections, 1932 unique reads (ever), average 3380 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:53 2022
+: Interval update: 10 read sections, 1942 unique reads (ever), average 3505 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:53 2022
+: Interval update: 7 read sections, 1949 unique reads (ever), average 3606 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:53 2022
+: Interval update: 8 read sections, 1957 unique reads (ever), average 3485 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:53 2022
+: Interval update: 6 read sections, 1963 unique reads (ever), average 3581 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:53 2022
+: Interval update: 8 read sections, 1971 unique reads (ever), average 3662 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:53 2022
+: Interval update: 8 read sections, 1979 unique reads (ever), average 3463 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:53 2022
+: Interval update: 8 read sections, 1987 unique reads (ever), average 3462 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:53 2022
+: Interval update: 7 read sections, 1994 unique reads (ever), average 3581 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:53 2022
+: Interval update: 7 read sections, 2001 unique reads (ever), average 3545 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:53 2022
+: Interval update: 6 read sections, 2007 unique reads (ever), average 3581 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 9 read sections, 2016 unique reads (ever), average 5685 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 10 read sections, 2026 unique reads (ever), average 3130 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 10 read sections, 2036 unique reads (ever), average 3467 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 9 read sections, 2045 unique reads (ever), average 3639 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 10 read sections, 2055 unique reads (ever), average 3731 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 457:36 after stop request.
+Mon Jan 24 16:08:54 2022
+: Interval update: 7 read sections, 2061 unique reads (ever), average 3236 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 7 read sections, 2068 unique reads (ever), average 3596 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 6 read sections, 2074 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 7 read sections, 2081 unique reads (ever), average 3802 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 5 read sections, 2086 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 8 read sections, 2094 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 6 read sections, 2100 unique reads (ever), average 3433 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 6 read sections, 2106 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 6 read sections, 2112 unique reads (ever), average 3888 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 6 read sections, 2118 unique reads (ever), average 3887 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 7 read sections, 2125 unique reads (ever), average 3573 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 6 read sections, 2131 unique reads (ever), average 4096 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 6 read sections, 2137 unique reads (ever), average 3781 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:54 2022
+: Interval update: 7 read sections, 2144 unique reads (ever), average 3736 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:55 2022
+: Interval update: 8 read sections, 2152 unique reads (ever), average 4648 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:55 2022
+: Interval update: 10 read sections, 2162 unique reads (ever), average 2884 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:55 2022
+: Interval update: 10 read sections, 2172 unique reads (ever), average 3057 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:55 2022
+: Interval update: 10 read sections, 2182 unique reads (ever), average 3629 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:55 2022
+: Interval update: 10 read sections, 2192 unique reads (ever), average 3902 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 501:22 after stop request.
+Rereceived 498:24 after stop request.
+Mon Jan 24 16:08:56 2022
+: Interval update: 7 read sections, 2197 unique reads (ever), average 2857 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:56 2022
+: Interval update: 7 read sections, 2204 unique reads (ever), average 3815 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:56 2022
+: Interval update: 7 read sections, 2211 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:56 2022
+: Interval update: 7 read sections, 2218 unique reads (ever), average 3674 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:56 2022
+: Interval update: 7 read sections, 2225 unique reads (ever), average 3972 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:56 2022
+: Interval update: 7 read sections, 2232 unique reads (ever), average 4180 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:56 2022
+: Interval update: 5 read sections, 2237 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:56 2022
+: Interval update: 6 read sections, 2243 unique reads (ever), average 4004 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:56 2022
+: Interval update: 6 read sections, 2249 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:56 2022
+: Interval update: 5 read sections, 2254 unique reads (ever), average 4028 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:56 2022
+: Interval update: 6 read sections, 2260 unique reads (ever), average 3712 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:56 2022
+: Interval update: 6 read sections, 2266 unique reads (ever), average 4028 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:56 2022
+: Interval update: 6 read sections, 2272 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:56 2022
+: Interval update: 6 read sections, 2278 unique reads (ever), average 3948 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 140:90 after stop request.
+Mon Jan 24 16:08:57 2022
+: Interval update: 8 read sections, 2285 unique reads (ever), average 4203 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:57 2022
+: Interval update: 8 read sections, 2293 unique reads (ever), average 4910 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:57 2022
+: Interval update: 6 read sections, 2299 unique reads (ever), average 3979 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:57 2022
+: Interval update: 7 read sections, 2306 unique reads (ever), average 3333 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:57 2022
+: Interval update: 6 read sections, 2312 unique reads (ever), average 3755 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:57 2022
+: Interval update: 6 read sections, 2318 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:57 2022
+: Interval update: 5 read sections, 2323 unique reads (ever), average 3943 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:57 2022
+: Interval update: 6 read sections, 2329 unique reads (ever), average 3828 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:57 2022
+: Interval update: 6 read sections, 2335 unique reads (ever), average 3686 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:57 2022
+: Interval update: 6 read sections, 2341 unique reads (ever), average 3965 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:57 2022
+: Interval update: 6 read sections, 2347 unique reads (ever), average 4098 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:57 2022
+: Interval update: 6 read sections, 2353 unique reads (ever), average 3752 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:57 2022
+: Interval update: 6 read sections, 2359 unique reads (ever), average 3744 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:57 2022
+: Interval update: 6 read sections, 2365 unique reads (ever), average 3971 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:57 2022
+: Interval update: 6 read sections, 2371 unique reads (ever), average 3401 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:59 2022
+: Interval update: 7 read sections, 2378 unique reads (ever), average 3813 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:59 2022
+: Interval update: 6 read sections, 2384 unique reads (ever), average 3694 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:59 2022
+: Interval update: 6 read sections, 2390 unique reads (ever), average 4487 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:59 2022
+: Interval update: 6 read sections, 2396 unique reads (ever), average 3817 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:59 2022
+: Interval update: 7 read sections, 2403 unique reads (ever), average 3718 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:59 2022
+: Interval update: 7 read sections, 2410 unique reads (ever), average 3473 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:59 2022
+: Interval update: 6 read sections, 2416 unique reads (ever), average 4028 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:59 2022
+: Interval update: 6 read sections, 2422 unique reads (ever), average 3711 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:59 2022
+: Interval update: 6 read sections, 2428 unique reads (ever), average 4061 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:59 2022
+: Interval update: 6 read sections, 2434 unique reads (ever), average 3669 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:59 2022
+: Interval update: 5 read sections, 2439 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:08:59 2022
+: Interval update: 7 read sections, 2446 unique reads (ever), average 3759 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:00 2022
+: Interval update: 6 read sections, 2452 unique reads (ever), average 5289 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 505:51 after stop request.
+Mon Jan 24 16:09:00 2022
+: Interval update: 8 read sections, 2459 unique reads (ever), average 4091 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:00 2022
+: Interval update: 7 read sections, 2466 unique reads (ever), average 3651 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:00 2022
+: Interval update: 7 read sections, 2473 unique reads (ever), average 3614 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:00 2022
+: Interval update: 7 read sections, 2480 unique reads (ever), average 3971 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:00 2022
+: Interval update: 7 read sections, 2487 unique reads (ever), average 3803 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:00 2022
+: Interval update: 7 read sections, 2494 unique reads (ever), average 3731 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:00 2022
+: Interval update: 5 read sections, 2499 unique reads (ever), average 4382 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:00 2022
+: Interval update: 6 read sections, 2505 unique reads (ever), average 3805 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:00 2022
+: Interval update: 6 read sections, 2511 unique reads (ever), average 4162 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:00 2022
+: Interval update: 6 read sections, 2517 unique reads (ever), average 3517 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:00 2022
+: Interval update: 6 read sections, 2523 unique reads (ever), average 4287 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:01 2022
+: Interval update: 9 read sections, 2532 unique reads (ever), average 3676 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:01 2022
+: Interval update: 9 read sections, 2541 unique reads (ever), average 3908 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:01 2022
+: Interval update: 9 read sections, 2550 unique reads (ever), average 3756 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:01 2022
+: Interval update: 10 read sections, 2560 unique reads (ever), average 3968 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:02 2022
+: Interval update: 10 read sections, 2570 unique reads (ever), average 3821 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 446:25 after stop request.
+Rereceived 422:250 after stop request.
+Rereceived 451:28 after stop request.
+Mon Jan 24 16:09:02 2022
+: Interval update: 10 read sections, 2577 unique reads (ever), average 2044 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 491:37 after stop request.
+Rereceived 486:27 after stop request.
+Rereceived 466:66 after stop request.
+Mon Jan 24 16:09:02 2022
+: Interval update: 5 read sections, 2579 unique reads (ever), average 1263 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 10 read sections, 2589 unique reads (ever), average 2894 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 10 read sections, 2599 unique reads (ever), average 2777 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 10 read sections, 2609 unique reads (ever), average 2993 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 10 read sections, 2619 unique reads (ever), average 3080 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 10 read sections, 2629 unique reads (ever), average 3544 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 10 read sections, 2639 unique reads (ever), average 3871 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 10 read sections, 2649 unique reads (ever), average 4781 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 5 read sections, 2654 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 7 read sections, 2661 unique reads (ever), average 3847 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 6 read sections, 2667 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 7 read sections, 2674 unique reads (ever), average 3820 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 6 read sections, 2680 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 8 read sections, 2688 unique reads (ever), average 3715 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 6 read sections, 2694 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 6 read sections, 2700 unique reads (ever), average 3937 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 7 read sections, 2707 unique reads (ever), average 3865 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 8 read sections, 2715 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 6 read sections, 2721 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 6 read sections, 2727 unique reads (ever), average 3950 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 6 read sections, 2733 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 7 read sections, 2740 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 6 read sections, 2746 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 6 read sections, 2752 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 6 read sections, 2758 unique reads (ever), average 4151 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 6 read sections, 2764 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 6 read sections, 2770 unique reads (ever), average 3903 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 7 read sections, 2777 unique reads (ever), average 3882 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:05 2022
+: Interval update: 6 read sections, 2783 unique reads (ever), average 3889 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:07 2022
+: Interval update: 8 read sections, 2791 unique reads (ever), average 3983 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:07 2022
+: Interval update: 7 read sections, 2798 unique reads (ever), average 5191 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 226:64 after stop request.
+Rereceived 90:52 after stop request.
+Rereceived 111:25 after stop request.
+Mon Jan 24 16:09:07 2022
+: Interval update: 10 read sections, 2805 unique reads (ever), average 2807 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:07 2022
+: Interval update: 10 read sections, 2815 unique reads (ever), average 3049 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 9 read sections, 2824 unique reads (ever), average 5537 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 2830 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 2836 unique reads (ever), average 3924 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 2842 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 7 read sections, 2849 unique reads (ever), average 3939 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 5 read sections, 2854 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 2860 unique reads (ever), average 3924 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 2866 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 5 read sections, 2871 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 8 read sections, 2879 unique reads (ever), average 3950 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 7 read sections, 2886 unique reads (ever), average 3848 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 2892 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 7 read sections, 2899 unique reads (ever), average 3809 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 2905 unique reads (ever), average 4029 samples behind.0 MB raw data, 1 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 2911 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 2917 unique reads (ever), average 3924 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 2923 unique reads (ever), average 3923 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 2929 unique reads (ever), average 4028 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 2935 unique reads (ever), average 4028 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 5 read sections, 2940 unique reads (ever), average 4028 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 2946 unique reads (ever), average 3961 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 2952 unique reads (ever), average 3923 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 2958 unique reads (ever), average 3923 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 8 read sections, 2966 unique reads (ever), average 3949 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 2972 unique reads (ever), average 4027 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 7 read sections, 2979 unique reads (ever), average 3802 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 5 read sections, 2984 unique reads (ever), average 4027 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 2990 unique reads (ever), average 4027 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 7 read sections, 2997 unique reads (ever), average 3847 samples behind.0 MB raw data, 1 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 7 read sections, 3004 unique reads (ever), average 3762 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 7 read sections, 3011 unique reads (ever), average 3937 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 5 read sections, 3016 unique reads (ever), average 4027 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 3022 unique reads (ever), average 4026 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 3028 unique reads (ever), average 3921 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 8 read sections, 3036 unique reads (ever), average 3928 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 3042 unique reads (ever), average 4026 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 5 read sections, 3047 unique reads (ever), average 4026 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 3053 unique reads (ever), average 3921 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 3059 unique reads (ever), average 4026 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 3065 unique reads (ever), average 4026 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 3071 unique reads (ever), average 4025 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 7 read sections, 3078 unique reads (ever), average 3798 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 7 read sections, 3085 unique reads (ever), average 3935 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 3091 unique reads (ever), average 4025 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 3097 unique reads (ever), average 4023 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 7 read sections, 3104 unique reads (ever), average 3846 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 3110 unique reads (ever), average 3920 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 7 read sections, 3117 unique reads (ever), average 3707 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 9 read sections, 3126 unique reads (ever), average 3063 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 10 read sections, 3136 unique reads (ever), average 3136 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 10 read sections, 3146 unique reads (ever), average 3136 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 10 read sections, 3156 unique reads (ever), average 3136 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 10 read sections, 3166 unique reads (ever), average 3136 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 3172 unique reads (ever), average 3903 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 5 read sections, 3177 unique reads (ever), average 4305 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 3183 unique reads (ever), average 3880 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 6 read sections, 3189 unique reads (ever), average 4274 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:08 2022
+: Interval update: 5 read sections, 3194 unique reads (ever), average 4391 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 154:76 after stop request.
+Mon Jan 24 16:09:10 2022
+: Interval update: 9 read sections, 3202 unique reads (ever), average 4232 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 82:64 after stop request.
+Mon Jan 24 16:09:10 2022
+: Interval update: 8 read sections, 3209 unique reads (ever), average 3551 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 326:65 after stop request.
+Mon Jan 24 16:09:10 2022
+: Interval update: 10 read sections, 3218 unique reads (ever), average 3235 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:10 2022
+: Interval update: 10 read sections, 3228 unique reads (ever), average 3584 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:10 2022
+: Interval update: 10 read sections, 3238 unique reads (ever), average 3808 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:10 2022
+: Interval update: 10 read sections, 3248 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:10 2022
+: Interval update: 10 read sections, 3258 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:10 2022
+: Interval update: 10 read sections, 3268 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:10 2022
+: Interval update: 10 read sections, 3278 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:10 2022
+: Interval update: 10 read sections, 3288 unique reads (ever), average 4009 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:10 2022
+: Interval update: 10 read sections, 3298 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:10 2022
+: Interval update: 10 read sections, 3308 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:10 2022
+: Interval update: 3 read sections, 3311 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:10 2022
+: Interval update: 10 read sections, 3321 unique reads (ever), average 3816 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 167:60 after stop request.
+Mon Jan 24 16:09:10 2022
+: Interval update: 10 read sections, 3330 unique reads (ever), average 3404 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 389:71 after stop request.
+Mon Jan 24 16:09:10 2022
+: Interval update: 10 read sections, 3339 unique reads (ever), average 3628 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:10 2022
+: Interval update: 8 read sections, 3347 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:10 2022
+: Interval update: 10 read sections, 3357 unique reads (ever), average 3879 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 471:69 after stop request.
+Mon Jan 24 16:09:10 2022
+: Interval update: 10 read sections, 3366 unique reads (ever), average 3356 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:11 2022
+: Interval update: 10 read sections, 3376 unique reads (ever), average 7158 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:11 2022
+: Interval update: 8 read sections, 3384 unique reads (ever), average 3265 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:11 2022
+: Interval update: 5 read sections, 3389 unique reads (ever), average 4454 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:11 2022
+: Interval update: 7 read sections, 3396 unique reads (ever), average 4351 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:11 2022
+: Interval update: 8 read sections, 3404 unique reads (ever), average 3672 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:11 2022
+: Interval update: 7 read sections, 3411 unique reads (ever), average 3782 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:11 2022
+: Interval update: 5 read sections, 3416 unique reads (ever), average 4765 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:11 2022
+: Interval update: 8 read sections, 3424 unique reads (ever), average 4256 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 482:14 after stop request.
+Rereceived 497:7 after stop request.
+Mon Jan 24 16:09:11 2022
+: Interval update: 7 read sections, 3429 unique reads (ever), average 2802 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 425:45 after stop request.
+Mon Jan 24 16:09:13 2022
+: Interval update: 6 read sections, 3434 unique reads (ever), average 4852 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:13 2022
+: Interval update: 8 read sections, 3442 unique reads (ever), average 4067 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:13 2022
+: Interval update: 6 read sections, 3448 unique reads (ever), average 5165 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:13 2022
+: Interval update: 7 read sections, 3455 unique reads (ever), average 4418 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:13 2022
+: Interval update: 7 read sections, 3462 unique reads (ever), average 4360 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:13 2022
+: Interval update: 8 read sections, 3470 unique reads (ever), average 4659 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:13 2022
+: Interval update: 9 read sections, 3479 unique reads (ever), average 3597 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 460:23 after stop request.
+Rereceived 451:35 after stop request.
+Mon Jan 24 16:09:13 2022
+: Interval update: 10 read sections, 3487 unique reads (ever), average 2354 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:15 2022
+: Interval update: 10 read sections, 3497 unique reads (ever), average 2519 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:15 2022
+: Interval update: 10 read sections, 3507 unique reads (ever), average 3617 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 452:59 after stop request.
+Mon Jan 24 16:09:15 2022
+: Interval update: 9 read sections, 3515 unique reads (ever), average 4070 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:15 2022
+: Interval update: 10 read sections, 3525 unique reads (ever), average 2954 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:15 2022
+: Interval update: 10 read sections, 3535 unique reads (ever), average 3002 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 241:18 after stop request.
+Mon Jan 24 16:09:15 2022
+: Interval update: 10 read sections, 3544 unique reads (ever), average 2603 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 491:40 after stop request.
+Rereceived 390:102 after stop request.
+Mon Jan 24 16:09:15 2022
+: Interval update: 9 read sections, 3551 unique reads (ever), average 2350 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:16 2022
+: Interval update: 6 read sections, 3557 unique reads (ever), average 4073 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:16 2022
+: Interval update: 7 read sections, 3564 unique reads (ever), average 3658 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:16 2022
+: Interval update: 7 read sections, 3571 unique reads (ever), average 3791 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:16 2022
+: Interval update: 6 read sections, 3577 unique reads (ever), average 4150 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:16 2022
+: Interval update: 6 read sections, 3583 unique reads (ever), average 3870 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:16 2022
+: Interval update: 6 read sections, 3589 unique reads (ever), average 4035 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:16 2022
+: Interval update: 7 read sections, 3596 unique reads (ever), average 3645 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:16 2022
+: Interval update: 8 read sections, 3604 unique reads (ever), average 3499 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:16 2022
+: Interval update: 8 read sections, 3612 unique reads (ever), average 3405 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:16 2022
+: Interval update: 5 read sections, 3617 unique reads (ever), average 4597 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:16 2022
+: Interval update: 6 read sections, 3623 unique reads (ever), average 3635 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:16 2022
+: Interval update: 7 read sections, 3630 unique reads (ever), average 3698 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:17 2022
+: Interval update: 6 read sections, 3636 unique reads (ever), average 5249 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 225:49 after stop request.
+Mon Jan 24 16:09:17 2022
+: Interval update: 9 read sections, 3644 unique reads (ever), average 3230 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:17 2022
+: Interval update: 10 read sections, 3654 unique reads (ever), average 3216 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 494:48 after stop request.
+Mon Jan 24 16:09:17 2022
+: Interval update: 10 read sections, 3663 unique reads (ever), average 3090 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:17 2022
+: Interval update: 8 read sections, 3671 unique reads (ever), average 3896 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 67:63 after stop request.
+Mon Jan 24 16:09:17 2022
+: Interval update: 7 read sections, 3677 unique reads (ever), average 3171 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:17 2022
+: Interval update: 8 read sections, 3685 unique reads (ever), average 3895 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:17 2022
+: Interval update: 6 read sections, 3691 unique reads (ever), average 4047 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:17 2022
+: Interval update: 6 read sections, 3697 unique reads (ever), average 3621 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:17 2022
+: Interval update: 7 read sections, 3704 unique reads (ever), average 3763 samples behind.0 MB raw data, 1 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:17 2022
+: Interval update: 7 read sections, 3711 unique reads (ever), average 3822 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 506:25 after stop request.
+Mon Jan 24 16:09:17 2022
+: Interval update: 6 read sections, 3716 unique reads (ever), average 3460 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:19 2022
+: Interval update: 7 read sections, 3723 unique reads (ever), average 3605 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:19 2022
+: Interval update: 6 read sections, 3729 unique reads (ever), average 3976 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:19 2022
+: Interval update: 6 read sections, 3735 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:19 2022
+: Interval update: 5 read sections, 3740 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:19 2022
+: Interval update: 7 read sections, 3747 unique reads (ever), average 3784 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:19 2022
+: Interval update: 6 read sections, 3753 unique reads (ever), average 4265 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:19 2022
+: Interval update: 6 read sections, 3759 unique reads (ever), average 4128 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:19 2022
+: Interval update: 6 read sections, 3765 unique reads (ever), average 3843 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:19 2022
+: Interval update: 7 read sections, 3772 unique reads (ever), average 3706 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:19 2022
+: Interval update: 5 read sections, 3777 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:19 2022
+: Interval update: 6 read sections, 3783 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:19 2022
+: Interval update: 6 read sections, 3789 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:19 2022
+: Interval update: 6 read sections, 3795 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:19 2022
+: Interval update: 5 read sections, 3800 unique reads (ever), average 4246 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:19 2022
+: Interval update: 6 read sections, 3806 unique reads (ever), average 4138 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:19 2022
+: Interval update: 7 read sections, 3813 unique reads (ever), average 3814 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:19 2022
+: Interval update: 7 read sections, 3820 unique reads (ever), average 4298 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 174:32 after stop request.
+Rereceived 178:33 after stop request.
+Mon Jan 24 16:09:19 2022
+: Interval update: 8 read sections, 3826 unique reads (ever), average 2286 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 399:29 after stop request.
+Rereceived 321:27 after stop request.
+Rereceived 311:34 after stop request.
+Rereceived 329:31 after stop request.
+Rereceived 230:31 after stop request.
+Rereceived 367:32 after stop request.
+Mon Jan 24 16:09:19 2022
+: Interval update: 9 read sections, 3829 unique reads (ever), average 1169 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 414:36 after stop request.
+Mon Jan 24 16:09:20 2022
+: Interval update: 8 read sections, 3836 unique reads (ever), average 5242 samples behind.0 MB raw data, 1 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:20 2022
+: Interval update: 6 read sections, 3842 unique reads (ever), average 3911 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:20 2022
+: Interval update: 5 read sections, 3847 unique reads (ever), average 3981 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 105:28 after stop request.
+Mon Jan 24 16:09:20 2022
+: Interval update: 6 read sections, 3852 unique reads (ever), average 3552 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:20 2022
+: Interval update: 6 read sections, 3858 unique reads (ever), average 4068 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:20 2022
+: Interval update: 6 read sections, 3864 unique reads (ever), average 4375 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:20 2022
+: Interval update: 6 read sections, 3870 unique reads (ever), average 4142 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:20 2022
+: Interval update: 6 read sections, 3876 unique reads (ever), average 4468 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:20 2022
+: Interval update: 5 read sections, 3881 unique reads (ever), average 4543 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:20 2022
+: Interval update: 5 read sections, 3886 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:20 2022
+: Interval update: 6 read sections, 3892 unique reads (ever), average 4244 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:20 2022
+: Interval update: 6 read sections, 3898 unique reads (ever), average 3993 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:20 2022
+: Interval update: 6 read sections, 3904 unique reads (ever), average 3876 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:20 2022
+: Interval update: 7 read sections, 3911 unique reads (ever), average 3920 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:20 2022
+: Interval update: 5 read sections, 3916 unique reads (ever), average 4261 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:20 2022
+: Interval update: 5 read sections, 3921 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:20 2022
+: Interval update: 7 read sections, 3928 unique reads (ever), average 4159 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:20 2022
+: Interval update: 6 read sections, 3934 unique reads (ever), average 4905 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:20 2022
+: Interval update: 7 read sections, 3941 unique reads (ever), average 3981 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 139:35 after stop request.
+Mon Jan 24 16:09:20 2022
+: Interval update: 6 read sections, 3946 unique reads (ever), average 3572 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 357:35 after stop request.
+Rereceived 253:33 after stop request.
+Rereceived 486:32 after stop request.
+Mon Jan 24 16:09:22 2022
+: Interval update: 9 read sections, 3952 unique reads (ever), average 2689 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 8 read sections, 3960 unique reads (ever), average 4739 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 7 read sections, 3967 unique reads (ever), average 3833 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 6 read sections, 3973 unique reads (ever), average 3901 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 7 read sections, 3980 unique reads (ever), average 3931 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 7 read sections, 3987 unique reads (ever), average 4000 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 6 read sections, 3993 unique reads (ever), average 4066 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 7 read sections, 4000 unique reads (ever), average 3784 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 6 read sections, 4006 unique reads (ever), average 4064 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 186:47 after stop request.
+Mon Jan 24 16:09:22 2022
+: Interval update: 5 read sections, 4010 unique reads (ever), average 3224 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 207:66 after stop request.
+Mon Jan 24 16:09:22 2022
+: Interval update: 6 read sections, 4015 unique reads (ever), average 3422 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 5 read sections, 4020 unique reads (ever), average 4241 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 6 read sections, 4026 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 6 read sections, 4032 unique reads (ever), average 3877 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 5 read sections, 4037 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 6 read sections, 4043 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 6 read sections, 4049 unique reads (ever), average 3915 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 6 read sections, 4055 unique reads (ever), average 3650 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 6 read sections, 4061 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 6 read sections, 4067 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 5 read sections, 4072 unique reads (ever), average 4028 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 6 read sections, 4078 unique reads (ever), average 4028 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 6 read sections, 4084 unique reads (ever), average 3849 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 6 read sections, 4090 unique reads (ever), average 3760 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 5 read sections, 4095 unique reads (ever), average 4028 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 6 read sections, 4101 unique reads (ever), average 4228 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:22 2022
+: Interval update: 3 read sections, 4104 unique reads (ever), average 4028 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 59:30 after stop request.
+Rereceived 92:32 after stop request.
+Rereceived 168:32 after stop request.
+Rereceived 337:30 after stop request.
+Rereceived 58:31 after stop request.
+Rereceived 297:30 after stop request.
+Rereceived 373:28 after stop request.
+Mon Jan 24 16:09:22 2022
+: Interval update: 10 read sections, 4107 unique reads (ever), average 919 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 498:33 after stop request.
+Rereceived 501:31 after stop request.
+Mon Jan 24 16:09:23 2022
+: Interval update: 9 read sections, 4114 unique reads (ever), average 2711 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:23 2022
+: Interval update: 10 read sections, 4124 unique reads (ever), average 3556 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:23 2022
+: Interval update: 10 read sections, 4134 unique reads (ever), average 3892 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:23 2022
+: Interval update: 10 read sections, 4144 unique reads (ever), average 4114 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:23 2022
+: Interval update: 10 read sections, 4154 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:23 2022
+: Interval update: 9 read sections, 4163 unique reads (ever), average 4326 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:23 2022
+: Interval update: 9 read sections, 4172 unique reads (ever), average 4249 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:23 2022
+: Interval update: 9 read sections, 4181 unique reads (ever), average 4523 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 189:33 after stop request.
+Mon Jan 24 16:09:23 2022
+: Interval update: 10 read sections, 4190 unique reads (ever), average 3563 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:23 2022
+: Interval update: 9 read sections, 4199 unique reads (ever), average 3663 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 254:55 after stop request.
+Rereceived 306:30 after stop request.
+Mon Jan 24 16:09:23 2022
+: Interval update: 9 read sections, 4206 unique reads (ever), average 2316 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 410:32 after stop request.
+Mon Jan 24 16:09:23 2022
+: Interval update: 9 read sections, 4214 unique reads (ever), average 3049 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:25 2022
+: Interval update: 9 read sections, 4223 unique reads (ever), average 4127 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:25 2022
+: Interval update: 10 read sections, 4233 unique reads (ever), average 3760 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:25 2022
+: Interval update: 9 read sections, 4242 unique reads (ever), average 4178 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:25 2022
+: Interval update: 9 read sections, 4251 unique reads (ever), average 4225 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:25 2022
+: Interval update: 9 read sections, 4260 unique reads (ever), average 4287 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:25 2022
+: Interval update: 8 read sections, 4268 unique reads (ever), average 4624 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:25 2022
+: Interval update: 9 read sections, 4277 unique reads (ever), average 4200 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:25 2022
+: Interval update: 9 read sections, 4286 unique reads (ever), average 4231 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:25 2022
+: Interval update: 9 read sections, 4295 unique reads (ever), average 4179 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:25 2022
+: Interval update: 10 read sections, 4305 unique reads (ever), average 3997 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:25 2022
+: Interval update: 10 read sections, 4315 unique reads (ever), average 4028 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:25 2022
+: Interval update: 8 read sections, 4323 unique reads (ever), average 4365 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:25 2022
+: Interval update: 8 read sections, 4331 unique reads (ever), average 4412 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:25 2022
+: Interval update: 8 read sections, 4339 unique reads (ever), average 4224 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:25 2022
+: Interval update: 10 read sections, 4349 unique reads (ever), average 3825 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:25 2022
+: Interval update: 8 read sections, 4357 unique reads (ever), average 4146 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 223:68 after stop request.
+Rereceived 151:49 after stop request.
+Mon Jan 24 16:09:25 2022
+: Interval update: 10 read sections, 4365 unique reads (ever), average 3001 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:25 2022
+: Interval update: 9 read sections, 4374 unique reads (ever), average 2700 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 6 read sections, 4380 unique reads (ever), average 4309 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 6 read sections, 4386 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 6 read sections, 4392 unique reads (ever), average 4095 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 6 read sections, 4398 unique reads (ever), average 3786 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 6 read sections, 4404 unique reads (ever), average 3911 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 8 read sections, 4412 unique reads (ever), average 4079 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 7 read sections, 4419 unique reads (ever), average 3838 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 7 read sections, 4426 unique reads (ever), average 3936 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 5 read sections, 4431 unique reads (ever), average 3962 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 6 read sections, 4437 unique reads (ever), average 3810 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 5 read sections, 4442 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 6 read sections, 4448 unique reads (ever), average 3932 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 5 read sections, 4453 unique reads (ever), average 4445 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 6 read sections, 4459 unique reads (ever), average 3775 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 5 read sections, 4464 unique reads (ever), average 4739 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 7 read sections, 4471 unique reads (ever), average 3842 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 6 read sections, 4477 unique reads (ever), average 3730 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:26 2022
+: Interval update: 4 read sections, 4481 unique reads (ever), average 4262 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:28 2022
+: Interval update: 8 read sections, 4489 unique reads (ever), average 4980 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:28 2022
+: Interval update: 6 read sections, 4495 unique reads (ever), average 4229 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:28 2022
+: Interval update: 6 read sections, 4501 unique reads (ever), average 4254 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:28 2022
+: Interval update: 5 read sections, 4506 unique reads (ever), average 4137 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 147:88 after stop request.
+Mon Jan 24 16:09:28 2022
+: Interval update: 7 read sections, 4512 unique reads (ever), average 3695 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:28 2022
+: Interval update: 6 read sections, 4518 unique reads (ever), average 3736 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:28 2022
+: Interval update: 6 read sections, 4524 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:28 2022
+: Interval update: 6 read sections, 4530 unique reads (ever), average 4163 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:28 2022
+: Interval update: 6 read sections, 4536 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:28 2022
+: Interval update: 5 read sections, 4541 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:28 2022
+: Interval update: 5 read sections, 4546 unique reads (ever), average 4103 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:28 2022
+: Interval update: 7 read sections, 4553 unique reads (ever), average 3627 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:29 2022
+: Interval update: 8 read sections, 4561 unique reads (ever), average 4606 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 493:27 after stop request.
+Rereceived 502:34 after stop request.
+Mon Jan 24 16:09:29 2022
+: Interval update: 8 read sections, 4567 unique reads (ever), average 3742 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:29 2022
+: Interval update: 5 read sections, 4572 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:29 2022
+: Interval update: 6 read sections, 4578 unique reads (ever), average 3797 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:29 2022
+: Interval update: 6 read sections, 4584 unique reads (ever), average 4199 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:29 2022
+: Interval update: 7 read sections, 4591 unique reads (ever), average 3658 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:29 2022
+: Interval update: 6 read sections, 4597 unique reads (ever), average 4187 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:29 2022
+: Interval update: 6 read sections, 4603 unique reads (ever), average 3933 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:29 2022
+: Interval update: 6 read sections, 4609 unique reads (ever), average 3712 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:29 2022
+: Interval update: 5 read sections, 4614 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:29 2022
+: Interval update: 5 read sections, 4619 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:29 2022
+: Interval update: 4 read sections, 4623 unique reads (ever), average 3804 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:30 2022
+: Interval update: 8 read sections, 4631 unique reads (ever), average 3837 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:30 2022
+: Interval update: 6 read sections, 4637 unique reads (ever), average 4985 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:30 2022
+: Interval update: 9 read sections, 4646 unique reads (ever), average 4562 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:30 2022
+: Interval update: 8 read sections, 4654 unique reads (ever), average 4253 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:30 2022
+: Interval update: 9 read sections, 4663 unique reads (ever), average 4463 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:30 2022
+: Interval update: 8 read sections, 4671 unique reads (ever), average 4308 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:30 2022
+: Interval update: 9 read sections, 4680 unique reads (ever), average 4100 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:31 2022
+: Interval update: 10 read sections, 4690 unique reads (ever), average 3346 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 499:25 after stop request.
+Mon Jan 24 16:09:32 2022
+: Interval update: 7 read sections, 4696 unique reads (ever), average 4849 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4702 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4708 unique reads (ever), average 3910 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4714 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4720 unique reads (ever), average 3926 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 5 read sections, 4725 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4731 unique reads (ever), average 4347 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 5 read sections, 4736 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 5 read sections, 4741 unique reads (ever), average 4558 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 8 read sections, 4749 unique reads (ever), average 3427 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4755 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 5 read sections, 4760 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4766 unique reads (ever), average 3644 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4772 unique reads (ever), average 3989 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4778 unique reads (ever), average 3718 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4784 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 5 read sections, 4789 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4795 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 5 read sections, 4800 unique reads (ever), average 4106 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4806 unique reads (ever), average 3783 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 5 read sections, 4811 unique reads (ever), average 4206 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4817 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 5 read sections, 4822 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4828 unique reads (ever), average 4137 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 5 read sections, 4833 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4839 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4845 unique reads (ever), average 3608 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 5 read sections, 4850 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 5 read sections, 4855 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4861 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 5 read sections, 4866 unique reads (ever), average 4282 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4872 unique reads (ever), average 4100 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 5 read sections, 4877 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 6 read sections, 4883 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:32 2022
+: Interval update: 5 read sections, 4888 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:33 2022
+: Interval update: 9 read sections, 4897 unique reads (ever), average 3404 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:33 2022
+: Interval update: 8 read sections, 4905 unique reads (ever), average 3314 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:33 2022
+: Interval update: 6 read sections, 4911 unique reads (ever), average 4497 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:33 2022
+: Interval update: 9 read sections, 4920 unique reads (ever), average 3065 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:35 2022
+: Interval update: 8 read sections, 4928 unique reads (ever), average 6215 samples behind.0 MB raw data, 1 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:35 2022
+: Interval update: 7 read sections, 4935 unique reads (ever), average 5527 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:35 2022
+: Interval update: 7 read sections, 4942 unique reads (ever), average 5134 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 390:122 after stop request.
+Mon Jan 24 16:09:35 2022
+: Interval update: 6 read sections, 4947 unique reads (ever), average 4684 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 457:67 after stop request.
+Mon Jan 24 16:09:35 2022
+: Interval update: 7 read sections, 4953 unique reads (ever), average 3724 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:36 2022
+: Interval update: 8 read sections, 4961 unique reads (ever), average 4497 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:36 2022
+: Interval update: 10 read sections, 4971 unique reads (ever), average 3134 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:36 2022
+: Interval update: 10 read sections, 4981 unique reads (ever), average 3492 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:36 2022
+: Interval update: 10 read sections, 4991 unique reads (ever), average 3582 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:36 2022
+: Interval update: 10 read sections, 5001 unique reads (ever), average 3581 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:36 2022
+: Interval update: 10 read sections, 5011 unique reads (ever), average 3581 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:36 2022
+: Interval update: 10 read sections, 5021 unique reads (ever), average 3581 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:36 2022
+: Interval update: 10 read sections, 5031 unique reads (ever), average 3581 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:36 2022
+: Interval update: 10 read sections, 5041 unique reads (ever), average 3581 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:36 2022
+: Interval update: 10 read sections, 5051 unique reads (ever), average 3580 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:36 2022
+: Interval update: 10 read sections, 5061 unique reads (ever), average 3580 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:36 2022
+: Interval update: 10 read sections, 5071 unique reads (ever), average 3509 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:36 2022
+: Interval update: 10 read sections, 5081 unique reads (ever), average 3580 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 160:79 after stop request.
+Mon Jan 24 16:09:36 2022
+: Interval update: 9 read sections, 5089 unique reads (ever), average 3548 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:36 2022
+: Interval update: 7 read sections, 5096 unique reads (ever), average 4745 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:36 2022
+: Interval update: 10 read sections, 5106 unique reads (ever), average 3476 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:36 2022
+: Interval update: 10 read sections, 5116 unique reads (ever), average 3392 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 8 read sections, 5124 unique reads (ever), average 5295 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5134 unique reads (ever), average 3983 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5144 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5154 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5164 unique reads (ever), average 4032 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5174 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5184 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5194 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5204 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5214 unique reads (ever), average 3989 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5224 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5234 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5244 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5254 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5264 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5274 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5284 unique reads (ever), average 4008 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5294 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5304 unique reads (ever), average 4028 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5314 unique reads (ever), average 4028 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5324 unique reads (ever), average 4028 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5334 unique reads (ever), average 4028 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5344 unique reads (ever), average 3994 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5354 unique reads (ever), average 3954 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5364 unique reads (ever), average 4027 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5374 unique reads (ever), average 4027 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5384 unique reads (ever), average 4027 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5394 unique reads (ever), average 3819 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5404 unique reads (ever), average 4026 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5414 unique reads (ever), average 4026 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5424 unique reads (ever), average 4026 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 6 read sections, 5430 unique reads (ever), average 4026 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5440 unique reads (ever), average 3989 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5450 unique reads (ever), average 3945 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5460 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 283:40 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5469 unique reads (ever), average 3624 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 289:36 after stop request.
+Rereceived 298:32 after stop request.
+Rereceived 284:30 after stop request.
+Rereceived 290:14 after stop request.
+Rereceived 293:14 after stop request.
+Rereceived 287:81 after stop request.
+Rereceived 288:48 after stop request.
+Rereceived 285:37 after stop request.
+Rereceived 294:39 after stop request.
+Rereceived 291:48 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5469 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 304:35 after stop request.
+Rereceived 316:24 after stop request.
+Rereceived 313:50 after stop request.
+Rereceived 307:38 after stop request.
+Rereceived 302:31 after stop request.
+Rereceived 299:35 after stop request.
+Rereceived 317:32 after stop request.
+Rereceived 311:38 after stop request.
+Rereceived 300:40 after stop request.
+Rereceived 309:38 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5469 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 318:21 after stop request.
+Rereceived 321:32 after stop request.
+Rereceived 327:9 after stop request.
+Rereceived 328:224 after stop request.
+Rereceived 322:26 after stop request.
+Rereceived 325:10 after stop request.
+Rereceived 319:26 after stop request.
+Rereceived 320:24 after stop request.
+Rereceived 326:83 after stop request.
+Rereceived 323:60 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5469 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 336:12 after stop request.
+Rereceived 348:12 after stop request.
+Rereceived 342:26 after stop request.
+Rereceived 339:116 after stop request.
+Rereceived 337:35 after stop request.
+Rereceived 340:100 after stop request.
+Rereceived 334:30 after stop request.
+Rereceived 343:69 after stop request.
+Rereceived 329:41 after stop request.
+Rereceived 341:102 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5469 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 350:34 after stop request.
+Rereceived 365:34 after stop request.
+Rereceived 362:33 after stop request.
+Rereceived 359:47 after stop request.
+Rereceived 371:39 after stop request.
+Rereceived 354:39 after stop request.
+Rereceived 369:36 after stop request.
+Rereceived 363:38 after stop request.
+Rereceived 349:74 after stop request.
+Rereceived 355:39 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5469 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 385:28 after stop request.
+Rereceived 388:38 after stop request.
+Rereceived 372:44 after stop request.
+Rereceived 386:51 after stop request.
+Rereceived 381:26 after stop request.
+Rereceived 384:36 after stop request.
+Rereceived 378:63 after stop request.
+Rereceived 375:20 after stop request.
+Rereceived 376:35 after stop request.
+Rereceived 387:34 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5469 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 402:39 after stop request.
+Rereceived 399:34 after stop request.
+Rereceived 394:15 after stop request.
+Rereceived 403:71 after stop request.
+Rereceived 392:28 after stop request.
+Rereceived 389:72 after stop request.
+Rereceived 398:24 after stop request.
+Rereceived 395:89 after stop request.
+Rereceived 407:29 after stop request.
+Rereceived 390:123 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5469 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 420:25 after stop request.
+Rereceived 431:10 after stop request.
+Rereceived 414:41 after stop request.
+Rereceived 417:30 after stop request.
+Rereceived 432:41 after stop request.
+Rereceived 429:40 after stop request.
+Rereceived 424:19 after stop request.
+Rereceived 421:28 after stop request.
+Rereceived 413:30 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5470 unique reads (ever), average 305 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 443:32 after stop request.
+Rereceived 441:41 after stop request.
+Rereceived 435:32 after stop request.
+Rereceived 450:19 after stop request.
+Rereceived 447:40 after stop request.
+Rereceived 433:39 after stop request.
+Rereceived 445:34 after stop request.
+Rereceived 442:10 after stop request.
+Rereceived 439:22 after stop request.
+Rereceived 437:24 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5470 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 463:36 after stop request.
+Rereceived 464:23 after stop request.
+Rereceived 455:12 after stop request.
+Rereceived 456:19 after stop request.
+Rereceived 453:22 after stop request.
+Rereceived 465:66 after stop request.
+Rereceived 457:68 after stop request.
+Rereceived 451:50 after stop request.
+Rereceived 469:45 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5471 unique reads (ever), average 237 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 484:32 after stop request.
+Rereceived 478:50 after stop request.
+Rereceived 475:20 after stop request.
+Rereceived 490:16 after stop request.
+Rereceived 473:76 after stop request.
+Rereceived 488:28 after stop request.
+Rereceived 479:50 after stop request.
+Rereceived 480:48 after stop request.
+Rereceived 474:58 after stop request.
+Rereceived 489:37 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5471 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 496:27 after stop request.
+Rereceived 505:62 after stop request.
+Rereceived 502:37 after stop request.
+Rereceived 506:30 after stop request.
+Rereceived 509:19 after stop request.
+Rereceived 503:59 after stop request.
+Rereceived 492:12 after stop request.
+Rereceived 504:26 after stop request.
+Rereceived 501:35 after stop request.
+Rereceived 498:36 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5471 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 510:16 after stop request.
+Rereceived 512:35 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 2 read sections, 5471 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 199:14 after stop request.
+Rereceived 197:26 after stop request.
+Rereceived 191:22 after stop request.
+Rereceived 189:38 after stop request.
+Rereceived 195:35 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5476 unique reads (ever), average 1400 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 208:16 after stop request.
+Rereceived 202:40 after stop request.
+Rereceived 214:37 after stop request.
+Rereceived 200:84 after stop request.
+Rereceived 203:19 after stop request.
+Rereceived 206:59 after stop request.
+Rereceived 204:75 after stop request.
+Rereceived 213:53 after stop request.
+Rereceived 207:72 after stop request.
+Rereceived 210:25 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5476 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 225:54 after stop request.
+Rereceived 219:41 after stop request.
+Rereceived 229:213 after stop request.
+Rereceived 223:79 after stop request.
+Rereceived 224:43 after stop request.
+Rereceived 221:26 after stop request.
+Rereceived 218:63 after stop request.
+Rereceived 215:103 after stop request.
+Rereceived 230:35 after stop request.
+Rereceived 216:20 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5476 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 237:34 after stop request.
+Rereceived 240:45 after stop request.
+Rereceived 234:37 after stop request.
+Rereceived 231:20 after stop request.
+Rereceived 232:37 after stop request.
+Rereceived 241:25 after stop request.
+Rereceived 238:40 after stop request.
+Rereceived 233:40 after stop request.
+Rereceived 236:18 after stop request.
+Rereceived 239:43 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5476 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 251:43 after stop request.
+Rereceived 252:37 after stop request.
+Rereceived 249:36 after stop request.
+Rereceived 246:21 after stop request.
+Rereceived 243:22 after stop request.
+Rereceived 244:36 after stop request.
+Rereceived 247:68 after stop request.
+Rereceived 250:30 after stop request.
+Rereceived 248:28 after stop request.
+Rereceived 242:35 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5476 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 254:66 after stop request.
+Rereceived 269:22 after stop request.
+Rereceived 264:51 after stop request.
+Rereceived 261:42 after stop request.
+Rereceived 255:31 after stop request.
+Rereceived 256:31 after stop request.
+Rereceived 253:38 after stop request.
+Rereceived 267:26 after stop request.
+Rereceived 268:52 after stop request.
+Rereceived 262:76 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5476 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 292:46 after stop request.
+Rereceived 271:31 after stop request.
+Rereceived 286:92 after stop request.
+Rereceived 272:33 after stop request.
+Rereceived 278:16 after stop request.
+Rereceived 275:31 after stop request.
+Rereceived 276:12 after stop request.
+Rereceived 270:102 after stop request.
+Rereceived 279:11 after stop request.
+Rereceived 280:40 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5476 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 324:49 after stop request.
+Rereceived 301:38 after stop request.
+Rereceived 295:31 after stop request.
+Rereceived 310:35 after stop request.
+Rereceived 296:38 after stop request.
+Rereceived 308:32 after stop request.
+Rereceived 297:34 after stop request.
+Rereceived 312:54 after stop request.
+Rereceived 306:34 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 9 read sections, 5476 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 347:38 after stop request.
+Rereceived 333:40 after stop request.
+Rereceived 357:38 after stop request.
+Rereceived 331:46 after stop request.
+Rereceived 364:34 after stop request.
+Rereceived 332:60 after stop request.
+Rereceived 367:36 after stop request.
+Rereceived 335:50 after stop request.
+Rereceived 338:73 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5477 unique reads (ever), average 324 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 379:39 after stop request.
+Rereceived 368:33 after stop request.
+Rereceived 400:45 after stop request.
+Rereceived 374:39 after stop request.
+Rereceived 404:64 after stop request.
+Rereceived 401:32 after stop request.
+Rereceived 393:34 after stop request.
+Rereceived 373:31 after stop request.
+Rereceived 405:45 after stop request.
+Rereceived 370:19 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5477 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 411:36 after stop request.
+Rereceived 444:23 after stop request.
+Rereceived 418:65 after stop request.
+Rereceived 436:38 after stop request.
+Rereceived 430:31 after stop request.
+Rereceived 416:62 after stop request.
+Rereceived 428:26 after stop request.
+Rereceived 425:53 after stop request.
+Rereceived 440:35 after stop request.
+Rereceived 434:23 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5477 unique reads (ever), average 0 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 481:27 after stop request.
+Rereceived 446:35 after stop request.
+Rereceived 461:45 after stop request.
+Rereceived 448:27 after stop request.
+Rereceived 477:85 after stop request.
+Rereceived 460:30 after stop request.
+Rereceived 486:39 after stop request.
+Rereceived 483:40 after stop request.
+Mon Jan 24 16:09:38 2022
+: Interval update: 10 read sections, 5479 unique reads (ever), average 475 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 495:51 after stop request.
+Rereceived 507:37 after stop request.
+Rereceived 493:29 after stop request.
+Rereceived 499:26 after stop request.
+Rereceived 500:48 after stop request.
+Mon Jan 24 16:09:39 2022
+: Interval update: 10 read sections, 5484 unique reads (ever), average 2222 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:39 2022
+: Interval update: 8 read sections, 5492 unique reads (ever), average 4276 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:39 2022
+: Interval update: 9 read sections, 5501 unique reads (ever), average 4152 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 511:51 after stop request.
+Rereceived 494:56 after stop request.
+Mon Jan 24 16:09:39 2022
+: Interval update: 8 read sections, 5507 unique reads (ever), average 3567 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:41 2022
+: Interval update: 9 read sections, 5516 unique reads (ever), average 4836 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 225:55 after stop request.
+Rereceived 468:68 after stop request.
+Rereceived 142:132 after stop request.
+Mon Jan 24 16:09:41 2022
+: Interval update: 9 read sections, 5522 unique reads (ever), average 2846 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:41 2022
+: Interval update: 9 read sections, 5531 unique reads (ever), average 3890 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:41 2022
+: Interval update: 8 read sections, 5539 unique reads (ever), average 3033 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 508:43 after stop request.
+Rereceived 471:83 after stop request.
+Rereceived 472:80 after stop request.
+Mon Jan 24 16:09:42 2022
+: Interval update: 8 read sections, 5544 unique reads (ever), average 2057 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:42 2022
+: Interval update: 8 read sections, 5552 unique reads (ever), average 4103 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:42 2022
+: Interval update: 7 read sections, 5559 unique reads (ever), average 3941 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:44 2022
+: Interval update: 6 read sections, 5565 unique reads (ever), average 7556 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:44 2022
+: Interval update: 7 read sections, 5572 unique reads (ever), average 4204 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:44 2022
+: Interval update: 5 read sections, 5577 unique reads (ever), average 5155 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:44 2022
+: Interval update: 4 read sections, 5581 unique reads (ever), average 5757 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:44 2022
+: Interval update: 6 read sections, 5587 unique reads (ever), average 4891 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:45 2022
+: Interval update: 6 read sections, 5593 unique reads (ever), average 7003 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:45 2022
+: Interval update: 6 read sections, 5599 unique reads (ever), average 4059 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:45 2022
+: Interval update: 6 read sections, 5605 unique reads (ever), average 4058 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:45 2022
+: Interval update: 6 read sections, 5611 unique reads (ever), average 3735 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:45 2022
+: Interval update: 6 read sections, 5617 unique reads (ever), average 3947 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:45 2022
+: Interval update: 5 read sections, 5622 unique reads (ever), average 4222 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:45 2022
+: Interval update: 5 read sections, 5627 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:45 2022
+: Interval update: 6 read sections, 5633 unique reads (ever), average 4154 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:45 2022
+: Interval update: 6 read sections, 5639 unique reads (ever), average 3792 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:45 2022
+: Interval update: 6 read sections, 5645 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:45 2022
+: Interval update: 5 read sections, 5650 unique reads (ever), average 4434 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:45 2022
+: Interval update: 6 read sections, 5656 unique reads (ever), average 3885 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:45 2022
+: Interval update: 3 read sections, 5659 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:47 2022
+: Interval update: 5 read sections, 5664 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:47 2022
+: Interval update: 5 read sections, 5669 unique reads (ever), average 4211 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:47 2022
+: Interval update: 5 read sections, 5674 unique reads (ever), average 4425 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:47 2022
+: Interval update: 6 read sections, 5680 unique reads (ever), average 4294 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:47 2022
+: Interval update: 5 read sections, 5685 unique reads (ever), average 4185 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:47 2022
+: Interval update: 5 read sections, 5690 unique reads (ever), average 4031 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:47 2022
+: Interval update: 6 read sections, 5696 unique reads (ever), average 3774 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:47 2022
+: Interval update: 5 read sections, 5701 unique reads (ever), average 4828 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:47 2022
+: Interval update: 6 read sections, 5707 unique reads (ever), average 4088 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:47 2022
+: Interval update: 6 read sections, 5713 unique reads (ever), average 3712 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:47 2022
+: Interval update: 6 read sections, 5719 unique reads (ever), average 3595 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:48 2022
+: Interval update: 9 read sections, 5728 unique reads (ever), average 3425 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:48 2022
+: Interval update: 10 read sections, 5738 unique reads (ever), average 2853 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:48 2022
+: Interval update: 8 read sections, 5746 unique reads (ever), average 3487 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:48 2022
+: Interval update: 10 read sections, 5756 unique reads (ever), average 3134 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:48 2022
+: Interval update: 10 read sections, 5766 unique reads (ever), average 3348 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:48 2022
+: Interval update: 10 read sections, 5776 unique reads (ever), average 3582 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:48 2022
+: Interval update: 9 read sections, 5785 unique reads (ever), average 3944 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:48 2022
+: Interval update: 10 read sections, 5795 unique reads (ever), average 4009 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:48 2022
+: Interval update: 6 read sections, 5801 unique reads (ever), average 4355 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:49 2022
+: Interval update: 8 read sections, 5809 unique reads (ever), average 3417 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:49 2022
+: Interval update: 8 read sections, 5817 unique reads (ever), average 3473 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 7 read sections, 5824 unique reads (ever), average 6341 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 6 read sections, 5830 unique reads (ever), average 4189 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 7 read sections, 5837 unique reads (ever), average 4362 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 7 read sections, 5844 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 5 read sections, 5849 unique reads (ever), average 4309 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 6 read sections, 5855 unique reads (ever), average 4103 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 5 read sections, 5860 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 7 read sections, 5867 unique reads (ever), average 3793 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 7 read sections, 5874 unique reads (ever), average 3955 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 7 read sections, 5881 unique reads (ever), average 3930 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 6 read sections, 5887 unique reads (ever), average 4186 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 8 read sections, 5895 unique reads (ever), average 4203 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 6 read sections, 5901 unique reads (ever), average 4109 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 6 read sections, 5907 unique reads (ever), average 4109 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 7 read sections, 5914 unique reads (ever), average 3954 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 6 read sections, 5920 unique reads (ever), average 4189 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 7 read sections, 5927 unique reads (ever), average 3900 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 6 read sections, 5933 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 8 read sections, 5941 unique reads (ever), average 3752 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 6 read sections, 5947 unique reads (ever), average 4078 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 6 read sections, 5953 unique reads (ever), average 4069 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 6 read sections, 5959 unique reads (ever), average 4224 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 7 read sections, 5966 unique reads (ever), average 3965 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:50 2022
+: Interval update: 7 read sections, 5973 unique reads (ever), average 3936 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:51 2022
+: Interval update: 7 read sections, 5980 unique reads (ever), average 4021 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:51 2022
+: Interval update: 8 read sections, 5988 unique reads (ever), average 4178 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:52 2022
+: Interval update: 8 read sections, 5996 unique reads (ever), average 3937 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:52 2022
+: Interval update: 8 read sections, 6004 unique reads (ever), average 3568 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:52 2022
+: Interval update: 8 read sections, 6012 unique reads (ever), average 4027 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:52 2022
+: Interval update: 7 read sections, 6019 unique reads (ever), average 3948 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:52 2022
+: Interval update: 7 read sections, 6026 unique reads (ever), average 3817 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:52 2022
+: Interval update: 7 read sections, 6033 unique reads (ever), average 3688 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:52 2022
+: Interval update: 5 read sections, 6038 unique reads (ever), average 4030 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:52 2022
+: Interval update: 6 read sections, 6044 unique reads (ever), average 3848 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:52 2022
+: Interval update: 6 read sections, 6050 unique reads (ever), average 4343 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:52 2022
+: Interval update: 5 read sections, 6055 unique reads (ever), average 4029 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:52 2022
+: Interval update: 6 read sections, 6061 unique reads (ever), average 4196 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:52 2022
+: Interval update: 6 read sections, 6067 unique reads (ever), average 3919 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Mon Jan 24 16:09:52 2022
+: Interval update: 6 read sections, 6073 unique reads (ever), average 4429 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 89:40 after stop request.
+Rereceived 105:37 after stop request.
+Rereceived 56:29 after stop request.
+Mon Jan 24 16:09:52 2022
+: Interval update: 9 read sections, 6079 unique reads (ever), average 1927 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.
+Rereceived 164:42 after stop request.
+Rereceived 170:37 after stop request.
+Rereceived 229:219 after stop request.
+Rereceived 244:38 after stop request.
+Rereceived 183:37 after stop request.
+Rereceived 172:30 after stop request.
+Rereceived 178:42 after stop request.
+Mon Jan 24 16:09:52 2022
+: Interval update: 10 read sections, 6082 unique reads (ever), average 778 samples behind.0 MB raw data, 0 reads in queue, 1 reads missed, -1250560528 chunks replaced.

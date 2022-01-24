@@ -1,5 +1,6 @@
 #include "minknow_api/data_client.h"
 
+#include <ctime>
 #include <memory>
 #include <mutex>
 #include <queue>
@@ -48,6 +49,11 @@ using namespace Data;
   - a queue (insertion_order) with channel_id to maintain insertion order
 */
 
+ReadCache::ReadCache(int max_size) : max_size(max_size) {
+  missed = 0;
+  replaced = 0;
+}
+
 // Append a new entry to data_queue by channel_id as key and data as value
 void ReadCache::set_item(u_int32_t channel,
                          GetLiveReadsResponse_ReadData data) {
@@ -85,6 +91,10 @@ void ReadCache::set_item(u_int32_t channel,
   insertion_order.push_back(channel);
   cache_mtx.unlock();
 }
+
+int ReadCache::get_missed() { return missed; }
+
+int ReadCache::get_replaced() { return replaced; }
 
 // Thread safe method to retrieve data by channel_id key
 GetLiveReadsResponse_ReadData ReadCache::get_item(u_int32_t channel) {
@@ -134,11 +144,16 @@ int ReadCache::get_size(bool safe) {
   return result;
 }
 
-DataClient::DataClient(std::shared_ptr<Channel> channel, int size,
-                       int action_batch)
+DataClient::DataClient(std::shared_ptr<Channel> channel, int cache_size,
+                       int action_batch, bool filter_strands, bool one_chunk,
+                       std::unordered_set<std::string> prefilter_classes)
     : stub_(DataService::NewStub(channel)),
-      data_queue(size),
-      action_batch(action_batch) {
+      data_queue(cache_size),
+      action_batch(action_batch),
+      filter_strands(filter_strands),
+      one_chunk(one_chunk),
+      prefilter_classes(prefilter_classes),
+      acq_client(channel) {
   std::cout << "Connected to DataService" << std::endl;
 }
 
@@ -167,8 +182,22 @@ void DataClient::read_live_results() {
       std::string,
       std::unordered_map<GetLiveReadsResponse_ActionResponse_Response, int>>
       response_counter;
-  // Never close the stream
+
   GetLiveReadsResponse response;
+  std::unordered_set<std::string> unique_reads;
+  int read_count = 0;
+  int samples_behind = 0;
+  int raw_data_bytes = 0;
+
+  // Decide whether you need prefiltering
+  if (filter_strands) {
+    if (prefilter_classes.size() == 0) {
+      std::cout << "Read filtering set but no filter classes given."
+                << std::endl;
+    }
+  }
+
+  // Never close the stream
   while (stream->Read(&response)) {
     if (response.action_responses().size() > 0) {
       for (GetLiveReadsResponse_ActionResponse action_response :
@@ -176,15 +205,56 @@ void DataClient::read_live_results() {
         // Get the action via ID
         std::string action_type = sent_actions[action_response.action_id()];
         response_counter[action_type][action_response.response()]++;
-
-        std::cout << action_type << " " << action_response.response() << " "
-                  << response_counter[action_type][action_response.response()]
-                  << std::endl;
       }
     }
-    for (auto entry : response.channels()) {  // .first refers to channel id
-      data_queue.set_item(entry.first, entry.second);
+    // .first refers to channel id and .second refers to read data
+    for (auto entry : response.channels()) {
+      std::pair<u_int64_t, u_int64_t> progress =
+          acq_client.get_raw_per_channel();
+      u_int32_t channel = entry.first;
+      GetLiveReadsResponse_ReadData read_data = entry.second;
+      read_count++;
+      if (one_chunk) {
+        if (unique_reads.contains(read_data.id())) {
+          std::cout << "Rereceived " << channel << ":" << read_data.number()
+                    << " after stop request." << std::endl;
+          continue;
+        }
+        put_action(channel, read_data.number(), "stop_further_data");
+      }
+      unique_reads.insert(read_data.id());
+      samples_behind += progress.first - read_data.chunk_start_sample();
+      raw_data_bytes += read_data.raw_data().size();
+
+      bool strand_like = false;
+      for (u_int32_t classification : read_data.chunk_classifications()) {
+        if (!read_classification_map.contains(classification)) {
+          continue;
+        }
+        if (prefilter_classes.contains(
+                read_classification_map.at(classification))) {
+          strand_like = true;
+          break;
+        }
+      }
+      if (!filter_strands || strand_like) {
+        data_queue.set_item(channel, read_data);
+      }
     }
+
+    time_t tmNow = time(0);
+    char* dt = ctime(&tmNow);
+    std::cout << dt << ": Interval update: " << read_count << " read sections, "
+              << unique_reads.size() << " unique reads (ever), average "
+              << samples_behind / read_count << " samples behind."
+              << (float)raw_data_bytes / 1024 / 1024 << " MB raw data, "
+              << data_queue.get_size(true) << " reads in queue, "
+              << data_queue.get_missed() << " reads missed, "
+              << data_queue.get_replaced() << " chunks replaced." << std::endl;
+
+    read_count = 0;
+    samples_behind = 0;
+    raw_data_bytes = 0;
   }
 }
 
