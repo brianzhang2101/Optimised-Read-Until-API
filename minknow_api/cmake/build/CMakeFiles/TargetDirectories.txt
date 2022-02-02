@@ -1,4 +1,0 @@
-/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/CMakeFiles/rg_grpc_proto.dir
-/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/CMakeFiles/read_until.dir
-/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/CMakeFiles/edit_cache.dir
-/Users/brianzhang/Documents/grpc/examples/cpp/minknow_api/cmake/build/CMakeFiles/rebuild_cache.dir

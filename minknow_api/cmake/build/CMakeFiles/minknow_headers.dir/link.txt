@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libminknow_headers.a CMakeFiles/minknow_headers.dir/manager_client.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libminknow_headers.a
