@@ -62,7 +62,7 @@ How it Works
 ------------
 ![Diagram of Files](diagram.png)
 
-The file structure of this project differs to that of the original Read Until. Logic is spread out over various files and centralised to ```base.cpp``` avoid excessive method forwarding.
+The file structure of this project differs to that of the original Read Until. Logic is spread out over various files and is utilised via ```base.cpp``` to avoid excessive method forwarding.
 
 Each file contains documentation detailing the purposes of every function and how they intertwine.
 
