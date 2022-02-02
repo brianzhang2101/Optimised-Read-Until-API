@@ -1,6 +1,8 @@
 # Optimised-Read-Until-API
 
-This is an attempt to recreate [Read Until API](https://github.com/nanoporetech/read_until_api) as part of my *summer research internship at Garvan Medical Research Institute*. Proto files are sourced from [Oxford Nanopore Technologies](https://github.com/nanoporetech/minknow_api/tree/master/proto/minknow_api). MinKNOW API relies on [GRPC](https://grpc.io/), where the MinKNOW software contains the server and Read Until enacts as the client. Researchers can utilise Read Until with a decision maker to filter strands during genome sequencing. 
+This is an attempt to recreate [Read Until API](https://github.com/nanoporetech/read_until_api) as part of my summer research internship at *Garvan Medical Research Institute*.
+
+Proto files are sourced from [Oxford Nanopore Technologies](https://github.com/nanoporetech/minknow_api/tree/master/proto/minknow_api). MinKNOW API relies on [GRPC](https://grpc.io/), where the MinKNOW software contains the server and Read Until enacts as the client. Researchers can utilise Read Until with a decision maker to filter strands during genome sequencing. 
 
 The original project was written in Python and now converted to C++. The aim of this project is to optimise performance and make live decision making more viable.
 
