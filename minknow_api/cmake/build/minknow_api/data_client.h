@@ -74,11 +74,13 @@ class DataClient {
   void read_live_results();
   void make_setup();
   void put_action(u_int32_t read_channel, u_int32_t read_number,
-                  std::string action);
+                  double duration, std::string action);
   GetLiveReadsRequest_Action pop_action();
   int get_action_queue_size();
   ReadCache* get_read_cache();
   std::queue<GetLiveReadsRequest_Action>* get_action_queue();
+  bool* get_client_running();
+  void get_data_types();
 
  private:
   std::thread spawn_read_thread();
@@ -96,6 +98,7 @@ class DataClient {
   int action_batch;
   int curr_action_id;
   std::unordered_map<std::string, std::string> sent_actions;
+  // All accepted read types
   const std::unordered_map<u_int32_t, std::string> read_classification_map = {
       {83, "strand"},   {67, "strand1"},     {77, "multiple"},
       {90, "zero"},     {65, "adapter"},     {66, "mux_uncertain"},
@@ -106,6 +109,7 @@ class DataClient {
   bool one_chunk;
   std::unordered_set<std::string> prefilter_classes;
   AcquisitionClient acq_client;
+  bool client_running;
 };
 }  // namespace Data
 #endif

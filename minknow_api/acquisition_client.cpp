@@ -17,14 +17,19 @@ using grpc::ClientContext;
 using grpc::ClientReader;
 using grpc::Status;
 using minknow_api::acquisition::AcquisitionService;
+using minknow_api::acquisition::CurrentStatusRequest;
+using minknow_api::acquisition::CurrentStatusResponse;
 using minknow_api::acquisition::GetProgressRequest;
 using minknow_api::acquisition::GetProgressResponse;
+using minknow_api::acquisition::MinknowStatus;
 
 using namespace Acquisition;
 
+// AcquisitionClient provides access to status and progression updates
 AcquisitionClient::AcquisitionClient(std::shared_ptr<Channel> channel)
     : stub_(AcquisitionService::NewStub(channel)) {}
 
+// Get the acquired and processed count from current sequencing
 std::pair<u_int64_t, u_int64_t> AcquisitionClient::get_raw_per_channel() {
   ClientContext context;
   GetProgressRequest request;
@@ -38,4 +43,20 @@ std::pair<u_int64_t, u_int64_t> AcquisitionClient::get_raw_per_channel() {
               << std::endl;
     return std::make_pair(0, 0);
   }
+}
+
+// Get the status of the MinKNOW device, only care about PROCESSING (MUX scan
+// and active scan)
+bool AcquisitionClient::get_current_status() {
+  ClientContext context;
+  CurrentStatusRequest request;
+  CurrentStatusResponse response;
+  Status status = stub_->current_status(&context, request, &response);
+
+  if (status.ok()) {
+    if (response.status() == MinknowStatus::PROCESSING) {
+      return true;
+    }
+  }
+  return false;
 }

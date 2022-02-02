@@ -1,6 +1,7 @@
 #include "minknow_api/data_client.h"
 
 #include <ctime>
+#include <iomanip>
 #include <memory>
 #include <mutex>
 #include <queue>
@@ -40,15 +41,9 @@ using minknow_api::data::GetLiveReadsResponse_ActionResponse_Response;
 
 using namespace Data;
 
-// TODO: Create a centralised and thread safe boolean to dictate if the client
-// is running
-
-/*
-  ReadCache is an ordered and keyed data structure made up of:
-  - an unordered map (dict) which maps from channel_id to data
-  - a queue (insertion_order) with channel_id to maintain insertion order
-*/
-
+// ReadCache is an ordered and keyed data structure made up of:
+// - an unordered map (dict) which maps from channel_id to data
+// - a vector (insertion_order) with channel_id to maintain insertion order
 ReadCache::ReadCache(int max_size) : max_size(max_size) {
   missed = 0;
   replaced = 0;
@@ -60,13 +55,14 @@ void ReadCache::set_item(u_int32_t channel,
   cache_mtx.lock();
   bool counted = false;
   // ReadCache exceeding limit
-  while (get_size(false) > max_size) {
+  while (get_size(false) >= max_size) {
     counted = true;
     // Mutex locked, so use the unsafe thread version
     std::pair<u_int32_t, GetLiveReadsResponse_ReadData> read_batch =
         pop_item(false);
     u_int32_t read_channel = read_batch.first;
     GetLiveReadsResponse_ReadData read_data = read_batch.second;
+    // Count the number of values that are replaced or missed
     if (read_channel == channel && read_data.number() == data.number()) {
       replaced++;
     } else {
@@ -74,7 +70,7 @@ void ReadCache::set_item(u_int32_t channel,
     }
   }
   // Channels must be unique in ReadCache
-  if (dict.contains(channel)) {
+  if (dict.count(channel) > 0) {
     if (!counted) {
       if (dict[channel].number() == data.number()) {
         replaced++;
@@ -92,8 +88,10 @@ void ReadCache::set_item(u_int32_t channel,
   cache_mtx.unlock();
 }
 
+// Get missed count
 int ReadCache::get_missed() { return missed; }
 
+// Get replaced count
 int ReadCache::get_replaced() { return replaced; }
 
 // Thread safe method to retrieve data by channel_id key
@@ -144,6 +142,7 @@ int ReadCache::get_size(bool safe) {
   return result;
 }
 
+// DataClient is the main client for sending and receiving data
 DataClient::DataClient(std::shared_ptr<Channel> channel, int cache_size,
                        int action_batch, bool filter_strands, bool one_chunk,
                        std::unordered_set<std::string> prefilter_classes)
@@ -154,8 +153,29 @@ DataClient::DataClient(std::shared_ptr<Channel> channel, int cache_size,
       one_chunk(one_chunk),
       prefilter_classes(prefilter_classes),
       acq_client(channel) {
-  std::cout << "Connected to DataService" << std::endl;
+  // Keep listening for when to start processing (starts with MUX scan)
+  while (true) {
+    client_running = acq_client.get_current_status();
+    if (client_running) {
+      std::cout << "MinKNOW Processing - Client Running" << std::endl;
+      break;
+    }
+  }
 }
+
+// Get the information about how to decode the raw bytes from each chunk
+void DataClient::get_data_types() {
+  ClientContext context;
+  GetDataTypesRequest request;
+  GetDataTypesResponse response;
+  Status status = stub_->get_data_types(&context, request, &response);
+  if (status.ok()) {
+    std::cout << response.calibrated_signal().type() << std::endl;
+  }
+}
+
+// Get pointer to boolean representing whether data client has begun running
+bool* DataClient::get_client_running() { return &client_running; }
 
 // Creates a stream instance of get_live_reads() and a reader + writer thread
 void DataClient::get_live_reads(u_int32_t first_channel, u_int32_t last_channel,
@@ -178,6 +198,8 @@ void DataClient::get_live_reads(u_int32_t first_channel, u_int32_t last_channel,
 
 // Listens to incoming stream responses and appends to the data_queue
 void DataClient::read_live_results() {
+  // Mapping action type (stop_further_data, block) -> response (success,
+  // failure) -> frequency
   std::unordered_map<
       std::string,
       std::unordered_map<GetLiveReadsResponse_ActionResponse_Response, int>>
@@ -188,6 +210,8 @@ void DataClient::read_live_results() {
   int read_count = 0;
   int samples_behind = 0;
   int raw_data_bytes = 0;
+
+  auto last_msg_time = std::time(nullptr);
 
   // Decide whether you need prefiltering
   if (filter_strands) {
@@ -216,45 +240,111 @@ void DataClient::read_live_results() {
       read_count++;
       if (one_chunk) {
         if (unique_reads.contains(read_data.id())) {
-          std::cout << "Rereceived " << channel << ":" << read_data.number()
-                    << " after stop request." << std::endl;
+          // std::cerr << "Rereceived " << channel << ":" << read_data.number()
+          //           << " after stop request." << std::endl;
           continue;
         }
-        put_action(channel, read_data.number(), "stop_further_data");
+        put_action(channel, read_data.number(), 0, "stop_further_data");
       }
       unique_reads.insert(read_data.id());
       samples_behind += progress.first - read_data.chunk_start_sample();
       raw_data_bytes += read_data.raw_data().size();
 
+      // For debugging purposes, print the first 60 seconds of results.
+      // Data is little endian, 4 bytes long and floating point (assuming
+      // CALIBRATED)
+      // if (response.seconds_since_start() < 60) {
+      //   std::cerr << "Channel: " << channel << " Number: " <<
+      //   read_data.number()
+      //             << " Data: ";
+
+      //   float* pointer = (float*)read_data.raw_data().c_str();
+
+      //   for (int i = 0; i < read_data.raw_data().size() / 4; i++)
+      //     std::cerr << pointer[i] << " ";
+
+      //   std::cerr << std::endl;
+      // }
+
       bool strand_like = false;
       for (u_int32_t classification : read_data.chunk_classifications()) {
+        // Invalid classifcation
         if (!read_classification_map.contains(classification)) {
           continue;
         }
+        // If proper classification, set strand_like to true
         if (prefilter_classes.contains(
                 read_classification_map.at(classification))) {
           strand_like = true;
           break;
         }
       }
+      // If not checking for classification or checked and validated
+      // classifcations
       if (!filter_strands || strand_like) {
         data_queue.set_item(channel, read_data);
       }
     }
 
-    time_t tmNow = time(0);
-    char* dt = ctime(&tmNow);
-    std::cout << dt << ": Interval update: " << read_count << " read sections, "
-              << unique_reads.size() << " unique reads (ever), average "
-              << samples_behind / read_count << " samples behind."
-              << (float)raw_data_bytes / 1024 / 1024 << " MB raw data, "
-              << data_queue.get_size(true) << " reads in queue, "
-              << data_queue.get_missed() << " reads missed, "
-              << data_queue.get_replaced() << " chunks replaced." << std::endl;
+    auto now = std::time(nullptr);
+    // Convert current time to tm_struct format
+    auto now_tm = *std::localtime(&now);
 
-    read_count = 0;
-    samples_behind = 0;
-    raw_data_bytes = 0;
+    // Print aggregated data every second
+    if (std::difftime(now, last_msg_time) > 1) {
+      std::cout << "[" << std::put_time(&now_tm, "%H:%M:%S") << "]"
+                << ": Interval update: " << read_count << " read sections, "
+                << unique_reads.size() << " unique reads (ever), average "
+                << samples_behind / read_count << " samples behind. "
+                << (float)raw_data_bytes / 1024 / 1024 << " MB raw data, "
+                << data_queue.get_size(true) << " reads in queue, "
+                << data_queue.get_missed() << " reads missed, "
+                << data_queue.get_replaced() << " chunks replaced."
+                << std::endl;
+
+      std::cout << "[" << std::put_time(&now_tm, "%H:%M:%S") << "]"
+                << ": Reponse summary: ";
+      for (auto action : response_counter) {
+        std::cout << action.first << ": ";
+        for (auto response_type : action.second) {
+          switch (response_type.first) {
+            case (GetLiveReadsResponse_ActionResponse_Response::
+                      GetLiveReadsResponse_ActionResponse_Response_SUCCESS):
+              std::cout << " Success: " << response_type.second << " ";
+              // std::cerr << " Success: " << response_type.second << " ";
+              break;
+            case (
+                GetLiveReadsResponse_ActionResponse_Response::
+                    GetLiveReadsResponse_ActionResponse_Response_FAILED_READ_FINISHED):
+              std::cout << "Failed (Read Finished): " << response_type.second
+                        << " ";
+              // std::cerr << "Failed (Read Finished): " << response_type.second
+              //           << " ";
+              break;
+            case (
+                GetLiveReadsResponse_ActionResponse_Response::
+                    GetLiveReadsResponse_ActionResponse_Response_FAILED_READ_TOO_LONG):
+              std::cout << "Failed (Too Long): " << response_type.second << " ";
+              // std::cerr << "Failed (Too Long): " << response_type.second << "
+              // ";
+              break;
+            default:
+              std::cout << "Invalid Response Type";
+              // std::cerr << "Invalid Response Type";
+              break;
+          }
+        }
+      }
+
+      std::cout << std::endl;
+      // std::cerr << std::endl;
+
+      // Reset variables for next loop
+      read_count = 0;
+      samples_behind = 0;
+      raw_data_bytes = 0;
+      last_msg_time = now;
+    }
   }
 }
 
@@ -269,6 +359,7 @@ void DataClient::send_live_reqs() {
 
   while (true) {
     int length = get_action_queue_size();
+    // Process values if there are some
     if (length > 0) {
       // Get maximum number of actions to process
       int max_actions = std::min(action_batch, length);
@@ -293,12 +384,10 @@ void DataClient::make_setup() {
   setup.set_sample_minimum_chunk_size(sample_minimum_chunk_size);
 }
 
-// TODO: Figure out what action_id is meant to do and also unblock duration
-// parameter?
-// TODO: Figure out how to throw an exception
 // Create an action and place into action_queue (thread safe)
+// Duration is ignored for stop_further_data
 void DataClient::put_action(u_int32_t read_channel, u_int32_t read_number,
-                            std::string action) {
+                            double duration, std::string action) {
   GetLiveReadsRequest_Action action_request;
   std::string action_id = std::to_string(++curr_action_id);
   action_request.set_action_id(action_id);
@@ -308,7 +397,7 @@ void DataClient::put_action(u_int32_t read_channel, u_int32_t read_number,
 
   if (action.compare("unblock") == 0) {
     GetLiveReadsRequest_UnblockAction unblock;
-    // unblock.set_duration()
+    unblock.set_duration(duration);
     action_request.mutable_unblock()->CopyFrom(unblock);
   } else if (action.compare("stop_further_data") == 0) {
     GetLiveReadsRequest_StopFurtherData stop_data;
@@ -331,6 +420,7 @@ GetLiveReadsRequest_Action DataClient::pop_action() {
   return result;
 }
 
+// Get the size of action_queue
 int DataClient::get_action_queue_size() {
   action_mtx.lock();
   int result = action_queue.size();

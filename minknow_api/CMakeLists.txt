@@ -19,7 +19,7 @@
 
 cmake_minimum_required(VERSION 3.5.1)
 
-project(MinknowAPI CXX)
+project(MinKNOWAPI CXX)
 
 include(../cmake/common.cmake)
 
@@ -38,7 +38,10 @@ get_filename_component(instance_proto "../../proto/minknow_api/instance.proto" A
 get_filename_component(data_proto "../../proto/minknow_api/data.proto" ABSOLUTE)
 
 # This command gets the parent directory, protoc only compiles based off parent directories
-get_filename_component(rg_proto_path "/Users/brianzhang/Documents/grpc/examples/proto/minknow_api" PATH)
+# Figuring out the path is slightly longer, since we want relative path (more generalised)
+get_filename_component(parent ${CMAKE_CURRENT_SOURCE_DIR} DIRECTORY)
+get_filename_component(grandparent ${parent} DIRECTORY)
+get_filename_component(mk_proto_path "${grandparent}/proto/minknow_api" PATH)
 
 # Generated server/client code, .pb.X is client and .grpc.pb.X is server
 set(man_proto_srcs "${CMAKE_CURRENT_BINARY_DIR}/minknow_api/manager.pb.cc")
@@ -82,6 +85,7 @@ set(data_proto_hdrs "${CMAKE_CURRENT_BINARY_DIR}/minknow_api/data.pb.h")
 set(data_grpc_srcs "${CMAKE_CURRENT_BINARY_DIR}/minknow_api/data.grpc.pb.cc")
 set(data_grpc_hdrs "${CMAKE_CURRENT_BINARY_DIR}/minknow_api/data.grpc.pb.h")
 set(manager_client_hdrs "${CMAKE_CURRENT_BINARY_DIR}/minknow_api/manager_client.h")
+
 # ORDER TO COMPILE BASED ON DEPENDENCY:
 # rpc_options
 # analysis_configuration
@@ -100,7 +104,7 @@ add_custom_command(
     COMMAND ${_PROTOBUF_PROTOC}
     ARGS --grpc_out "${CMAKE_CURRENT_BINARY_DIR}"
         --cpp_out "${CMAKE_CURRENT_BINARY_DIR}"
-        -I "${rg_proto_path}"
+        -I "${mk_proto_path}"
         --plugin=protoc-gen-grpc="${_GRPC_CPP_PLUGIN_EXECUTABLE}"
         "${rpc_proto}" 
     DEPENDS "${rpc_proto}")
@@ -110,7 +114,7 @@ add_custom_command(
     COMMAND ${_PROTOBUF_PROTOC}
     ARGS --grpc_out "${CMAKE_CURRENT_BINARY_DIR}"
         --cpp_out "${CMAKE_CURRENT_BINARY_DIR}"
-        -I "${rg_proto_path}"
+        -I "${mk_proto_path}"
         --plugin=protoc-gen-grpc="${_GRPC_CPP_PLUGIN_EXECUTABLE}"
         "${analysis_proto}"
     DEPENDS "${rpc_proto}")
@@ -121,7 +125,7 @@ add_custom_command(
     COMMAND ${_PROTOBUF_PROTOC}
     ARGS --grpc_out "${CMAKE_CURRENT_BINARY_DIR}"
         --cpp_out "${CMAKE_CURRENT_BINARY_DIR}"
-        -I "${rg_proto_path}"
+        -I "${mk_proto_path}"
         --plugin=protoc-gen-grpc="${_GRPC_CPP_PLUGIN_EXECUTABLE}"
         "${settings_proto}"
     DEPENDS "${settings_deps}")
@@ -132,7 +136,7 @@ add_custom_command(
     COMMAND ${_PROTOBUF_PROTOC}
     ARGS --grpc_out "${CMAKE_CURRENT_BINARY_DIR}"
         --cpp_out "${CMAKE_CURRENT_BINARY_DIR}"
-        -I "${rg_proto_path}"
+        -I "${mk_proto_path}"
         --plugin=protoc-gen-grpc="${_GRPC_CPP_PLUGIN_EXECUTABLE}"
         "${base_proto}"
     DEPENDS "${base_deps}")
@@ -142,7 +146,7 @@ add_custom_command(
     COMMAND ${_PROTOBUF_PROTOC}
     ARGS --grpc_out "${CMAKE_CURRENT_BINARY_DIR}"
         --cpp_out "${CMAKE_CURRENT_BINARY_DIR}"
-        -I "${rg_proto_path}"
+        -I "${mk_proto_path}"
         --plugin=protoc-gen-grpc="${_GRPC_CPP_PLUGIN_EXECUTABLE}"
         "${acq_proto}"
     DEPENDS "${rpc_proto}")  
@@ -152,7 +156,7 @@ add_custom_command(
     COMMAND ${_PROTOBUF_PROTOC}
     ARGS --grpc_out "${CMAKE_CURRENT_BINARY_DIR}"
         --cpp_out "${CMAKE_CURRENT_BINARY_DIR}"
-        -I "${rg_proto_path}"
+        -I "${mk_proto_path}"
         --plugin=protoc-gen-grpc="${_GRPC_CPP_PLUGIN_EXECUTABLE}"
         "${device_proto}"
     DEPENDS "${rpc_proto}")
@@ -163,7 +167,7 @@ add_custom_command(
     COMMAND ${_PROTOBUF_PROTOC}
     ARGS --grpc_out "${CMAKE_CURRENT_BINARY_DIR}"
         --cpp_out "${CMAKE_CURRENT_BINARY_DIR}"
-        -I "${rg_proto_path}"
+        -I "${mk_proto_path}"
         --plugin=protoc-gen-grpc="${_GRPC_CPP_PLUGIN_EXECUTABLE}"
         "${data_proto}"
     DEPENDS "${data_deps}")
@@ -174,7 +178,7 @@ add_custom_command(
     COMMAND ${_PROTOBUF_PROTOC}
     ARGS --grpc_out "${CMAKE_CURRENT_BINARY_DIR}"
         --cpp_out "${CMAKE_CURRENT_BINARY_DIR}"
-        -I "${rg_proto_path}"
+        -I "${mk_proto_path}"
         --plugin=protoc-gen-grpc="${_GRPC_CPP_PLUGIN_EXECUTABLE}"
         "${protocol_proto}"
     DEPENDS "${protocol_deps}")
@@ -185,7 +189,7 @@ add_custom_command(
     COMMAND ${_PROTOBUF_PROTOC}
     ARGS --grpc_out "${CMAKE_CURRENT_BINARY_DIR}"
         --cpp_out "${CMAKE_CURRENT_BINARY_DIR}"
-        -I "${rg_proto_path}"
+        -I "${mk_proto_path}"
         --plugin=protoc-gen-grpc="${_GRPC_CPP_PLUGIN_EXECUTABLE}"
         "${instance_proto}"
     DEPENDS "${instance_deps}")
@@ -196,7 +200,7 @@ add_custom_command(
     COMMAND ${_PROTOBUF_PROTOC}
     ARGS --grpc_out "${CMAKE_CURRENT_BINARY_DIR}"
         --cpp_out "${CMAKE_CURRENT_BINARY_DIR}"
-        -I "${rg_proto_path}"
+        -I "${mk_proto_path}"
         --plugin=protoc-gen-grpc="${_GRPC_CPP_PLUGIN_EXECUTABLE}"
         "${man_proto}"
     DEPENDS "${man_deps}")
@@ -252,29 +256,8 @@ target_link_libraries(rg_grpc_proto
   ${_GRPC_GRPCPP}
   ${_PROTOBUF_LIBPROTOBUF})
 
-# Targets - concrete file for to use generated cpp code. Meant to have written these before compiling, so use stub code if not compiled yet.
-# Also make sure you use a main() or else compiler complains
-# foreach(_target
-#   rpc_options_client 
-#   analysis_configuration_client 
-#   protocol_settings_client 
-#   basecaller_client 
-#   acquisition_client
-#   device_client
-#   data_client
-#   protocol_client 
-#   instance_client
-#   manager_client
-#   base)
-#   add_executable(${_target}
-#     "${_target}.cpp")
-#   target_link_libraries(${_target}
-#     rg_grpc_proto
-#     ${_REFLECTION}
-#     ${_GRPC_GRPCPP}
-#     ${_PROTOBUF_LIBPROTOBUF})
-# endforeach()
-
+# Each file builds to form the executable read_until
+# Executable will run the main function in base.cpp (make sure only one file has main)
 add_executable(read_until base.cpp manager_client.cpp data_client.cpp acquisition_client.cpp)
 target_link_libraries(read_until
 rg_grpc_proto

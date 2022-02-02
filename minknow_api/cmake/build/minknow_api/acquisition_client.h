@@ -26,6 +26,7 @@ class AcquisitionClient {
  public:
   AcquisitionClient(std::shared_ptr<Channel> channel);
   std::pair<u_int64_t, u_int64_t> get_raw_per_channel();
+  bool get_current_status();
 
  private:
   std::unique_ptr<AcquisitionService::Stub> stub_;

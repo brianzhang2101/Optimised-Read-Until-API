@@ -39,17 +39,20 @@ class ReadUntilClient {
                                     grpc::InsecureChannelCredentials())),
         data(grpc::CreateChannel("127.0.0.1:8000",
                                  grpc::InsecureChannelCredentials()),
-             100, 1000, true, true,
-             std::unordered_set<std::string>{"strand", "adapter"}) {}
+             512, 10, true, true,
+             std::unordered_set<std::string>{"strand", "adapter"}) {
+    client_running = data.get_client_running();
+  }
 
   // Creates a thread to listen to responses from data_queue, make decisions
   // here and add actions to action_queue
   void run() {
-    client_running = true;
     data_queue = data.get_read_cache();
     action_queue = data.get_action_queue();
     std::thread runner([this]() {
       while (client_running) {
+        auto last_msg_time =
+            std::chrono::system_clock::now() + std::chrono::milliseconds(100);
         if (data_queue->get_size(true) > 0) {
           std::pair<u_int32_t, GetLiveReadsResponse_ReadData> read_batch =
               data_queue->pop_item(true);
@@ -57,8 +60,13 @@ class ReadUntilClient {
           GetLiveReadsResponse_ReadData read = read_batch.second;
           if (read.median_before() > read.median() &&
               read.median_before() - read.median() > 60) {
-            data.put_action(channel, read.number(), "stop_further_data");
+            data.put_action(channel, read.number(), 0, "stop_further_data");
           }
+          data.put_action(channel, read.number(), 0.1, "unblock");
+        }
+        auto curr_time = std::chrono::system_clock::now();
+        if (last_msg_time > curr_time) {
+          std::this_thread::sleep_for(last_msg_time - curr_time);
         }
       }
     });
@@ -67,7 +75,7 @@ class ReadUntilClient {
   }
 
  private:
-  bool client_running = false;
+  bool* client_running;
   ManagerClient manager;
   DataClient data;
   Data::ReadCache* data_queue;
