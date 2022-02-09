@@ -3,6 +3,7 @@
 #ifndef DATA_CLIENT_H
 #define DATA_CLIENT_H
 
+#include <chrono>
 #include <ctime>
 #include <memory>
 #include <mutex>
@@ -48,6 +49,8 @@ class ReadCache {
   GetLiveReadsResponse_ReadData get_item(u_int32_t channel);
   void set_item(u_int32_t channel, GetLiveReadsResponse_ReadData data);
   std::pair<u_int32_t, GetLiveReadsResponse_ReadData> pop_item(bool safe);
+  std::vector<std::pair<u_int32_t, GetLiveReadsResponse_ReadData>> pop_items(
+      int count);
   void delete_item(u_int32_t channel);
   int get_size(bool safe);
   int get_missed();
@@ -110,6 +113,12 @@ class DataClient {
   std::unordered_set<std::string> prefilter_classes;
   AcquisitionClient acq_client;
   bool client_running;
+  std::unordered_map<
+      u_int32_t,
+      std::unordered_map<u_int32_t, std::chrono::system_clock::time_point>>
+      sent_time;
+  long aggregated_time;
+  bool print_result = true;
 };
 }  // namespace Data
 #endif

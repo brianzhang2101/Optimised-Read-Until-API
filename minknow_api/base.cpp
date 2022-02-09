@@ -1,4 +1,6 @@
 #include <chrono>
+#include <ctime>
+#include <iomanip>
 #include <iostream>
 #include <memory>
 #include <queue>
@@ -39,23 +41,26 @@ class ReadUntilClient {
                                     grpc::InsecureChannelCredentials())),
         data(grpc::CreateChannel("127.0.0.1:8000",
                                  grpc::InsecureChannelCredentials()),
-             512, 10, true, true,
+             512, 1000, true, true,
              std::unordered_set<std::string>{"strand", "adapter"}) {
     client_running = data.get_client_running();
   }
 
   // Creates a thread to listen to responses from data_queue, make decisions
   // here and add actions to action_queue
-  void run() {
+  void run(int action_batch) {
     data_queue = data.get_read_cache();
     action_queue = data.get_action_queue();
-    std::thread runner([this]() {
+    std::thread runner([this, action_batch]() {
       while (client_running) {
+        std::vector<std::pair<u_int32_t, GetLiveReadsResponse_ReadData>> batch =
+            data_queue->pop_items(action_batch);
         auto last_msg_time =
             std::chrono::system_clock::now() + std::chrono::milliseconds(100);
-        if (data_queue->get_size(true) > 0) {
-          std::pair<u_int32_t, GetLiveReadsResponse_ReadData> read_batch =
-              data_queue->pop_item(true);
+
+        // Pop up to action_batch data items and process them
+        for (std::pair<u_int32_t, GetLiveReadsResponse_ReadData> read_batch :
+             batch) {
           u_int32_t channel = read_batch.first;
           GetLiveReadsResponse_ReadData read = read_batch.second;
           if (read.median_before() > read.median() &&
@@ -64,6 +69,7 @@ class ReadUntilClient {
           }
           data.put_action(channel, read.number(), 0.1, "unblock");
         }
+
         auto curr_time = std::chrono::system_clock::now();
         if (last_msg_time > curr_time) {
           std::this_thread::sleep_for(last_msg_time - curr_time);
@@ -85,6 +91,6 @@ class ReadUntilClient {
 int main(int argc, char* argv[]) {
   std::cout << "Connecting to MinKNOW API..." << std::endl;
   ReadUntilClient client;
-  client.run();
+  client.run(10);
   return 0;
 }

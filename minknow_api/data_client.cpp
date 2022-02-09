@@ -1,5 +1,6 @@
 #include "minknow_api/data_client.h"
 
+#include <chrono>
 #include <ctime>
 #include <iomanip>
 #include <memory>
@@ -118,6 +119,18 @@ std::pair<u_int32_t, GetLiveReadsResponse_ReadData> ReadCache::pop_item(
   return std::make_pair(channel, data);
 }
 
+std::vector<std::pair<u_int32_t, GetLiveReadsResponse_ReadData>>
+ReadCache::pop_items(int count) {
+  cache_mtx.lock();
+  int max_poppable = std::min(count, get_size(false));
+  std::vector<std::pair<u_int32_t, GetLiveReadsResponse_ReadData>> result;
+  for (int i = 0; i < max_poppable; i++) {
+    result.push_back(pop_item(false));
+  }
+  cache_mtx.unlock();
+  return result;
+}
+
 // Delete a channel and its data from ReadCache, not thread safe due to its
 // application
 void ReadCache::delete_item(u_int32_t channel) {
@@ -210,6 +223,7 @@ void DataClient::read_live_results() {
   int read_count = 0;
   int samples_behind = 0;
   int raw_data_bytes = 0;
+  int action_count = 0;
 
   auto last_msg_time = std::time(nullptr);
 
@@ -237,11 +251,12 @@ void DataClient::read_live_results() {
           acq_client.get_raw_per_channel();
       u_int32_t channel = entry.first;
       GetLiveReadsResponse_ReadData read_data = entry.second;
+
       read_count++;
       if (one_chunk) {
         if (unique_reads.contains(read_data.id())) {
-          // std::cerr << "Rereceived " << channel << ":" << read_data.number()
-          //           << " after stop request." << std::endl;
+          std::cerr << "Rereceived " << channel << ":" << read_data.number()
+                    << " after stop request." << std::endl;
           continue;
         }
         put_action(channel, read_data.number(), 0, "stop_further_data");
@@ -259,11 +274,15 @@ void DataClient::read_live_results() {
       //             << " Data: ";
 
       //   float* pointer = (float*)read_data.raw_data().c_str();
-
-      //   for (int i = 0; i < read_data.raw_data().size() / 4; i++)
-      //     std::cerr << pointer[i] << " ";
-
-      //   std::cerr << std::endl;
+      //   std::cerr << "[";
+      //   int total_data_size = read_data.raw_data().size() / 4;
+      //   for (int i = 0; i < total_data_size; i++) {
+      //     std::cerr << std::fixed << std::setprecision(2) << pointer[i];
+      //     if (i < total_data_size - 1) {
+      //       std::cerr << ", ";
+      //     }
+      //   }
+      //   std::cerr << "]" << std::endl;
       // }
 
       bool strand_like = false;
@@ -283,6 +302,9 @@ void DataClient::read_live_results() {
       // classifcations
       if (!filter_strands || strand_like) {
         data_queue.set_item(channel, read_data);
+        // Store the time each action was processed
+        // sent_time[channel][read_data.number()] =
+        //     std::chrono::system_clock::now();
       }
     }
 
@@ -291,7 +313,7 @@ void DataClient::read_live_results() {
     auto now_tm = *std::localtime(&now);
 
     // Print aggregated data every second
-    if (std::difftime(now, last_msg_time) > 1) {
+    if (std::difftime(now, last_msg_time) > 0) {
       std::cout << "[" << std::put_time(&now_tm, "%H:%M:%S") << "]"
                 << ": Interval update: " << read_count << " read sections, "
                 << unique_reads.size() << " unique reads (ever), average "
@@ -355,20 +377,21 @@ void DataClient::send_live_reqs() {
   GetLiveReadsRequest request;
   request.mutable_setup()->CopyFrom(setup);
   stream->Write(request);
-  request.clear_setup();
 
   while (true) {
     int length = get_action_queue_size();
     // Process values if there are some
     if (length > 0) {
+      GetLiveReadsRequest action_group;
       // Get maximum number of actions to process
       int max_actions = std::min(action_batch, length);
       GetLiveReadsRequest_Actions actions;
       for (int i = 0; i < max_actions; i++) {
-        actions.add_actions()->CopyFrom(pop_action());
+        GetLiveReadsRequest_Action action = pop_action();
+        actions.add_actions()->CopyFrom(action);
       }
-      request.mutable_actions()->CopyFrom(actions);
-      stream->Write(request);
+      action_group.mutable_actions()->CopyFrom(actions);
+      stream->Write(action_group);
     }
   }
 }
@@ -388,6 +411,14 @@ void DataClient::make_setup() {
 // Duration is ignored for stop_further_data
 void DataClient::put_action(u_int32_t read_channel, u_int32_t read_number,
                             double duration, std::string action) {
+  // Print RTT (received - sent time)
+  // if (sent_time[read_channel].contains(read_number)) {
+  //   auto difference = std::chrono::duration_cast<std::chrono::milliseconds>(
+  //       std::chrono::system_clock::now() -
+  //       sent_time[read_channel][read_number]);
+  //   std::cerr << difference.count() << std::endl;
+  // }
+
   GetLiveReadsRequest_Action action_request;
   std::string action_id = std::to_string(++curr_action_id);
   action_request.set_action_id(action_id);
